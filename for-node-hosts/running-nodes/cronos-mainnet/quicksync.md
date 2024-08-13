@@ -11,7 +11,7 @@ In order to use Quicksync you need to first complete [Step 3-2](./#step-3-2.-run
 **Note** that as of `v0.9.0`, we have merged the binary to support both levelDB and rocksDB. Therefore, make sure to select the right [`app-db-backend`](https://github.com/crypto-org-chain/cronos/releases/tag/v1.0.2)in your `app.toml`.&#x20;
 {% endhint %}
 
-Syncing Cronos could be a time-consuming process, that's why the Crypto.org Chain team has partnered with Chainlayer to provide the “**Quicksync**” service and make the process more efficient for our users.
+Syncing Cronos could be a time-consuming process, that's why the Cronos team has partnered with Chainlayer to provide the “**Quicksync**” service and make the process more efficient for our users.
 
 Users can visit [Chainlayer QuickSync Cronos page](https://quicksync.io/networks/cronos.html) and download the snapshots for Cronos Chain with different pruning settings.
 
