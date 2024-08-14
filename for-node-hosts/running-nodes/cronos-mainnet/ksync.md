@@ -1,10 +1,21 @@
-# Syncing a Node Using KYVE's KSYNC
+# KSYNC
 
-This sections covers how to perform a genesis-sync up to live height and how to state-sync to historical heights for Cronos Mainnet with KSYNC. In summary KSYNC is a tool developed by [KYVE](https://www.kyve.network/) which is capable of syncing blocks and state-sync snapshots from the decentralized KYVE data lake directly into Cosmos blockchain nodes. For Cronos, KYVE has validated all historical blocks and state-sync snapshots (in a 10,000 interval) in a decentralized way and permanently archived them to [Arweave](https://arweave.org/), a decentralized storage solution. KSYNC can then pull down this verified data and apply them against the Cronos app, you can find full documentation on the tool [here](https://docs.kyve.network/validators/ksync).
+This sections covers how to perform a genesis-sync up to live height and how to state-sync to historical heights for Cronos Mainnet with KSYNC. In summary KSYNC is a tool developed by [KYVE](https://www.kyve.network/) which is capable of syncing blocks and state-sync snapshots from the decentralized KYVE data lake directly into Cosmos blockchain nodes. \
+For Cronos, KYVE has validated all historical blocks and state-sync snapshots (in a 10,000 interval) in a decentralized way and permanently archived them to [Arweave](https://arweave.org/), a decentralized storage solution. KSYNC can then pull down this verified data and apply them against the Cronos app, you can find full documentation on the tool [here](https://docs.kyve.network/validators/ksync).
+
+{% hint style="info" %}
+**Note**
+
+Set environmental variables:
+
+`PATH="$PATH: <tools folder>"`
+
+e.g. `PATH="$PATH: /Users/localuser/Cronos/bin"`
+{% endhint %}
 
 #### Installation
 
-You can install KSYNC with the following command, ensure that you have go1.21 installed:
+You can install KSYNC with the following command, ensure that you have [go1.21](https://go.dev/blog/go1.21) installed:
 
 ```bash
 go install github.com/KYVENetwork/ksync/cmd/ksync@latest
@@ -34,9 +45,9 @@ Now that Cronos is properly set up you can start the genesis sync:
 ksync block-sync --binary="/path/to/cronosd" --source="cronos"
 ```
 
-This will run until live height has been reached, you can check the latest height which KYVE has validated and archived [here](https://app.kyve.network/#/pools/5). Note that you can also configure Cosmovisor to already contain all upgrade binaries, then you can
-also run with Cosmosvisor so you do not have to manually switch the version everytime Cronos reaches an upgrade. It is recommended to pair this with
-a systemd service file, a template can be found below:
+This will run until live height has been reached, you can check the latest height which KYVE has validated and archived [here](https://app.kyve.network/#/pools/5).&#x20;
+
+Note that you can also configure Cosmovisor which contains all the upgrade binaries. With Cosmosvisor, you do not need to manually switch to a different version every time Cronos reaches an upgrade point. It is recommended to pair this with a systemd service file, refer to the template below:
 
 ```
 [Unit]
@@ -61,14 +72,12 @@ Environment="UNSAFE_SKIP_BACKUP=true"
 WantedBy=multi-user.target
 ```
 
-Remember to replace \$USER with your actual username.
+Remember to replace $USER with your actual username.
 
 #### Apply historical state-sync snapshots
 
-The "normal" state-sync only supports syncing to live height, but because KYVE has validated and archived all state-sync snapshots from genesis with a
-10,000 block interval historical state-sync are possible with KSYNC. Note that the archival process is still ongoing and live height has not been reached yet, you can check the current progress [here](https://app.kyve.network/#/pools/6).
-
-Install cronos like in the genesis sync part before, but depending on the target height you want to sync to you have to use the appropiate binary version. You can find all upgrades with the respected upgrade heights [here](/for-node-hosts/running-nodes/cronos-mainnet/README.md#step-0--notes-on-huygen-network-upgrade).
+The "normal" state-sync only supports syncing to live height, however KYVE has validated and archived all state-sync snapshots from genesis with a 10,000 block interval therefore historical state-sync is possible with KSYNC. Note that the archival process is still ongoing and live height has not been reached yet, check the progress [here](https://app.kyve.network/#/pools/6).\
+To install Cronos, follow the same process as in the genesis sync part before. However, you will need to use a different binary version. You can find all upgrades with the relevant upgrade heights [here](./#step-0--notes-on-huygen-network-upgrade).
 
 To perform the state-sync execute the following command:
 
@@ -76,11 +85,12 @@ To perform the state-sync execute the following command:
 ksync state-sync --binary="/path/to/cronosd" --source="cronos" --target-height=$HEIGHT
 ```
 
-If there is no state-sync snapshot available for your requested \$HEIGHT KSYNC will automatically propose the nearest snapshot before that height for you.
+If there is no state-sync snapshot available for your requested $HEIGHT, KSYNC will automatically propose the nearest snapshot the chosen height.
 
 #### Sync to any historical height with height-sync
 
-The features of historical state- and block-sync can now be combined to sync to any historical block height by using the combination of those. With that KSYNC will state-sync to the nearest snapshot before your specified target height and block-sync the remaining blocks. With that the process of checking out the state at a certain height can be greatly improved because now you don't have to sync all the way from genesis if you want to inspect the state of a historical block height.
+The features of historical state-sync and block-sync can now be combined to sync to any historical block height by using the combination of the two. KSYNC will state-sync to the nearest snapshot before your specified target height and sync the remaining blocks using block-sync. \
+With this process, checking the state at a certain height is greatly improved because now you don't need to sync all the way from genesis to inspect the state of an historical block height.
 
 To perform the height-sync execute the following command:
 
