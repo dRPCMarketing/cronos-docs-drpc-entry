@@ -33,17 +33,17 @@ Don’t forget to follow these Twitter accounts to receive key announcements:
 
 **How can I get my project featured at** [**discover.cronos.org**](https://discover.cronos.org)**?**
 
-* Visit [https://discover.cronos.org](https://discover.cronos.org) where you can add your project to the list of Cronos ecosystem projects (click the Submit button).
+* Visit [https://discover.cronos.org](https://discover.cronos.org) where you can add your project to the list of Cronos ecosystem projects (click the Submit button).&#x20;
 
 **How can I get my project featured in the Crypto.com Defi Wallet in-app browser, once deployed on Cronos?**
 
 * Step 1:
   * The first step is to implement login via the Crypto .com Defi Wallet’s SDK, using the DeFiWeb3Connector.
   * See [this tutorial](chain-integration/web3-wallet.md) on how to implement wallet connections. The code sample uses [Web3 Wallet](https://web3-wallet.github.io/web3-wallet/docs/getting-started), a wallet connection library used by many Cronos dapps.
-  * For more details, you can refer to this repository for documentation and usage: [https://github.com/crypto-com/deficonnect-monorepo/wiki/Chrome-Extension-Wallet-Integration](https://github.com/crypto-com/deficonnect-monorepo/wiki/Chrome-Extension-Wallet-Integration).
+  * For more details, you can refer to this repository for documentation and usage: [https://github.com/crypto-com/deficonnect-monorepo/wiki/Chrome-Extension-Wallet-Integration](https://github.com/crypto-com/deficonnect-monorepo/wiki/Chrome-Extension-Wallet-Integration)
   * You cannot proceed to Step 2 until you have checked that your dApp offers a functional connection to the Crypto com DeFi Wallet’s Browser Extension in a desktop browser ([here is the link to the browser extension in the Chrome store](https://chrome.google.com/webstore/detail/cryptocom-wallet-extensio/hifafgmccdpekplomjjkcfgodnhcellj)).
 * Step 2:
-  * Complete [this form](https://airtable.com/appAVyMA3VIP30Ljh/pag5OFtYb4yWK8iEM/form) to apply to get the URL of your dApp featured in the DeFi Wallet’s dApp ranking tab.
+  * Complete [this form](https://airtable.com/appc8zlP6Hctdw7lA/pag8yAWJldMZAmGL9/form) to apply to get the URL of your dApp featured in the DeFi Wallet’s dApp ranking tab.
   * The Crypto .com team may need some time to assess the suitability of your dApp and does not provide updates regarding their internal decision making process until there is a positive decision (if any). They may revisit their decisions occasionally, for example a token sale page may not be featured in the Dapp ranking but it may be featured later, once it includes a Dapp with real utility for end-users.
   * Decision criteria include the transparency and security of the dApp, and the quality of the user experience. Therefore, in order to increase your chances of being approved, please ensure that your user-facing website includes a link to your docs and to your Github repository, and that the docs include links to the verified smart contracts on [Cronoscan](https://cronoscan.com). You can refer to [this tutorial](https://github.com/kentimsit/cronos-hardhat-boilerplate) on how to deploy your smart contracts to Cronos and verify them on Cronoscan.
 * Note: There is currently no process in place to request a token integration with the Crypto.com DeFi Wallet. Token integrations happen once in a while. Meanwhile, your users can import your token manually. See this [Crypto.com help page](https://help.crypto.com/en/articles/5755942-tokens-import) for more information.
