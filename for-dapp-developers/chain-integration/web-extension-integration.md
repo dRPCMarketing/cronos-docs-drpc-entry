@@ -32,10 +32,9 @@ Users will be able to login with your dApp in several ways:
 
 To get your dApp listed on the dApp section of Crypto.com DeFi Wallet, the steps are as below:&#x20;
 
-* Make sure your dApp completes the integration of the Crypto.com Wallet  Extension SDK and the wallet connection is working (see below for details)
-* Provide your dApp details in the [Submission Form](https://airtable.com/app5F2H2Qp46Q9fGC/shr2pGmQR5lzoMOBh)
-* Crypto.com DeFi Wallet Team reviews submission with stakeholders
-* Crypto.com DeFi Wallet Team may proceesd with the dApp listing
+* Ensure your dApp successfully integrates the Crypto.com Wallet Extension SDK, with a functional wallet connection (refer to the details below)
+* Submit your dApp details using the [Submission Form](https://airtable.com/app5F2H2Qp46Q9fGC/shr2pGmQR5lzoMOBh)
+* The relevant team will review your submission and may proceed with the listing of your dApp.
 
 As a developer, if you would like to offer all the mobile and desktop connection options provided by the Crypto.com DeFi Wallet, the first step is to integrate your dApp with the Crypto.com Wallet  Extension.
 
