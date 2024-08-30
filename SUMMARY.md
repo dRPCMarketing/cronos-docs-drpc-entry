@@ -61,6 +61,7 @@
   * [Cronos Mainnet](for-node-hosts/running-nodes/cronos-mainnet/README.md)
     * [Quicksync](for-node-hosts/running-nodes/cronos-mainnet/quicksync.md)
     * [State-sync](for-node-hosts/running-nodes/cronos-mainnet/state-sync.md)
+    * [Public Node Sync](for-node-hosts/running-nodes/cronos-mainnet/public-node-sync.md)
     * [KSYNC](for-node-hosts/running-nodes/cronos-mainnet/ksync.md)
     * [The "Huygen" upgrade guide (v0.6.\* to v0.7.\*)](for-node-hosts/running-nodes/cronos-mainnet/huygen.md)
     * [The "v0.7.0-hotfix" upgrade guide (v0.7.\* to v0.8.\*)](for-node-hosts/running-nodes/cronos-mainnet/huygen-1.md)
@@ -77,7 +78,6 @@
   * [MemIAVL](for-node-hosts/running-nodes/memiavl.md)
   * [Local State Sync](for-node-hosts/running-nodes/local-state-sync.md)
 * [Cronosd](for-node-hosts/cli.md)
-
 
 ## CRONOS PLAY
 
