@@ -1,11 +1,12 @@
 ---
-description: >-
-  Get started with the all-in-one Tenderly platform and learn how it can help
-  you accelerate development on Cronos. Find out how to use the platform to
-  build, test, improve, and monitor your DApp!
+description: Tenderly support is currently deprecated.
 ---
 
 # Tenderly
+
+{% hint style="info" %}
+Tenderly support is currently deprecated.
+{% endhint %}
 
 ## Introduction
 
