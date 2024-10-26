@@ -1,6 +1,6 @@
 # Google Bigquery
 
-### Introduction
+Introduction
 
 Blockchain Analytics offers indexed blockchain data made available through [BigQuery](https://cloud.google.com/bigquery/docs) for easy analysis through SQL.
 
@@ -71,7 +71,7 @@ ORDER BY
 
 ### Example queries
 
-1. Latest indexed block
+#### 1. Latest indexed block
 
 ```sql
 SELECT
@@ -86,12 +86,9 @@ FROM
 | --- | ----------- | ------------ | ---------------------- | - |
 | 1   | 1           | 12134627     | 12134627               |   |
 
-
-
-2. Daily transactions in the last 10 days
+#### 2. Daily **transactions in the last 10 days**
 
 ```sql
-
 SELECT
   DATE(block_timestamp) AS date,
   COUNT(*) AS num_transactions
@@ -105,11 +102,9 @@ ORDER BY
   1 DESC;
 ```
 
-<table><thead><tr><th width="188.33333333333331">Row</th><th width="260">date</th><th>num_transactions</th></tr></thead><tbody><tr><td>1</td><td>2024-01-18</td><td>10250</td></tr><tr><td>2</td><td>2024-01-17</td><td>47747</td></tr><tr><td>3</td><td>2024-01-16</td><td>49717</td></tr><tr><td>4</td><td>2024-01-15</td><td>47099</td></tr><tr><td>5</td><td>2024-01-14</td><td>47051</td></tr><tr><td>6</td><td>2024-01-13</td><td>43926</td></tr><tr><td>7</td><td>2024-01-12</td><td>50448</td></tr><tr><td>8</td><td>2024-01-11</td><td>60904</td></tr><tr><td>9</td><td>2024-01-10</td><td>61774</td></tr><tr><td>10</td><td>2024-01-09</td><td>54521</td></tr><tr><td>11</td><td>2024-01-08</td><td>44194</td></tr></tbody></table>
+<table><thead><tr><th width="188.33333333333331">Row</th><th width="260">date</th><th>num_transactions</th></tr></thead><tbody><tr><td>1</td><td>2024-01-18</td><td>10250</td></tr><tr><td>2</td><td>2024-01-17</td><td>47747</td></tr><tr><td>3</td><td>2024-01-16</td><td>49717</td></tr><tr><td>4</td><td>2024-01-15</td><td>47099</td></tr><tr><td>5</td><td>2024-01-14</td><td>47051</td></tr></tbody></table>
 
-
-
-3. View the blocks with largest CRO value transfer in the past hour
+#### 3. View the blocks with largest CRO value transfer in the past hour
 
 ```sql
 SELECT block_hash, SUM(value.bignumeric_value / 1000000000000000000) value_total
@@ -127,9 +122,7 @@ LIMIT 5
 
 <table data-header-hidden><thead><tr><th width="93.33333333333331"></th><th width="366"></th><th></th></tr></thead><tbody><tr><td><strong>Row</strong></td><td><strong>block_hash</strong></td><td><strong>value_total</strong></td></tr><tr><td>1</td><td>0x7cac0bbf3909902a8670f962fbc9721391178850a2672d82b75c5a79b332a4f8</td><td>36836.840925000000000001</td></tr><tr><td>2</td><td>0xb53bd2c1a1d136e9b4dda4af47c488d278a0ee450adecd991cf13b187ce17a93</td><td>36729</td></tr><tr><td>3</td><td>0x28e0d8c31625ca43b565f1202b91e6cb20b709e25bea65185dcda7a3d176957d</td><td>33359.85627</td></tr><tr><td>4</td><td>0xfe8e732779101854cfaeed2404f7b53d3b64879069b5d8e8372f64d1cfe4a47f</td><td>22577.325273500000000015</td></tr><tr><td>5</td><td>0xd0b81821a57dc939dce80b29e9642f4a39e4bd2d346b5943a2532e69f191de57</td><td>22231.469422733370862931</td></tr></tbody></table>
 
-
-
-4. Top 10 wallets by number of transactions in the last hour
+#### 4. Top 10 wallets by number of transactions in the last hour
 
 ```sql
 SELECT
@@ -145,9 +138,7 @@ LIMIT 10;
 
 <table><thead><tr><th width="85.33333333333331">Row</th><th width="447">from_address</th><th>num_transactions</th></tr></thead><tbody><tr><td>1</td><td>0x25aa97464f38a1506a16160bbc03cfc6dd863da3</td><td>211</td></tr><tr><td>2</td><td>0x227f6757289a86c13eee2e91c2e6eb03f2ed11a6</td><td>136</td></tr><tr><td>3</td><td>0x95d49a8a2d69b2a2de4a00655d05ee39f9c41108</td><td>134</td></tr><tr><td>4</td><td>0x15d190dd8a1ed39cf5b790e2ffed1f365e9c865b</td><td>116</td></tr><tr><td>5</td><td>0xc9219731adfa70645be14cd5d30507266f2092c5</td><td>80</td></tr><tr><td>6</td><td>0x6614d26064d762922c7bc7a00337713d5169ae7c</td><td>65</td></tr><tr><td>7</td><td>0x34cfa46732692ab062f0453036cd5a4f5b771473</td><td>59</td></tr><tr><td>8</td><td>0x693fb96fdda3c382fde7f43a622209c3dd028b98</td><td>50</td></tr><tr><td>9</td><td>0x71f0cdb17454ad7eeb7e26242292fe0e0189645a</td><td>50</td></tr><tr><td>10</td><td>0x518a9d51ba8841046859a7722e75f92ffdadd0c4</td><td>37</td></tr></tbody></table>
 
-
-
-5. All USDT activity in the past hour
+#### 5. All USDT activity in the past hour
 
 ```sql
 -- UDF for easier string manipulation.
@@ -193,11 +184,9 @@ AND
 ;
 ```
 
-<table data-header-hidden><thead><tr><th width="87"></th><th width="262"></th><th width="231"></th><th width="233"></th><th></th></tr></thead><tbody><tr><td><strong>Row</strong></td><td><strong>transaction_hash</strong></td><td><strong>from_address</strong></td><td><strong>to_address</strong></td><td><strong>usdt_transfer_amount</strong></td></tr><tr><td>1</td><td>0xa3b78f79dee6970f3abc763b52f24a6d46aeba3e2370943f8eb2d68ff00d788a</td><td>0xc9219731adfa70645be14cd5d30507266f2092c5</td><td>0x539b85a6853e8740cd918009197c799d205787eb</td><td>309.82</td></tr><tr><td>2</td><td>0xc2abd163669a703ee850e432ac7c1a744b63bb1ff8e9b4cdee3ec2d95768fc75</td><td>0xc9219731adfa70645be14cd5d30507266f2092c5</td><td>0xc041126c1d07b72ee0f366e1fca339b4fed537cb</td><td>9.38</td></tr><tr><td>3</td><td>0x214cdef8263b4f8cc517d09673c126375c682b9b83d55c7ad889055c57533390</td><td>0xc9219731adfa70645be14cd5d30507266f2092c5</td><td>0xfca38e2882d8a549c660ccb17a8fe0463fab060e</td><td>11.82</td></tr><tr><td>4</td><td>0x40e24cc93abc746aa7c96482144772421412b9a733210644bab6ff6290996a1e</td><td>0xc9219731adfa70645be14cd5d30507266f2092c5</td><td>0x67b652172633b451a826aac6da7ed63693133fd2</td><td>11.26</td></tr><tr><td>5</td><td>0xb211dcb87ec8bbb115a4c6eae6c5a8861e04557b8b502e5a5858e70ae512183b</td><td>0x539b85a6853e8740cd918009197c799d205787eb</td><td>0x8995909dc0960fc9c75b6031d683124a4016825b</td><td>309.82</td></tr><tr><td>6</td><td>0xff2bc840e8dd59bd1f680c6c0905aada50fb4149e298ac0b932e36fd6d44fa34</td><td>0xc447ea5dc46ec5f83cdfe17cf0ccf3730ea12036</td><td>0x515e9917819f11ab0b6b6e6cee3848a935003bf7</td><td>700.0</td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="87"></th><th width="262"></th><th width="231"></th><th width="233"></th><th></th></tr></thead><tbody><tr><td><strong>Row</strong></td><td><strong>transaction_hash</strong></td><td><strong>from_address</strong></td><td><strong>to_address</strong></td><td><strong>usdt_transfer_amount</strong></td></tr><tr><td>1</td><td>0xa3b78f79dee6970f3abc763b52f24a6d46aeba3e2370943f8eb2d68ff00d788a</td><td>0xc9219731adfa70645be14cd5d30507266f2092c5</td><td>0x539b85a6853e8740cd918009197c799d205787eb</td><td>309.82</td></tr><tr><td>2</td><td>0xc2abd163669a703ee850e432ac7c1a744b63bb1ff8e9b4cdee3ec2d95768fc75</td><td>0xc9219731adfa70645be14cd5d30507266f2092c5</td><td>0xc041126c1d07b72ee0f366e1fca339b4fed537cb</td><td>9.38</td></tr><tr><td>3</td><td>0x214cdef8263b4f8cc517d09673c126375c682b9b83d55c7ad889055c57533390</td><td>0xc9219731adfa70645be14cd5d30507266f2092c5</td><td>0xfca38e2882d8a549c660ccb17a8fe0463fab060e</td><td>11.82</td></tr><tr><td>4</td><td>0x40e24cc93abc746aa7c96482144772421412b9a733210644bab6ff6290996a1e</td><td>0xc9219731adfa70645be14cd5d30507266f2092c5</td><td>0x67b652172633b451a826aac6da7ed63693133fd2</td><td>11.26</td></tr><tr><td>5</td><td>0xb211dcb87ec8bbb115a4c6eae6c5a8861e04557b8b502e5a5858e70ae512183b</td><td>0x539b85a6853e8740cd918009197c799d205787eb</td><td>0x8995909dc0960fc9c75b6031d683124a4016825b</td><td>309.82</td></tr></tbody></table>
 
-
-
-6. \[DApp] Count the total number of unique transactions and users interaction with a specific smart contract on a given day&#x20;
+#### 6. For Dapps - Count the total number of unique transactions and users interaction with a specific smart contract on a given day&#x20;
 
 ```sql
 SELECT
@@ -214,9 +203,7 @@ date
 
 <table data-header-hidden><thead><tr><th width="146">Row</th><th></th><th></th><th></th></tr></thead><tbody><tr><td><strong>Row</strong></td><td><strong>total_transactions</strong></td><td><strong>unique_users</strong></td><td><strong>date</strong></td></tr><tr><td>1</td><td>288</td><td>131</td><td>2023-01-01</td></tr></tbody></table>
 
-
-
-7. \[DApp] Top 5 addresses with the highest number of transactions sent to the contract at a specific contract within the specified date range
+#### 7. \[DApp] Top 5 addresses with the highest number of transactions sent to the contract at a specific contract within the specified date range
 
 ```sql
 SELECT

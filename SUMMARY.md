@@ -51,6 +51,7 @@
   * [Flair](for-dapp-developers/dev-tools-and-integrations/flair.md)
   * [Google Bigquery](for-dapp-developers/dev-tools-and-integrations/google-bigquery.md)
   * [Moralis](for-dapp-developers/useful-projects-on-cronos/moralis.md)
+  * [Pyth](for-dapp-developers/dev-tools-and-integrations/pyth.md)
   * [Secret Network](for-dapp-developers/dev-tools-and-integrations/secret-network.md)
   * [SubQuery](for-dapp-developers/dev-tools-and-integrations/subquery.md)
   * [Tenderly](for-dapp-developers/dev-tools-and-integrations/tenderly.md)
