@@ -5,6 +5,7 @@
 * [Getting Started](README.md)
 * [Background](getting-started/introduction.md)
 * [Architecture](getting-started/architecture.md)
+* [Cronos roadmap](getting-started/cronos-roadmap.md)
 
 ## FOR USERS
 
