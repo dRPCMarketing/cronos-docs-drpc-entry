@@ -2,7 +2,11 @@
 
 ## Introduction
 
-DApp developers can protect themselves against the potentially disastrous consequences of the compromise of a single private key, by assigning a multi-signature smart contract wallet as the owner and admin of a dApp. With the open-source community support from Protofire, Cronos Safe offers an easy-to-use implementation of the “Safe” Multisig Wallet user interface and smart contracts on the Cronos chain, which is a perfect tool for DApp developers to Enhance the Security of your dApps. While you can verify independently that the Cronos Safe smart contracts are identical to the official Safe smart contracts, please note that you are using them at your own risk. Cronos Safe is not officially supported by Cronos or Cronos Labs.
+DApp developers can protect themselves against the potentially disastrous consequences of the compromise of a single private key, by assigning a multi-signature smart contract wallet as the owner and admin of a dApp.
+
+With the open-source community support from Protofire, [Cronos Safe](https://cronos-safe.org) offers an easy-to-use implementation of the “Safe” Multisig Wallet user interface and smart contracts on the Cronos chain, which is a perfect tool for DApp developers to Enhance the Security of your dApps.
+
+While you can verify independently that the Cronos Safe smart contracts are identical to the official Safe smart contracts, please note that you are using them at your own risk. Cronos Safe is not officially supported by Cronos or Cronos Labs.
 
 ## Design the Governance of the Wallet
 

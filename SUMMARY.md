@@ -18,8 +18,9 @@
     * [From the Crypto.com Exchange](for-users/bridge/app\_n\_ex/cdcex.md)
   * [IBC (Cronos POS Chain, other Cosmos chains)](for-users/bridge/other\_chain/README.md)
     * [Cronos Bridge Web App](for-users/bridge/other\_chain/webapp.md)
+  * [Independent bridges](for-users/bridge/independent-bridges.md)
   * [FAQs for Bridge transfers](for-users/faq.md)
-  * [FAQs for ERC20-only transaction Support](for-users/bridge/faqs-for-erc20-only-transaction-support.md)
+  * [FAQs for transactions from/to centralized exchanges](for-users/bridge/faqs-for-erc20-only-transaction-support.md)
 * [🚰 Testnet Faucet](for-users/testnet-faucet.md)
 * [💡 Tips & FAQs](for-users/tips-and-faqs.md)
 * [👮 Key Principles for Wallet Security](for-users/key-principles-for-wallet-security.md)
@@ -42,7 +43,7 @@
   * [Adress Conversion](for-dapp-developers/chain-integration/adress-conversion.md)
   * [Swagger Playground](https://cronos.org/swagger?network=mainnet)
 * [⚙️ Dev Tools & Integrations](for-dapp-developers/dev-tools-and-integrations/README.md)
-  * [Overview of dev tools & integrations](for-dapp-developers/useful-projects-on-cronos/overview-of-dev-tools-and-integrations.md)
+  * [All dev tools & integrations](for-dapp-developers/useful-projects-on-cronos/overview-of-dev-tools-and-integrations.md)
   * [Account Abstraction (Experimental)](for-dapp-developers/dev-tools-and-integrations/account-abstraction-experimental.md)
   * [Band Protocol](for-dapp-developers/useful-projects-on-cronos/band-protocol.md)
   * [Banxa](for-dapp-developers/useful-projects-on-cronos/banxa.md)
@@ -55,7 +56,6 @@
   * [Pyth](for-dapp-developers/dev-tools-and-integrations/pyth.md)
   * [Secret Network](for-dapp-developers/dev-tools-and-integrations/secret-network.md)
   * [SubQuery](for-dapp-developers/dev-tools-and-integrations/subquery.md)
-  * [Tenderly](for-dapp-developers/dev-tools-and-integrations/tenderly.md)
   * [Witnet](for-dapp-developers/useful-projects-on-cronos/witnet.md)
 
 ## FOR NODE HOSTS

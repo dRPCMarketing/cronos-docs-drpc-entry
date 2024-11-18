@@ -76,27 +76,16 @@ Don’t forget to follow these Twitter accounts to receive key announcements:
 
 * Cronos Labs can facilitate access to the [Cronos Builders Program](https://cronoslabs.org/cronos-builders-program) and the [Cronos Ecosystem Grants](https://cronos.org/grants) program (click on these links for details).
 * You can visit [https://cronos.org/grants](https://cronos.org/grants) for information.
-* Grant program highlights:
-  * Target sectors: retail DeFi, GameFi, infrastructure.
-  * Simple grants, typically between 10-50 k$ plus marketing and technical support.
-  * Subject to the achievement of agreed upon milestones, usually associated with the volume of on-chain activity on Cronos (number of users, number of daily transactions, TVL).
-  * Available to early stage projects, as well as established projects planning to expand to Cronos.
 
 **How can I apply for the Cronos accelerator program?**
 
 * The Cronos Accelerator Program supports early-stage teams who are working full-time on a dApp project and have an prototype or MVP product.
 * Please refer to [this page](https://cronos.org/accelerators) for details.
-* Accelerator program highlights:
-  * Target sectors: retail DeFi, GameFi, infrastructure. Projects are expected to launch natively on Cronos, and subsequent multi chain expansion is encouraged.
-  * Runs 2-3 cohorts per year, \~10 startups per cohort.
-  * Extensive marketing and technical support including mentoring, master classes and demo day.
-  * Initial 30 k$ grant, followed by potential investment by Cronos Labs (100-300 k$) as well as other accelerator partners (investors).
-  * Available to early stage projects at the pre-seed or seed stage, who have not yet raised institutional money. Requires full time involvement of the core team on the project for the duration of the program.
 
 **How can I become a node operator?**
 
 * Anyone can run their own Cronos node: see [the documentation](https://docs.cronos.org/for-node-hosts/running-nodes/cronos-mainnet) for instructions.
-* However, the Cronos network is not currently adding **new validators** (except on an exceptional basis, by invitation). The Cronos Labs team will make public announcements when validator applications are open again. Feel free to email [contact@cronoslabs.org](mailto:contact@cronoslabs.org) to register your interest.
+* However, the Cronos network is not currently adding **new validators** (except on an exceptional basis). The Cronos Labs team will make public announcements when validator applications are open again. Feel free to email [contact@cronoslabs.org](mailto:contact@cronoslabs.org) to register your interest.
 
 **Can Cronos help with my token sale or NFT primary sale?**
 
@@ -117,7 +106,7 @@ Don’t forget to follow these Twitter accounts to receive key announcements:
 **Are there best practices and security standards that apply to Dapps on Cronos?**
 
 * The Cronos team strongly encourages all development teams to follow the best practices summarized at this [link](https://cronos.org/docs/getting-started/defi-practice.html#introduction). You can find more information at this [link](https://consensys.github.io/smart-contract-best-practices/) too.
-* It will be difficult for the Cronos Labs team to engage meaningfully with teams who do not publish their code and do not have their smart contracts verified on [Cronoscan](https://cronoscan.com/).
+* It will be difficult for the Cronos Labs team to engage meaningfully with teams who do not publish their code and do not have their smart contracts verified on [Cronos Explorer](https://explorer.cronos.org).
 
 **I need a commercial node provider because my dApp exceeds the rate limits of the free Cronos JSON-RPC endpoints. Who offers this ?**
 

@@ -2,7 +2,9 @@
 
 Introduction
 
-Blockchain Analytics offers indexed blockchain data made available through [BigQuery](https://cloud.google.com/bigquery/docs) for easy analysis through SQL.
+Google Cloud's Blockchain Analytics offers indexed blockchain data made available through [BigQuery](https://cloud.google.com/bigquery/docs) for easy analysis through SQL.
+
+[Visit the Google Web3 portal](https://cloud.google.com/application/web3/discover) to retrieve all available datasets.
 
 Blockchain Analytics offers you access to reliable data without the overhead of operating nodes or developing and maintaining an indexer. You can now query the full history of blocks, transactions, logs and receipts for Cronos.
 

@@ -2,12 +2,12 @@
 
 #### What are the fees involved?
 
-* The bridge service itself is free and does not charge any additional service fees. The fees displayed are network gas fees which the blockchain infrastructure charges itself to process the transactions and vary depending on the network.
+* The Cronos Bridge service itself is free and does not charge any additional service fees. The fees displayed are network gas fees which the blockchain infrastructure charges itself to process the transactions and vary depending on the network.
 * For any bridge transaction, network gas fees are incurred on two chains: origin and destination.
   * For the origin chain gas fee, this will be displayed and settled directly on your wallet extension.
   * For the destination chain gas fee (“Bridge network fee”), our decentralised bridge is tasked to collect the appropriate gas fee and pay the network.
 
-#### How does the Bridge network fee waiver work?
+#### How does the Cronos Bridge network fee waiver work?
 
 * The following transactions are eligible for a fee waiver:
   * Cronos POS Chain => Cronos (Cronos EVM chain)
