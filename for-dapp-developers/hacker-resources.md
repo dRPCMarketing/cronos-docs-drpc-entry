@@ -16,7 +16,7 @@ Check out our [blog post](https://blog.cronos.org/p/cronos-developer-series-5-ti
 
 ## Hack with Cronos 🥚
 
-Developing Dapps on Cronos is as easy as developing them on any of the major EVM-compatible chains: write and test solidity with Hardhat, deploy your contract, connect your frontend or your backend with ethers.js, and connect your wallet with MetaMask or Crypto.com Defi Wallet.
+Developing Dapps on Cronos is as easy as developing them on any of the major EVM-compatible chains: write and test solidity with Hardhat, deploy your contract, connect your frontend or your backend with ethers.js, and connect your wallet with MetaMask or Crypto.com Onchain Wallet.
 
 The native cryptocurrency of Cronos mainnet is CRO, while the testnet uses TCRO.
 

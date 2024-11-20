@@ -4,39 +4,39 @@
 
 Cronos chain is supported by the following self-custodial wallets:
 
-* Crypto.com DeFi Wallet.
+* Crypto.com Onchain Wallet.
 * Rabby (rabby.io)
 * MetaMask (requires custom network configuration) (metamask.io).
 * Trust Wallet.
 * and more than 30 other wallets (you can see a more complete list of dev tools [here](https://crofam.me/devtools)).
 
-Crypto.com DeFi Wallet, Trust Wallet and MetaMask have mobile apps that include in-app dApp browsers. Users can access dApps on the go via these in-app browsers. We recommend that all dApp developers integrate with these 3 wallets at least, and more if possible.
+Crypto.com Onchain Wallet, Trust Wallet and MetaMask have mobile apps that include in-app dApp browsers. Users can access dApps on the go via these in-app browsers. We recommend that all dApp developers integrate with these 3 wallets at least, and more if possible.
 
 ## Basic tutorial
 
 [Follow this link](web3-wallet.md) for a basic example on how to implement the main wallet connection methods available to Cronos dApp developers.
 
-## Crypto.com DeFi Wallet
+## Crypto.com Onchain Wallet
 
 #### &#x20;A non-custodial wallet to store, earn, and grow your crypto
 
-[Crypto.com DeFi Wallet](https://crypto.com/defi-wallet) is a non-custodial wallet that gives users full control of their crypto and private keys. Private keys are encrypted locally on the user’s mobile phone, and protected by Biometric Authentication and 2-Factor Authentication.&#x20;
+[Crypto.com Onchain Wallet](https://crypto.com/defi-wallet) is a non-custodial wallet that gives users full control of their crypto and private keys. Private keys are encrypted locally on the user’s mobile phone, and protected by Biometric Authentication and 2-Factor Authentication.&#x20;
 
-If you are a dApp developer, integration with the Crypto.com DeFi Wallet is the best way to deliver a smooth user experience to more than 50 million Crypto.com customers.
+If you are a dApp developer, integration with the Crypto.com Onchain Wallet is the best way to deliver a smooth user experience to more than 50 million Crypto.com customers.
 
 Users will be able to login with your dApp in several ways:
 
-* On Mobile, they can visit your dApp and connect to it via the in-app browser of the Crypto.com DeFi Wallet iOS or Android apps.
-* On Desktop, they can install the Crypto.com Wallet Extension from the Chrome extension store into their Chrome, Edge or Brave browser. The extension can be connected to the Crypto.com DeFi Wallet mobile app (in which case the user will need to confirm each transaction on their mobile phone), or alternatively it can work as a standalone extension entirely in the browser.
-* Finally, on Desktop too, the Crypto.com DeFi Wallet is available as a standalone app.&#x20;
+* On Mobile, they can visit your dApp and connect to it via the in-app browser of the Crypto.com Onchain Wallet iOS or Android apps.
+* On Desktop, they can install the Crypto.com Wallet Extension from the Chrome extension store into their Chrome, Edge or Brave browser. The extension can be connected to the Crypto.com Onchain Wallet mobile app (in which case the user will need to confirm each transaction on their mobile phone), or alternatively it can work as a standalone extension entirely in the browser.
+* Finally, on Desktop too, the Crypto.com Onchain Wallet is available as a standalone app.&#x20;
 
-To get your dApp listed on the dApp section of Crypto.com DeFi Wallet, the steps are as below:&#x20;
+To get your dApp listed on the dApp section of Crypto.com Onchain Wallet, the steps are as below:&#x20;
 
 * Ensure your dApp successfully integrates the Crypto.com Wallet Extension SDK, with a functional wallet connection (refer to the details below)
 * Submit your dApp details using the [Submission Form](https://airtable.com/app5F2H2Qp46Q9fGC/shr2pGmQR5lzoMOBh)
 * The relevant team will review your submission and may proceed with the listing of your dApp.
 
-As a developer, if you would like to offer all the mobile and desktop connection options provided by the Crypto.com DeFi Wallet, the first step is to integrate your dApp with the Crypto.com Wallet  Extension.
+As a developer, if you would like to offer all the mobile and desktop connection options provided by the Crypto.com Onchain Wallet, the first step is to integrate your dApp with the Crypto.com Wallet  Extension.
 
 Once the Wallet Extension is working, all the other connection methods should start working as well, even on mobile, since they are supported by the same SDKs.
 

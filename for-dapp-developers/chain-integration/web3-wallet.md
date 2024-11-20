@@ -1,6 +1,6 @@
 # Web3-wallet
 
-As browser injected wallets (Rabby, MetaMask, Trust Wallet), Crypto.com DeFi Wallet and WalletConnect use somewhat different front-end integration frameworks, it can be challenging for a developer to integrate all types of wallets with standardized code.
+As browser injected wallets (Rabby, MetaMask, Trust Wallet), Crypto.com Onchain Wallet and WalletConnect use somewhat different front-end integration frameworks, it can be challenging for a developer to integrate all types of wallets with standardized code.
 
 The open-source Web3-wallet package is used by many of the top dapps on Cronos, and makes it easy to do this in Typescript.
 

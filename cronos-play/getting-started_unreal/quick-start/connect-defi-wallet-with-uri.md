@@ -1,6 +1,6 @@
-# Connect Defi Wallet with URI
+# Connect Defi Desktop/Onchain Wallet with URI
 
-Connecting with Defi Desktop Wallet or Defi Mobile Wallet is accomplished with just one blueprint function: `ConnectWalletConnect` from `PlayCppSdkActor`.
+Connecting with Defi Desktop Wallet or Onchain Wallet is accomplished with just one blueprint function: `ConnectWalletConnect` from `PlayCppSdkActor`.
 
 To connect with QR Code, please check
 
@@ -40,8 +40,8 @@ End Object
 ```
 {% endtab %}
 
-{% tab title="Example: Connect Defi Wallet with URI" %}
-Here is an example showing when Event BeginPlay is triggered, spawn an actor from `PlayCppSdkActor` Class, save it to `PlayCppSdk` variable, finally call ConnectWalletConnect function and connect the game to Defi Wallet via URI.
+{% tab title="Example: Connect Onchain Wallet with URI" %}
+Here is an example showing when Event BeginPlay is triggered, spawn an actor from `PlayCppSdkActor` Class, save it to `PlayCppSdk` variable, finally call ConnectWalletConnect function and connect the game to Wallet via URI.
 
 **Blueprint**
 
@@ -53,7 +53,6 @@ Here is an example showing when Event BeginPlay is triggered, spawn an actor fro
 
 **Configurations**
 
-
 * Relay Server: `wss://relay.walletconnect.com`
 * Project ID: you can create here https://cloud.walletconnect.com/sign-in
 * Name: `Defi WalletConnect Web3 Example`
@@ -61,15 +60,11 @@ Here is an example showing when Event BeginPlay is triggered, spawn an actor fro
 * Client Meta: `{"description":"Defi WalletConnect v2 example.","url":"http://localhost:8080/","icons":[],"name":"Defi WalletConnect Web3 Example"}`
 * Connection Type: String, Qrcode, Launch Uri
 
-
-
 **VARIABLES Source Code**
 
 ```
 BPVar(VarName="PlayCppSdk",VarGuid=60D1F23F42427406445151B89092854D,VarType=(PinCategory="object",PinSubCategory="",PinSubCategoryObject=/Script/CoreUObject.Class'"/Script/CronosPlayUnreal.PlayCppSdkActor"',PinSubCategoryMemberReference=(MemberParent=None,MemberName="",MemberGuid=00000000000000000000000000000000),PinValueType=(TerminalCategory="",TerminalSubCategory="",TerminalSubCategoryObject=None,bTerminalIsConst=False,bTerminalIsWeakPointer=False,bTerminalIsUObjectWrapper=False),ContainerType=None,bIsReference=False,bIsConst=False,bIsWeakPointer=False,bIsUObjectWrapper=False,bSerializeAsSinglePrecisionFloat=False),FriendlyName="Play Cpp Sdk",Category=NSLOCTEXT("KismetSchema", "Default", "Default"),PropertyFlags=67589,RepNotifyFunc="",ReplicationCondition=COND_None,MetaDataArray=,DefaultValue="None")
 ```
-
-
 
 **Event Graph Source Code**
 

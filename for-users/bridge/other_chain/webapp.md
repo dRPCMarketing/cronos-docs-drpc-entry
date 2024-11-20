@@ -1,12 +1,12 @@
 # Cronos Bridge Web App
 
-## Transfer assets from Crypto.org Chain using the Cronos Bridge Web App
+## Transfer assets from Cronos POS Chain using the Cronos Bridge Web App
 
 ### Step-by-step walkthrough
 
 **Step 1: Connect your wallet**
 
-Click “**Connect Wallet**" to connect your cryptocurrency wallet. We currently support browser-compatible versions of Metamask, Keplr, and Crypto.com DeFi Wallet. Once a connection request is sent, look for a popup from your wallet interface or click into the wallet extension to give it consent.
+Click “**Connect Wallet**" to connect your cryptocurrency wallet. We currently support browser-compatible versions of Metamask, Keplr, and Crypto.com Onchain Wallet. Once a connection request is sent, look for a popup from your wallet interface or click into the wallet extension to give it consent.
 
 {% hint style="info" %}
 Note 1: If you are bridging assets to or from Crypto.org, you may specify the destination wallet by pasting the address directly or connecting a second wallet to avoid manual errors.
@@ -18,7 +18,7 @@ Note 1: If you are bridging assets to or from Crypto.org, you may specify the de
 
 Select the origin chain on the left and destination chain on the right in the Cronos Bridge interface. We will do our best to automatically suggest your wallet network to match the desired transfer parameters. However, a manual adjustment on your end may be needed to set your wallet to match the selected network.
 
-If you are transferring to or from Crypto.org, you need to specify the destination address by inputting the address manually or connecting a second wallet to receive your funds.
+If you are transferring to or from Cronos POS chain, you need to specify the destination address by inputting the address manually or connecting a second wallet to receive your funds.
 
 Once the networks are chosen, select the asset you would like to transfer.
 

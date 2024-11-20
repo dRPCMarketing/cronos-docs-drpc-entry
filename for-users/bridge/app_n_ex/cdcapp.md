@@ -16,9 +16,11 @@
 
 ![](../assets/cdcapp3-1.png)![](../assets/cdcapp3-2.png)
 
+
+
 **Step 4**: Select the Cronos network and paste your Cronos wallet address .
 
-You should have a Cronos wallet address ready at this point (either on MetaMask, Crypto.com DeFi Wallet, or any other wallet supporting Cronos). No memo is required to withdraw your funds to Cronos. Once you have confirmed that your Cronos wallet address is accurate, tap “**Continue**”.
+You should have a Cronos wallet address ready at this point (either on MetaMask, Crypto.com Onchain Wallet, or any other wallet supporting Cronos). No memo is required to withdraw your funds to Cronos. Once you have confirmed that your Cronos wallet address is accurate, tap “**Continue**”.
 
 ![](../assets/cdcapp4.png)
 

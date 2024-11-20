@@ -37,7 +37,7 @@ Network Name: **Cronos Testnet**
 
 * Sufficient funds on deployer address
   * [Testnet Faucet](https://cronos.crypto.org/faucet/)
-* For Crypto.com DeFi Wallet integration, please refer to our [documentation](https://docs.cronos.org/getting-started/gamefi-sdk.md#enable-deficonnect-and-walletconnect).
+* For Crypto.com Onchain Wallet integration, please refer to our [documentation](https://docs.cronos.org/getting-started/gamefi-sdk.md#enable-deficonnect-and-walletconnect).
 
 ## Integration guide for Cronos
 

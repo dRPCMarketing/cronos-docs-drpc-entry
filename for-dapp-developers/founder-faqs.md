@@ -24,7 +24,7 @@ Don’t forget to follow these Twitter accounts to receive key announcements:
 * Technical support via [Discord](https://crofam.me/discord) and [Telegram](https://t.me/Cronos\_Announcements).
 * Amplification of product launches / feature releases on [social media](https://twitter.com/cronos\_chain) and in the [Cronos newsletter](https://blog.cronos.org).
 * Participation in [Cronos video streams / AMAs](https://crofam.me/youtube).
-* Project listing at [discover.cronos.org](https://discover.cronos.org) and on various partner platforms (Crypto.com DeFi Wallet, Defillama, Dappradar, etc.).
+* Project listing at [discover.cronos.org](https://discover.cronos.org) and on various partner platforms (Crypto.com Onchain Wallet, Defillama, Dappradar, etc.).
 * Introductions to other dapps, key opinion leaders and project launchpads.
 * [Cronos Builders Program](../cronos-play/unity/legacy-version/play.md) and [Cronos Grants Program](https://cronos.org/grants) (usually for projects who have already started to achieve initial user traction on Cronos).
 * [Cronos Accelerator Program](https://cronos.org/accelerators).
@@ -35,18 +35,18 @@ Don’t forget to follow these Twitter accounts to receive key announcements:
 
 * Visit [https://discover.cronos.org](https://discover.cronos.org) where you can add your project to the list of Cronos ecosystem projects (click the Submit button).&#x20;
 
-**How can I get my project featured in the Crypto.com Defi Wallet in-app browser, once deployed on Cronos?**
+**How can I get my project featured in the Crypto.com Onchain Wallet in-app browser, once deployed on Cronos?**
 
 * Step 1:
   * The first step is to implement login via the Crypto .com Defi Wallet’s SDK, using the DeFiWeb3Connector.
   * See [this tutorial](chain-integration/web3-wallet.md) on how to implement wallet connections. The code sample uses [Web3 Wallet](https://web3-wallet.github.io/web3-wallet/docs/getting-started), a wallet connection library used by many Cronos dapps.
   * For more details, you can refer to this repository for documentation and usage: [https://github.com/crypto-com/deficonnect-monorepo/wiki/Chrome-Extension-Wallet-Integration](https://github.com/crypto-com/deficonnect-monorepo/wiki/Chrome-Extension-Wallet-Integration)
-  * You cannot proceed to Step 2 until you have checked that your dApp offers a functional connection to the Crypto com DeFi Wallet’s Browser Extension in a desktop browser ([here is the link to the browser extension in the Chrome store](https://chrome.google.com/webstore/detail/cryptocom-wallet-extensio/hifafgmccdpekplomjjkcfgodnhcellj)).
+  * You cannot proceed to Step 2 until you have checked that your dApp offers a functional connection to the Crypto.com Onchain Wallet’s Browser Extension in a desktop browser ([here is the link to the browser extension in the Chrome store](https://chrome.google.com/webstore/detail/cryptocom-wallet-extensio/hifafgmccdpekplomjjkcfgodnhcellj)).
 * Step 2:
   * Complete [this form](https://airtable.com/appc8zlP6Hctdw7lA/pag8yAWJldMZAmGL9/form) to apply to get the URL of your dApp featured in the DeFi Wallet’s dApp ranking tab.
-  * The Crypto .com team may need some time to assess the suitability of your dApp and does not provide updates regarding their internal decision making process until there is a positive decision (if any). They may revisit their decisions occasionally, for example a token sale page may not be featured in the Dapp ranking but it may be featured later, once it includes a Dapp with real utility for end-users.
+  * The Crypto.com team may need some time to assess the suitability of your dApp and does not provide updates regarding their internal decision making process until there is a positive decision (if any). They may revisit their decisions occasionally, for example a token sale page may not be featured in the Dapp ranking but it may be featured later, once it includes a Dapp with real utility for end-users.
   * Decision criteria include the transparency and security of the dApp, and the quality of the user experience. Therefore, in order to increase your chances of being approved, please ensure that your user-facing website includes a link to your docs and to your Github repository, and that the docs include links to the verified smart contracts on [Cronoscan](https://cronoscan.com). You can refer to [this tutorial](https://github.com/kentimsit/cronos-hardhat-boilerplate) on how to deploy your smart contracts to Cronos and verify them on Cronoscan.
-* Note: There is currently no process in place to request a token integration with the Crypto.com DeFi Wallet. Token integrations happen once in a while. Meanwhile, your users can import your token manually. See this [Crypto.com help page](https://help.crypto.com/en/articles/5755942-tokens-import) for more information.
+* Note: There is currently no process in place to request a token integration with the Crypto.com Onchain Wallet. Token integrations happen once in a while. Meanwhile, your users can import your token manually. See this [Crypto.com help page](https://help.crypto.com/en/articles/5755942-tokens-import) for more information.
 
 **How can I get my project featured in Trust Wallet, once deployed on Cronos?**
 
@@ -57,8 +57,8 @@ Don’t forget to follow these Twitter accounts to receive key announcements:
 
 * Crypto.com NFT platform
   * Crypto.com NFT platform is a custodial platform that supports Cronos and multiple other chains.
-  * New launch: if you want to create and sell a new NFT collection on the custodial Crypto .com / NFT platform, please contact Crypto .com directly (see this [link](https://help.crypto.com/en/articles/5588880-nft-creation)).
-  * Secondary trading: if you already have a NFT collection live on the Cronos chain and would like to make it allow-listed on the custodial Crypto .com / NFT platform so that the NFT owners can deposit and trade the NFTs at Crypto .com / NFT, please contact Cronos Labs for support ([contact@cronoslabs.org](mailto:contact@cronoslabs.org)) and we will share with you the contractual documents and proof of ownership requirements that are required by Crypto .com.
+  * New launch: if you want to create and sell a new NFT collection on the custodial Crypto.com / NFT platform, please contact Crypto.com directly (see this [link](https://help.crypto.com/en/articles/5588880-nft-creation)).
+  * Secondary trading: if you already have a NFT collection live on the Cronos chain and would like to make it allow-listed on the custodial Crypto.com / NFT platform so that the NFT owners can deposit and trade the NFTs at Crypto.com / NFT, please contact Cronos Labs for support ([contact@cronoslabs.org](mailto:contact@cronoslabs.org)) and we will share with you the contractual documents and proof of ownership requirements that are required by Crypto.com.
 * Minted NFT platform
   * Minted is a self-custodial NFT platform on Cronos chain and on Ethereum.
   * New launch & secondary trading: the Cronos Labs team can put you in touch with the Minted team via Telegram. Please create a telegram group \[Your project] <> Minted and send the link to your Cronos Labs contact.
@@ -106,7 +106,7 @@ Don’t forget to follow these Twitter accounts to receive key announcements:
 **Are there best practices and security standards that apply to Dapps on Cronos?**
 
 * The Cronos team strongly encourages all development teams to follow the best practices summarized at this [link](https://cronos.org/docs/getting-started/defi-practice.html#introduction). You can find more information at this [link](https://consensys.github.io/smart-contract-best-practices/) too.
-* It will be difficult for the Cronos Labs team to engage meaningfully with teams who do not publish their code and do not have their smart contracts verified on [Cronos Explorer](https://explorer.cronos.org).
+* It will be difficult for the Cronos Labs team to engage meaningfully with teams who do not publish their code and do not have their smart contracts verified on [Cronos Explorer](https://explorer.cronos.org)
 
 **I need a commercial node provider because my dApp exceeds the rate limits of the free Cronos JSON-RPC endpoints. Who offers this ?**
 
@@ -121,7 +121,7 @@ Don’t forget to follow these Twitter accounts to receive key announcements:
 * You can contact the community support on our [Discord server](https://discord.com/invite/pahqHz26q4), in the #cronos-mainnet-beta channel.
 * Or, if the Cronos Labs team already has a joint Telegram group with your team, feel free to reach out to the team in that group. You can also email [contact@cronoslabs.org](mailto:contact@cronoslabs.org).
 
-**How can I connect my Dapp to commonly used crypto wallets like MetaMask, Crypto .com DeFi Wallet, or Trust Wallet?**
+**How can I connect my Dapp to commonly used crypto wallets like MetaMask, Crypto .com Onchain Wallet, or Trust Wallet?**
 
 * See this [tutorial](chain-integration/web3-wallet.md).
 

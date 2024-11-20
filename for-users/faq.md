@@ -35,7 +35,7 @@ The networks supported are:
 
 #### What are the supported wallets?
 
-* The initially supported wallets will be Crypto.com DeFi Wallet, MetaMask, Rabby and Keplr.
+* The initially supported wallets will be Crypto.com Onchain Wallet, MetaMask, Rabby and Keplr.
 * Please ensure to set the correct active network on your Wallet if it is supported.
 
 #### Can I complete multiple transfers in one go?
@@ -44,7 +44,7 @@ While it is possible to have multiple ongoing transactions, we recommend having 
 
 #### Where can I report bugs and provide product feedback?
 
-For any bug reports, or feedback please contact [bridge@cronos.org](mailto:bridge@cronos.org). This is for the web Cronos bridge only. For Crypto.com app, exchange, and DeFi wallet, refer to [https://help.crypto.com/en/](https://help.crypto.com/en/) or [https://help.crypto.com/en/articles/5645017-cronos-bridge](https://help.crypto.com/en/articles/5645017-cronos-bridge).
+For any bug reports, or feedback please contact [bridge@cronos.org](mailto:bridge@cronos.org). This is for the web Cronos bridge only. For Crypto.com app, exchange, and Onchain wallet, refer to [https://help.crypto.com/en/](https://help.crypto.com/en/) or [https://help.crypto.com/en/articles/5645017-cronos-bridge](https://help.crypto.com/en/articles/5645017-cronos-bridge).
 
 #### How do I find my missing funds?
 

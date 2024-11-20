@@ -1,8 +1,8 @@
-# FAQs for ERC20-only transaction Support
+# FAQs for transactions from/to centralized exchanges
 
 #### I transferred CRO from the other centralised exchanges (CEXs) to the Crypto.com Defi Desktop wallet, but why it is not showing up in my Crypto.com DeFi Desktop Wallet?
 
-Some centralised exchanges currently only support Ethereum Mainnet ERC20-CRO withdrawal, while the Crypto.com DeFi Desktop Wallet only supports Cronos POS Chain & Cronos Chain for the moment, thus you're not able to view any ERC20 assets or balances of Ethereum Chain on the Desktop Wallet. It is highly recommended that all users check the networks before making the withdrawal and always begin with a small amount to make sure the transfer actually works.
+Some centralised exchanges currently only support Ethereum Mainnet ERC20-CRO withdrawal, while the Crypto.com Defi Desktop Wallet only supports Cronos POS Chain & Cronos Chain for the moment, thus you're not able to view any ERC20 assets or balances of Ethereum Chain on the Desktop Wallet. It is highly recommended that all users check the networks before making the withdrawal and always begin with a small amount to make sure the transfer actually works.
 
 #### I have already made the transfer from the centralised exchange that does not support Cronos Chain to my Crypto.com DeFi Desktop Wallet. What should I do to retrieve my funds?
 
@@ -20,7 +20,7 @@ Some centralised exchanges currently only support Ethereum Mainnet ERC20-CRO wit
 _For step 3 of transferring your ERC20-CRO, you could either use MetaMask or Ledger Live (for ledger user) to send ERC20-CRO from your Ledger to Crypto.com App. Take the wallet on MetaMask as an example, if you log into the same wallet on MetaMask and switch the network to the Ethereum mainnet on MetaMask, you would be able to access those ERC20 tokens in this wallet on MetaMask. After that, you would be free to transfer the funds to the Crypto.com app then withdraw them to the Cronos network._
 {% endhint %}
 
-#### I would like to send ERC20-CRO from Crypto.com App or DeFi Wallet to the other CEXs directly. Is this possible?
+#### I would like to send ERC20-CRO from Crypto.com App or Onchain Wallet to the other CEXs directly. Is this possible?
 
 Please make sure both sender and receiver accounts support ERC20 format. Only if the other CEXs support ERC20-CRO can you send it. Users may refer to this guide for more details:
 

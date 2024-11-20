@@ -20,7 +20,7 @@ It is important to be thoughtful about the approval policy and the operational m
 
 You can visit Cronos Safe (cronos-safe.org) to access the user interface of the Safe deployment on Cronos chain.
 
-Click “Create Safe”, connect your wallet, and follow the instructions. You can connect to the Cronos Safe dApp with MetaMask, or with the Crypto.com DeFi Wallet via WalletConnect.
+Click “Create Safe”, connect your wallet, and follow the instructions. You can connect to the Cronos Safe dApp with MetaMask, or with the Crypto.com Onchain Wallet via WalletConnect.
 
 <figure><img src="../../.gitbook/assets/CronosSafe0.png" alt=""><figcaption></figcaption></figure>
 

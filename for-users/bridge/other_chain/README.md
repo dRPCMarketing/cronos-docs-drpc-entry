@@ -24,7 +24,7 @@ Please read this guide and review the project documentation carefully as misuse 
 
 #### Currently supported wallets:
 
-* Metamask, Keplr, Crypto.com DeFi Wallet
+* Metamask, Keplr, Crypto.com Onchain Wallet
 
 We are constantly working on adding new tokens and blockchains. If you have any feedback or concerns, please reach out to bridge@cronos.org.
 
@@ -38,9 +38,9 @@ The Cronos Bridge (Beta) can be found at [https://cronos.org/bridge](https://cro
 
 ## Via Crypto.com DeFi Wallet
 
-Crypto.com DeFi Wallet has integrated with Cronos Bridge and provided a front-end UI to allow all users to seamlessly transfer assets over to Cronos straight from the app.
+Crypto.com Onchain Wallet has integrated with Cronos Bridge and provided a front-end UI to allow all users to seamlessly transfer assets over to Cronos straight from the app.
 
-Please visit the [Crypto.com DeFi Wallet page](https://help.crypto.com/en/articles/5645017-cronos-bridge) for details.
+Please visit the [Crypto.com Onchain Wallet page](https://help.crypto.com/en/articles/5645017-cronos-bridge) for details.
 
 ## Via Crypto.com DeFi Desktop Wallet
 

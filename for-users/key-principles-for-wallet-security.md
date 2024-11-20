@@ -24,7 +24,7 @@ The **Private Key** as well as the **Seed Phrase** (covered later) are the two c
 
 Examples include:&#x20;
 
-* [Crypto.com DeFi Wallet](https://crypto.com/defi-wallet)
+* [Crypto.com Onchain Wallet](https://crypto.com/defi-wallet)
 * [Crypto.com App](https://crypto.com/eea/app)
 * [MetaMask](https://metamask.io/)
 * [Keplr Wallet](https://www.keplr.app/)
@@ -59,7 +59,7 @@ Examples include:&#x20;
 
 **Hosted Wallets:** These wallets are usually provided and managed by centralised crypto exchanges (CEX). The exchange holds the private key, meaning they technically own & control the assets. E.g. the Crypto.com App ([https://crypto.com/app](https://crypto.com/uk/app))
 
-**Self-Custody Wallets:** In self-custody wallets you hold/own the private key, giving you full control over the digital assets. Crypto.com DeFi Wallet is an example of a self-custody solution. ([https://crypto.com/defi-wallet](https://crypto.com/uk/defi-wallet))&#x20;
+**Self-Custody Wallets:** In self-custody wallets you hold/own the private key, giving you full control over the digital assets. Crypto.com Onchain Wallet is an example of a self-custody solution ([https://crypto.com/onchain](https://crypto.com/onchain)). &#x20;
 
 
 
