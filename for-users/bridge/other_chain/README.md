@@ -36,7 +36,7 @@ The Cronos Bridge (Beta) can be found at [https://cronos.org/bridge](https://cro
 [webapp.md](webapp.md)
 {% endcontent-ref %}
 
-## Via Crypto.com DeFi Wallet
+## Via Crypto.com Onchain Wallet
 
 Crypto.com Onchain Wallet has integrated with Cronos Bridge and provided a front-end UI to allow all users to seamlessly transfer assets over to Cronos straight from the app.
 
