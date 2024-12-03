@@ -15,7 +15,7 @@ Let's connect your Brave Wallet to the Cronos network:
   ![](<../.gitbook/assets/welcome page.png>)![](../.gitbook/assets/brave-go-to-settings.png)\
 
 * **Step 3**\
-  In the settings page, under the"**Wallet"** tab**,** click **"Networks".**  Alternatively, you can visit `brave://settings/wallet/networks` in the browser URL.
+  In the settings page, under the"**Wallet"** ta&#x62;**,** click **"Networks".**  Alternatively, you can visit `brave://settings/wallet/networks` in the browser URL.
 
 <figure><img src="../.gitbook/assets/brave-settings.png" alt=""><figcaption></figcaption></figure>
 

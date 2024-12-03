@@ -66,14 +66,14 @@ Example:
 
 \
 \
-**#4 Query the trace info for all token denominations**
+&#xNAN;**#4 Query the trace info for all token denominations**
 
 ```
 ./cronosd q ibc-transfer denom-traces --node https://rpc-t3.cronos.org:443/
 ```
 
 \
-**#5 Query the denom hash info from a given denom trace**
+&#xNAN;**#5 Query the denom hash info from a given denom trace**
 
 ```
 ./cronosd q ibc-transfer denom-hash "transfer/channel-1/uatom" <hash>

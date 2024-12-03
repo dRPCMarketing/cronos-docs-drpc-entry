@@ -15,7 +15,7 @@ After migrating to VersionDB, you can then prune the IAVL tree to reclaim disk s
 The limitations of the setup with VersionDB and pruned IAVL tree are:
 
 * Currently, this solution is only recommended for **archive** and **non-validator nodes** to try (validator nodes are recommended to do pruning).
-* Different implementations exist for VersionDB. Our current implementation is based on **RocksDB'**s v7's experimental user-defined timestamp, which stores the data in a standalone **RocksDB** instance. it does not support other db backends yet. The other databases in the node still support multiple backends as before.
+* Different implementations exist for VersionDB. Our current implementation is based on **RocksDB'**&#x73; v7's experimental user-defined timestamp, which stores the data in a standalone **RocksDB** instance. it does not support other db backends yet. The other databases in the node still support multiple backends as before.
 * Does not support `eth_getProof, non-grpc / abci_query` for the historical versions that's pruned in IAVL tree. The other APIs should function just like an archive node as before.\
 
 
@@ -23,7 +23,7 @@ The limitations of the setup with VersionDB and pruned IAVL tree are:
 
 #### Step 1 - Extract from snapshot
 
-Download the archive snapshot from either Quicksync or from the [S3 link](https://cronos-mainnet-fullnode-datadir-backup-external-user.s3.ap-southeast-1.amazonaws.com/data/cronosmainnet\_25-1-versiondb-archive-20230810.tar.gz?X-Amz-Algorithm=AWS4-HMAC-SHA256\&X-Amz-Credential=AKIAU2KFOQGWRLYDYR3A%2F20230815%2Fap-southeast-1%2Fs3%2Faws4\_request\&X-Amz-Date=20230815T020338Z\&X-Amz-Expires=604800\&X-Amz-SignedHeaders=host\&X-Amz-Signature=9edc36d26ec7d21f61c9a2d8e8ce12321a769a736bc61858955649a9e3733f24) we have provided. After you have extracted the `.tar` into your `$NODE_HOME/data/versiondb` folder, you can continue to update config and restart.
+Download the archive snapshot from either Quicksync or from the [S3 link](https://cronos-mainnet-fullnode-datadir-backup-external-user.s3.ap-southeast-1.amazonaws.com/data/cronosmainnet_25-1-versiondb-archive-20230810.tar.gz?X-Amz-Algorithm=AWS4-HMAC-SHA256\&X-Amz-Credential=AKIAU2KFOQGWRLYDYR3A%2F20230815%2Fap-southeast-1%2Fs3%2Faws4_request\&X-Amz-Date=20230815T020338Z\&X-Amz-Expires=604800\&X-Amz-SignedHeaders=host\&X-Amz-Signature=9edc36d26ec7d21f61c9a2d8e8ce12321a769a736bc61858955649a9e3733f24) we have provided. After you have extracted the `.tar` into your `$NODE_HOME/data/versiondb` folder, you can continue to update config and restart.
 
 #### Step 2 - **Update config**
 
