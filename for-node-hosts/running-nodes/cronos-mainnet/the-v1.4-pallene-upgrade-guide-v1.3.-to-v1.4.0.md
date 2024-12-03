@@ -53,6 +53,18 @@ $ ./cronosd version
 1.4.0
 ```
 
+{% hint style="info" %}
+Note for version DB users - There are config changes as covered in the [release note](https://github.com/crypto-org-chain/cronos/releases/tag/v1.4.0).
+
+* For nodes using version DB: There is a new `versiondb` section, and it is suggested to update the  `app.toml` appropriate to the upgrade of v1.4:
+
+```
+[versiondb]
+# Enable defines if the versiondb should be enabled.
+enable = true
+```
+{% endhint %}
+
 ## Step 2. - Run everything
 
 We are ready to start the node join the network again with the new binary:
