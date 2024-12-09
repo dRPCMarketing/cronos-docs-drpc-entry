@@ -72,7 +72,7 @@
     * [The "Titan" upgrade guide (v1.0.\* to v1.1.0)](for-node-hosts/running-nodes/cronos-mainnet/huygen-3.md)
     * [The "v1.2" upgrade guide (v1.1.\* to v1.2.0)](for-node-hosts/running-nodes/cronos-mainnet/the-v1.2-upgrade-guide-v1.1.-to-v1.2.0.md)
     * [The "v1.3" upgrade guide (v1.2.\* to v1.3.0)](for-node-hosts/running-nodes/cronos-mainnet/the-v1.3-upgrade-guide-v1.2.-to-v1.3.0.md)
-    * [The "v1.4" Pallene upgrade guide (v1.3.\* to v1.4.0)](for-node-hosts/running-nodes/cronos-mainnet/the-v1.4-pallene-upgrade-guide-v1.3.-to-v1.4.0.md)
+    * [The "v1.4" Pallene upgrade guide (v1.3.\* to v1.4.1)](for-node-hosts/running-nodes/cronos-mainnet/the-v1.4-pallene-upgrade-guide-v1.3.-to-v1.4.1.md)
     * [Patching Unlucky & Duplicate Tx](for-node-hosts/running-nodes/cronos-mainnet/patching-unlucky-tx.md)
   * [Cronos Testnet](for-node-hosts/running-nodes/cronos-testnet.md)
   * [Devnet](for-node-hosts/running-nodes/local-devnet.md)

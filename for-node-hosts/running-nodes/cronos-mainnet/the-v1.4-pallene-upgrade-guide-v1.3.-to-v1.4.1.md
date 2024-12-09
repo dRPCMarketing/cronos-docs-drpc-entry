@@ -1,9 +1,9 @@
-# The "v1.4" Pallene upgrade guide (v1.3.\* to v1.4.0)
+# The "v1.4" Pallene upgrade guide (v1.3.\* to v1.4.1)
 
 {% hint style="warning" %}
-The Cronos v1.4.0 - "Pallene" upgrade is proposed to be scheduled at the block height of 17,155,000. Referencing estimated time can be found [here](https://explorer.cronos.org/block/countdown/17155000).
+The Cronos v1.4 - "Pallene" upgrade is proposed to be scheduled at the block height of 17,155,000. Referencing estimated time can be found [here](https://explorer.cronos.org/block/countdown/17155000).
 
-**DO NOT UPGRADE to the binary v1.4.0 before that suggested upgrade schedule.**
+**DO NOT UPGRADE to the binary v1.4.1 before that suggested upgrade schedule.**
 
 You might check the current block height with the [Cronos Explorer](https://explorer.cronos.org/)
 {% endhint %}
@@ -13,7 +13,7 @@ You might check the current block height with the [Cronos Explorer](https://expl
 At the point of the proposed upgrade, the user will see the error message on the `cronosd` similar to the below:
 
 ```bash
-ERR UPGRADE "v1.4.0" NEEDED at height: 17155000.: {\"binaries\":{...."}}
+ERR UPGRADE "v1.4" NEEDED at height: 17155000.: {\"binaries\":{...."}}
 ```
 
 **Don't panic** - The Chain will be paused to allow the majority of validators to upgrade. Validators and full node hosts will have to upgrade your Cronos nodes to the latest release binary.
@@ -22,15 +22,15 @@ ERR UPGRADE "v1.4.0" NEEDED at height: 17155000.: {\"binaries\":{...."}}
 
 Before the upgrade, node hosts are encouraged to take a complete data backup. backup depends heavily on infrastructure, but generally, we can do this by backing up the `.cronos` directory.
 
-## Step 1 - Get the `v1.4.0` binary
+## Step 1 - Get the `v1.4.1` binary
 
 To simplify the following step, we will be using **Linux-x86** for illustration. Binary for Mac Windows with different DB and architecture are also available [here](https://github.com/crypto-org-chain/cronos/releases/tag/v1.4.0).
 
-*   Terminate the `cronosd`; afterwards, download the `1.4.0` released binaries from github:
+*   Terminate the `cronosd`; afterwards, download the `1.4.1` released binaries from github:
 
     ```bash
-    $ curl -LOJ https://github.com/crypto-org-chain/cronos/releases/download/v1.4.0/cronos_1.4.0_Darwin_x86_64.tar.gz
-    $ tar -zxvf cronos_1.4.0_Darwin_x86_64.tar.gz
+    $ curl -LOJ https://github.com/crypto-org-chain/cronos/releases/download/v1.4.1/cronos_1.4.1_Darwin_x86_64.tar.gz
+    $ tar -zxvf cronos_1.4.1_Darwin_x86_64.tar.gz
     ```
 
 {% hint style="info" %}
@@ -45,12 +45,12 @@ And replace the binary in the location where the `ExecStart` states in Systemd U
 
 ### Step 1.1 - Verify the version
 
-You can verify the installation by checking the version of `cronosd`, the latest version is `1.4.0`.
+You can verify the installation by checking the version of `cronosd`, the latest version is `1.4.1`.
 
 ```bash
 # check the version of cronosd
 $ ./cronosd version
-1.4.0
+1.4.1
 ```
 
 {% hint style="info" %}
@@ -79,7 +79,7 @@ We are ready to start the node join the network again with the new binary:
 Remark: Once the `cronosd` is started we will see the message
 
 ```bash
-applying upgrade "v1.4.0" at height: 17155000"
+applying upgrade "v1.4" at height: 17155000"
 ```
 
 and there will be an iteration over the previous blockchain data. This process will take a while, which is depending on the size of the database and the hardware specs.
