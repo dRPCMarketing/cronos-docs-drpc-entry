@@ -24,7 +24,7 @@ Before the upgrade, node hosts are encouraged to take a complete data backup. ba
 
 ## Step 1 - Get the `v1.4.1` binary
 
-To simplify the following step, we will be using **Linux-x86** for illustration. Binary for Mac Windows with different DB and architecture are also available [here](https://github.com/crypto-org-chain/cronos/releases/tag/v1.4.0).
+To simplify the following step, we will be using **Linux-x86** for illustration. Binary for Mac Windows with different DB and architecture are also available [here](https://github.com/crypto-org-chain/cronos/releases/tag/v1.4.1).
 
 *   Terminate the `cronosd`; afterwards, download the `1.4.1` released binaries from github:
 
@@ -54,7 +54,7 @@ $ ./cronosd version
 ```
 
 {% hint style="info" %}
-Note for version DB users - There are config changes as covered in the [release note](https://github.com/crypto-org-chain/cronos/releases/tag/v1.4.0).
+Note for version DB users - There are config changes as covered in the [release note](https://github.com/crypto-org-chain/cronos/releases/tag/v1.4.1).
 
 * For nodes using version DB: There is a new `versiondb` section, and it is suggested to update the  `app.toml` appropriate to the upgrade of v1.4:
 
