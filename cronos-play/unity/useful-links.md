@@ -5,7 +5,6 @@
 * [Unity official website](https://unity.com/)
 * [Openzeppelin](https://docs.openzeppelin.com/)
 * [Remix IDE](https://remix.ethereum.org/)
-* [Cronos-ChainSafe-Unity-sample](https://github.com/crypto-org-chain/cronos-docs/blob/master/docs/play/assets/cronos-chainsafe-unity-sample.unitypackage.zip)
 * [Cronos Play Unreal SDK plugin repository](https://github.com/cronos-labs/play-unreal-plugin)
-* [Cronos Play Unreal Engine Marketplace](https://www.unrealengine.com/marketplace/en-US/product/cronos-play-for-unreal-engine)
+* [Cronos Play Unreal Engine Marketplace](https://www.fab.com/listings/72132d30-7650-4f3c-8e51-d1a9745ac7e4)
 * Email: [contact@cronoslabs.org](mailto:contact@cronoslabs.org)

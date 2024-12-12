@@ -1,9 +1,9 @@
 ---
-cover: ../../.gitbook/assets/cronosplay.png
+cover: ../.gitbook/assets/cronosplay.png
 coverY: 0
 ---
 
-# 🎮 Cronos Play
+# Introduction
 
 GameFi refers to the monetisation of gaming. Similar to the term DeFi, or decentralised finance, GameFi combines the words “game” and “finance.” In this section, we introduce the concept of GameFi in the context of blockchain game development. The objective of this section is to demonstrate how to bridge games to the Cronos EVM Chain, using Unity, Unreal Engine, or any related C++ game engine.
 
@@ -30,8 +30,7 @@ This documentation showcases the Cronos Play Gaming SDK integration with the Cro
 
 ### Useful Links
 
-* Community chatrooms (non-technical): [Discord](https://discord.gg/nsp9JTC) [Telegram](https://t.me/CryptoComOfficial)
-* Developer community channel (technical): [![Support Server](https://img.shields.io/discord/783264383978569728.svg?color=7289da\&label=Crypto.org%C2%A0Chain)](https://discord.gg/pahqHz26q4)
+*
 * [Cronos official website](https://cronos.crypto.org/)
 * [ChainSafe official website](https://gaming.chainsafe.io/)
 * [Unity official website](https://unity.com/)

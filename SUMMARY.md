@@ -85,7 +85,7 @@
 
 ## CRONOS PLAY
 
-* [🎮 Introduction](cronos-play/cronos-play.md)
+* [Introduction](cronos-play/cronos-play.md)
 * [Unity Engine](cronos-play/unity/README.md)
   * [Current Version](cronos-play/unity/current-version.md)
   * [Legacy Version](cronos-play/unity/legacy-version/README.md)

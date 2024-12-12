@@ -27,7 +27,7 @@ Updating the SDK is easy. Simply go to `window` -> `package manager` -> select t
 
 As the package is installed, you'll be prompted with the settings window. First of all you have to set up your `Project ID`. You can get one [here](https://dashboard.gaming.chainsafe.io/).
 
-For more information on Project ID, see [Project ID Registration](https://docs.gaming.chainsafe.io/current/project-id-registration).
+For more information on Project ID, see [Project ID Registration](https://docs.gaming.chainsafe.io/current/getting-started/#chainsafe-server-settings).
 
 After you've completed the registration process, copy your `Project ID` into the project settings window. Save settings. You should see a message in the console saying your `Project ID` is valid.
 
@@ -167,4 +167,4 @@ async void Start()
 
 ### Configuration
 
-For Additional configuration, please refer to the official Chainsafe Documentation [here](https://docs.gaming.chainsafe.io/current/configuration).
+For Additional configuration, please refer to the official Chainsafe Documentation [here](https://docs.gaming.chainsafe.io/current/getting-started).

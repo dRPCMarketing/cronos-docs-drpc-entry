@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # 2D Game Example
 
 ### Overview
@@ -68,7 +72,7 @@ Network Name: **Cronos Testnet**
 
 ***
 
-\* For acquiring the NFT, you can create your own (see [Reference #2](play.md#\_2-smart-contract)), or mint an ERC721 NFT at our [Cronos NFT faucet](https://cronos.org/nft-faucet) (see [Reference #3](play.md#\_3-nft-faucet)).
+\* For acquiring the NFT, you can create your own (see [Reference #2](play.md#_2-smart-contract)), or mint an ERC721 NFT at our [Cronos NFT faucet](https://cronos.org/nft-faucet) (see [Reference #3](play.md#_3-nft-faucet)).
 
 ***
 

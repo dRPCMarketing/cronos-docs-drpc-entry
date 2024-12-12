@@ -37,7 +37,7 @@ This project includes [Tutorials](https://github.com/cronos-labs/play-unreal-dem
 * Mac: XCODE 13.2.1
 * Android: NDK 21.4.7075529
 * IOS: Minimum IOS 14
-* Plugin: Cronos Play For Unreal Engine, `4.27` branch of [play-unreal-plugin](https://github.com/cronos-labs/play-unreal-plugin/issues/new) repository
+* Plugin: Cronos Play For Unreal Engine, `4.27` branch of [play-unreal-plugin](https://github.com/cronos-labs/play-unreal-plugin/releases) repository
 
 **Features**
 
