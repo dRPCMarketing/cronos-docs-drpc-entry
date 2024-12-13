@@ -30,7 +30,7 @@ This documentation showcases the Cronos Play Gaming SDK integration with the Cro
 
 ### Useful Links
 
-*
+* [Cronos Discord Community](https://discord.gg/cronos)
 * [Cronos official website](https://cronos.crypto.org/)
 * [ChainSafe official website](https://gaming.chainsafe.io/)
 * [Unity official website](https://unity.com/)
