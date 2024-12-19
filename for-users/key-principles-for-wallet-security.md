@@ -80,13 +80,38 @@ Understanding and recognising common scams is crucial for protecting your crypto
 
 ### **1. Rug-pulls**
 
-Rug Pulls are schemes where scammers create tokens, inflate their value through promotion, and then sell off their holdings, leaving investors with worthless tokens.
+A rug pull is a type of scam that involves a team raising money from investors and the public by selling a token only to quietly shut down the project or suddenly disappear, stealing the raised funds and leaving “investors” (i.e., their victims) with worthless tokens.
 
-**How to avoid Rug-pulls**
+#### **Key Features**
 
-* Research the token’s history and distribution.
-* Look for aggressive promotion or unusual patterns in token distribution.
-* Evaluate the token’s utility and purpose.
+Rug pulls can be extensively orchestrated, with nefarious actors leveraging social media influencers and hype-generating campaigns to lure as many victims as possible. Some scams even use trusted key opinion leaders in the social space to gain trust. Others promise extremely high yields or offer exclusive digital goods, as seen in NFT rug pulls.
+
+Crypto rug pulls can also occur when the project’s owners manipulate the value of a particular token or coin to deceive investors and subsequently siphon off their investments. Fraudsters often attract victims with a sudden, sharp increase in the token’s value in a short period. \
+Once the price peaks, the people behind the token sell it to generate a profit while leaving “investors” with steep losses. Rug pulls often occur on decentralized trading platforms, enabling the fraudster to benefit from the pseudonymity of DEXs.
+
+#### **Types**&#x20;
+
+Rug pulls can generally be categorized into hard and soft rug pulls.
+
+* Hard rug pulls: Sudden and severe, where project creators execute a complete exit, often by draining liquidity or manipulating the smart contract. Investors lose all their funds almost instantly.
+* Soft rug pulls: Gradual exit scams where the development team slowly reduces activity or support for the project while still maintaining appearances, leading to a gradual decline in value.
+
+#### Common types of rug pulls include:
+
+* Liquidity Pulls: Malicious actors remove liquidity from a token pool, causing the token’s value to plummet due to a lack of buyers and sellers.
+* Fake Projects: Scammers create seemingly legitimate projects, gather investments, and then disappear with the funds, leaving investors with worthless tokens.
+* Pump and Dump: Fraudsters artificially inflate the price of a token through coordinated buying, only to sell their holdings at the peak and crash the value.
+* Team Exit: The project’s team members suddenly disappear or exit, ceasing support and updates, leaving investors with no support and a collapsing token.
+
+#### **How to Identify & Avoid Rug-pulls**
+
+Identifying and avoiding rug pulls requires a combination of diligence and caution. Here’s how you can protect yourself:
+
+* Thorough research: Investigate the project’s team, technology, goals, and community before investing. Be cautious of anonymous teams or limited information.
+* Security audits: Reputable projects often undergo a reputable third-party security audit. Check if the project has been audited and review the audit report for vulnerabilities.
+* Community engagement: Engage with the project’s community on social media and forums. An active and engaged community is often a positive sign of legitimacy.
+* Warning signs: Be cautious of unrealistic returns and yields, excessive marketing hype, and pressure to invest quickly or unusual patterns in token distribution. &#x20;
+* Token Utility: Ensure the token has a clear and useful purpose rather than being created solely for speculation. Projects with practical use cases are more likely to be legitimate.
 
 ### **2. Airdrop Scams**
 
@@ -171,6 +196,8 @@ It is common for crypto users to only glance at the first and last several chara
 * Conduct test transactions when transferring significant amounts of digital assets. Send a small amount first to make sure that the recipient address is correct.
 * Be vigilant with copying and pasting. Malware can alter clipboard content to replace your copied address with one owned by a scammer. Always recheck the address after pasting and consider typing out some characters manually.
 
-By understanding which data is important, recognising common tactics used by scammers and taking appropriate precautions users can effectively protect their wallets and funds. Always be cautious and verify the authenticity of websites and services before interacting with them. Remember, in the decentralised world of crypto, you are the primary custodian of your assets.&#x20;
+By understanding which data is important, recognising common tactics used by scammers and taking appropriate precautions users can effectively protect their wallets and funds. Always be cautious and verify the authenticity of websites and services before interacting with them.&#x20;
 
-Stay informed, stay vigilant, and protect your investments.\
+&#x20;Always ensure you only invest money you can afford to lose. Many cryptocurrency projects are experimental, and sometimes the failure of an idea can lead to the team doing a soft rug pull, which means they quietly stop supporting the project.\
+\
+Remember, in the decentralised world of crypto, you are the primary custodian of your assets. Stay informed, stay vigilant, and protect your investments.\
