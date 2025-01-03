@@ -57,6 +57,7 @@
   * [Secret Network](for-dapp-developers/dev-tools-and-integrations/secret-network.md)
   * [SubQuery](for-dapp-developers/dev-tools-and-integrations/subquery.md)
   * [Witnet](for-dapp-developers/useful-projects-on-cronos/witnet.md)
+* [Crypto.com AI Agent SDK](for-dapp-developers/crypto.com-ai-agent-sdk.md)
 
 ## FOR NODE HOSTS
 
