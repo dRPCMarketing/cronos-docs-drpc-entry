@@ -55,15 +55,15 @@ If you are sending large numbers of transactions from your backend, consider set
 Mainnet
 
 * [https://1rpc.io/cro](https://1rpc.io/cro) (automata)
-* [https://cronos-mainnet-rpcaas.blockdaemon.tech/eth\_rpc](https://cronos-mainnet-rpcaas.blockdaemon.tech/eth\_rpc) (Blockdaemon)
+* [https://cronos-mainnet-rpcaas.blockdaemon.tech/eth\_rpc](https://cronos-mainnet-rpcaas.blockdaemon.tech/eth_rpc) (Blockdaemon)
 {% endtab %}
 {% endtabs %}
 
 ### Commercial node providers
 
 * Moralis:
-  * [Moralis Nodes](https://moralis.io/nodes/?utm\_source=cronos-docs\&utm\_medium=partner-docs)
-  * [Moralis Youtube Tutorials](https://www.youtube.com/@MoralisWeb3)
+  * [Moralis Nodes](https://moralis.io/nodes/?utm_source=cronos-docs\&utm_medium=partner-docs)
+  * [Moralis YouTube Tutorials](https://www.youtube.com/@MoralisWeb3)
 * Blockdaemon:
   * [Blockdaemon landing page](https://blockdaemon.com/protocols/cronos/)
 * RockX:

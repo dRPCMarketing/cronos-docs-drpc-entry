@@ -33,7 +33,7 @@ canonicalUrl: https://docs.cronos.org/chain-details/genesis_file.html
 
 # Genesis
 
-The `genesis.json` file defines the initial state of the Crypto.org Chain. On top of the standard [tendermint genesis](https://docs.tendermint.com/master/tendermint-core/using-tendermint.html#genesis) format, we customize our own genesis file that includes different [modules](genesis\_file.md#module\_overview) and facilitates the special features of the Crypto.org Chain. Sample genesis file can be found [here](https://github.com/crypto-org-chain/cronos-mainnet/blob/master/cronosmainnet\_25-1/genesis.json).
+The `genesis.json` file defines the initial state of the Cronos Chain. On top of the standard [tendermint genesis](https://docs.tendermint.com/v0.33/tendermint-core/using-tendermint.html#genesis) format, we customize our own genesis file that includes different [modules](https://docs.cronos.org/~/changes/a4CtpNfKT3gnzLfuEveQ/cronos-chain-protocol/module_overview) and facilitates the special features of the Cronos Chain. Sample genesis file can be found [here](https://github.com/crypto-org-chain/cronos-mainnet/blob/master/cronosmainnet_25-1/genesis.json).
 
 ## Fields in genesis
 

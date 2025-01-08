@@ -8,8 +8,8 @@ description: Planning to release a dApp on Cronos? Here is what you need to know
 
 Don’t forget to follow these Twitter accounts to receive key announcements:
 
-* [Cronos](https://twitter.com/cronos\_chain)
-* [Cronos Labs](https://twitter.com/cronos\_labs)
+* [Cronos](https://twitter.com/cronos_chain)
+* [Cronos Labs](https://twitter.com/cronos_labs)
 
 **Subscribe to the Cronos newsletter:**
 
@@ -21,8 +21,8 @@ Don’t forget to follow these Twitter accounts to receive key announcements:
 
 [Cronos Labs](https://cronoslabs.org) can help most dapp creators to enhance the visibility of their product in the Cronos user community. However, Cronos Labs is generally not able to promote token or NFT sales. The following support is available to dapp creators:
 
-* Technical support via [Discord](https://crofam.me/discord) and [Telegram](https://t.me/Cronos\_Announcements).
-* Amplification of product launches / feature releases on [social media](https://twitter.com/cronos\_chain) and in the [Cronos newsletter](https://blog.cronos.org).
+* Technical support via [Discord](https://crofam.me/discord) and [Telegram](https://t.me/Cronos_Announcements).
+* Amplification of product launches / feature releases on [social media](https://twitter.com/cronos_chain) and in the [Cronos newsletter](https://blog.cronos.org).
 * Participation in [Cronos video streams / AMAs](https://crofam.me/youtube).
 * Project listing at [discover.cronos.org](https://discover.cronos.org) and on various partner platforms (Crypto.com Onchain Wallet, Defillama, Dappradar, etc.).
 * Introductions to other dapps, key opinion leaders and project launchpads.
@@ -51,7 +51,7 @@ Don’t forget to follow these Twitter accounts to receive key announcements:
 **How can I get my project featured in Trust Wallet, once deployed on Cronos?**
 
 * [Trust Wallet](https://trustwallet.com/) supports the Cronos mainnet from within the in-app Dapp browser (via the injected Web3 provider) and also via Wallet Connect.
-* You can contact the Trust Wallet team to have your Dapp and/or token featured in the Trust Wallet’s mobile Dapp browser. Refer to the [documentation](https://developer.trustwallet.com/listing-guide) for more details.
+* You can contact the Trust Wallet team to have your Dapp and/or token featured in the Trust Wallet’s mobile Dapp browser. Refer to the [documentation](https://developer.trustwallet.com/developer/listing-new-dapps/listing-guide) for more details.
 
 **How can I get my NFT collection allow-listed on the relevant NFT platforms?**
 
@@ -69,13 +69,12 @@ Don’t forget to follow these Twitter accounts to receive key announcements:
 **Are there other ways to advertise my project, products or services to other app developers, investors or partners of the Cronos ecosystem?**
 
 * Yes! Please email [contact@cronoslabs.org](mailto:contact@cronoslabs.org) or notify the Cronos Labs team by Telegram if you have major product launch announcements, have reached key milestones (number of daily transactions, number of users, trading volume) or have published interesting pieces of content.
-* Contact @[NewsCronos](https://twitter.com/NewsCronos) and @[TheCronicleNews](https://twitter.com/TheCronicleNews) to get the word out about your project.
-* Consider listing your project on [Defillama](https://defillama.com/), [Dappradar](https://dappradar.com/) and on the Alchemy Dapp store ([https://www.alchemy.com/dapps](https://www.alchemy.com/dapps)).
+* Contact [Cronos](https://x.com/cronos_chain) and [TheCronicleNews](https://twitter.com/TheCronicleNews) on [X.com](https://x.com/) to get the word out about your project.
+* Consider listing your project on [Defillama](https://defillama.com/), [Dappradar](https://dappradar.com/) and on the [Alchemy Dapp ](https://www.alchemy.com/dapps)store.
 
 **How can I apply for Cronos ecosystem grant support?**
 
-* Cronos Labs can facilitate access to the [Cronos Builders Program](https://cronoslabs.org/cronos-builders-program) and the [Cronos Ecosystem Grants](https://cronos.org/grants) program (click on these links for details).
-* You can visit [https://cronos.org/grants](https://cronos.org/grants) for information.
+* Cronos Labs can facilitate access to the [Cronos Builders Program](https://cronoslabs.org/cronos-builders-program) and the [Cronos Ecosystem Grants](https://cronos.org/grants) program.
 
 **How can I apply for the Cronos accelerator program?**
 

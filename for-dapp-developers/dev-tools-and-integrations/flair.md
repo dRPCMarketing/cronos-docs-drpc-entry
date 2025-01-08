@@ -8,7 +8,7 @@ description: Real-time and historical custom data indexing for any evm chain.
 
 Real-time and historical custom data indexing for any evm chain.
 
-[Flair](https://flair.dev/) offers reusable **indexing primitives** (such as fault-tolerant RPC ingestors, custom processors, re-org aware database integrations) to make it easy to receive, transform, store and access your on-chain data.
+[Flair](https://docs.flair.dev/) offers reusable **indexing primitives** (such as fault-tolerant RPC ingestors, custom processors, re-org aware database integrations) to make it easy to receive, transform, store and access your on-chain data.
 
 
 
@@ -16,15 +16,16 @@ Real-time and historical custom data indexing for any evm chain.
 
 ### Why Flair? <a href="#user-content-why-flair" id="user-content-why-flair"></a>
 
-Compared to other alternatives the main reasons are:
+Compared to other alternatives the main reasons why are:
 
 * 🚀 Adopting **parallel and distributed processing** paradigm means high scalability and resiliency for your indexing stack. Instead of constrained sequential processing (e.g Subgraph).
-* 🧩 Focused on **primitives**, which means on the left you plug-in an RPC and on the right you output the data to any destination database.
-* 🚄 Native **real-time stream processing** for certain data workload (such as aggregations, rollups) for things like total volume per pool, or total portfolio per user wallet.
-* ☁️ **Managed** cloud services avoid DevOps and irrelevant engineering costs for dApp developers.
-* 🧑‍💻 Avoid decentralization **overhead** (consensus, network hops, etc) since we believe to enable best UX for dApps reading data must be as close to the developers as possible.
+* 🧩 Work out-of-box with **any EVM chain**, you plug-in an RPC and indexer starts.
+* 🚄 Native **real-time stream processing** for certain data workload (such as aggregations, rollups) for things like total volume per pool.
+* **☁️ Managed** cloud services avoid DevOps and irrelevant engineering costs for dApp developers.
 
-#### Features <a href="#user-content-features" id="user-content-features"></a>
+{% embed url="https://youtu.be/rUczQjRnDaM" %}
+
+#### Features <a href="#features" id="features"></a>
 
 * ✅ Listen to **any EVM chain** with just an RPC URL.
   * Free managed RPC URLs for +8 popular chains already included.
@@ -33,9 +34,9 @@ Compared to other alternatives the main reasons are:
   * Auto-track new contracts deployed from factory contracts.
 * ✅ **Custom processor scripts** with Javascript runtime (with **Typescript** support)
   * Make external API or Webhook calls to third-party or your backend.
-  * Get current or historical USD value of any ERC20 token amount of any contract address on any chain.
+  * Get current or historical USD value of any ERC20 token amount of any contract address on any chain
   * Use any external NPM library.
-* ✅ **Stream** any stored data to your destination database (Postgres, MongoDB, MySQL, Kafka, Elasticsearch, Timescale, etc).
+* ✅ **Stream** any stored data to your destination database (Postgres, MognoDB, Kafka, Elasticsearch, Timescale, etc)
 
 ### Getting Started <a href="#user-content-getting-started" id="user-content-getting-started"></a>
 
@@ -46,13 +47,11 @@ git clone https://github.com/flair-sdk/starter-boilerplate.git
 # ... follow instructions in README.md
 ```
 
-:::info
-
+{% hint style="info" %}
 Boilerplate instructions will create a **new cluster**, generate **an API Key**, and set up a manifest.yml to index your **first contract** with **sample custom processor** scripts.
 
 Learn more about the [structure of manifest.yml](https://docs.flair.dev/reference/manifest.yml).
-
-:::
+{% endhint %}
 
 2️⃣ Configure Cronos RPC nodes
 

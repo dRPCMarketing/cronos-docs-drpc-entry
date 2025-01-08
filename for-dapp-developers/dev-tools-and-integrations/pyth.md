@@ -2,7 +2,7 @@
 
 ### Overview
 
-[Pyth Network](https://pyth.network/) is one of the largest first-party Oracle network, delivering real-time data across [a vast number of chains](https://docs.pyth.network/price-feeds/contract-addresses). The network comprises some of the world’s[largest exchanges, market makers, and financial services providers](https://pyth.network/publishers). These publish proprietary data on-chain for aggregation and distribution to smart contract applications.
+[Pyth Network](https://pyth.network/) is one of the largest first-party Oracle network, delivering real-time data across [a vast number of chains](https://docs.pyth.network/price-feeds/contract-addresses). The network comprises some of the world’s [largest exchanges, market makers, and financial services providers](https://pyth.network/publishers). These publish proprietary data on-chain for aggregation and distribution to smart contract applications.
 
 ### Using Pyth Network on Cronos EVM
 
@@ -43,9 +43,9 @@ contract MyFirstPythContract {
 }
 ```
 
-Here you can fetch the `updateData` from Pyth's [`Hermes`](https://hermes.pyth.network/docs/), which listens to Pythnet and Wormhole for price updates; or you can use the [`pyth-evm-js`](https://github.com/pyth-network/pyth-crosschain/blob/main/target\_chains/ethereum/sdk/js/src/EvmPriceServiceConnection.ts#L15) SDK. Check [How to Fetch Price Updates](https://docs.pyth.network/price-feeds/fetch-price-updates) to pull the latest data.
+Here you can fetch the `updateData` from Pyth's [`Hermes`](https://hermes.pyth.network/docs/), which listens to Pythnet and Wormhole for price updates; or you can use the [`pyth-evm-js`](https://github.com/pyth-network/pyth-crosschain/blob/main/target_chains/ethereum/sdk/js/src/EvmPriceServiceConnection.ts#L15) SDK. Check [How to Fetch Price Updates](https://docs.pyth.network/price-feeds/fetch-price-updates) to pull the latest data.
 
-This [package](https://github.com/pyth-network/pyth-crosschain/tree/main/target\_chains/ethereum/sdk/solidity) provides utilities for consuming prices from the Pyth network oracle using Solidity. Also, it contains the [Pyth Interface ABI](https://github.com/pyth-network/pyth-crosschain/blob/main/target\_chains/ethereum/sdk/solidity/abis/IPyth.json) that you can use in your libraries to communicate with the Pyth contract.
+This [package](https://github.com/pyth-network/pyth-crosschain/tree/main/target_chains/ethereum/sdk/solidity) provides utilities for consuming prices from the Pyth network oracle using Solidity. Also, it contains the [Pyth Interface ABI](https://github.com/pyth-network/pyth-crosschain/blob/main/target_chains/ethereum/sdk/solidity/abis/IPyth.json) that you can use in your libraries to communicate with the Pyth contract.
 
 It is generally recommended to follow the [consumer best practices](https://docs.pyth.network/documentation/pythnet-price-feeds/best-practices) when consuming Pyth data.
 
@@ -64,7 +64,7 @@ Additionally, click to access the [Pyth price-feed IDs](https://pyth.network/dev
 
 ### Using Pyth as a PUSH Oracle
 
-Pyth Oracle can be used as a Push oracle by running a scheduler which can update the prices in the backend. Checkout the open source [price pusher](https://github.com/pyth-network/pyth-crosschain/tree/main/apps/price\_pusher) app to get started with the scheduler.
+Pyth Oracle can be used as a Push oracle by running a scheduler which can update the prices in the backend. Checkout the open source [price pusher](https://github.com/pyth-network/pyth-crosschain/tree/main/apps/price_pusher) app to get started with the scheduler.
 
 ### Developers and community
 

@@ -6,7 +6,7 @@ description: Quick-start resource if you are hacking and need to integrate with 
 
 ## Overview of Cronos chain
 
-[Cronos](https://cronos.org/) ([cronos.org](http://cronos.org)) is the leading Ethereum-compatible layer 1 blockchain network built on the Cosmos SDK, supported by [Crypto.com](http://crypto.com), [Crypto.org](http://crypto.org) and more than 500 app developers and partners. Today, the #CROfam ecosystem represents an addressable user base of more than 80 million people worldwide. Our mission is to make it easy and safe for the next billion crypto users to adopt Web3, with a focus on DeFi and GameFi.
+[Cronos](https://cronos.org/) is the leading Ethereum-compatible layer 1 blockchain network built on the Cosmos SDK, supported by [Crypto.com](http://crypto.com), [Cronos.org](http://crypto.org) and more than 500 app developers and partners. Today, the #CROfam ecosystem represents an addressable user base of more than 80 million people worldwide. Our mission is to make it easy and safe for the next billion crypto users to adopt Web3, with a focus on DeFi and GameFi.
 
 [Broken link](broken-reference "mention")
 
@@ -25,7 +25,7 @@ The native cryptocurrency of Cronos mainnet is CRO, while the testnet uses TCRO.
 * Cronos docs: [https://docs.cronos.org](https://docs.cronos.org)
 * Cronos Play (for game developers): [https://cronos.org/play](https://cronos.org/play)
 * [Why build on Cronos](https://blog.cronos.org/p/why-build-grow-on-cronos-692da1de7885)
-* Cronos overview by Eat The Blocks: [https://www.youtube.com/watch?v=NqeeKEJiPZU](https://www.youtube.com/watch?v=NqeeKEJiPZU)
+* Cronos overview by [Eat The Blocks](https://www.youtube.com/watch?v=NqeeKEJiPZU)
 
 **MetaMask end-user configuration**
 
@@ -87,17 +87,17 @@ The native cryptocurrency of Cronos mainnet is CRO, while the testnet uses TCRO.
 
 **Essential tutorials / boilerplates**
 
-* [Deploy and verify your smart contracts](https://github.com/kentimsit/cronos-hardhat-boilerplate) (see Readme for instructions)
-* [Build a Dapp: how to connect and interact with Web3 wallets on Cronos](chain-integration/web3-wallet.md) (see Readme for instructions)
+* [Deploy and verify your smart contracts](https://github.com/kentimsit/cronos-hardhat-boilerplate)
+* [Build a Dapp: how to connect and interact with Web3 wallets on Cronos](chain-integration/web3-wallet.md)&#x20;
 * [Create & deploy a smart contract with OpenZeppelin Wizard and Remix](https://cronoslabs.substack.com/p/cronos-developer-series-create-deploy-a-smart-contract-with-openzeppelin-wizard-and-remix-5b6769fc8b93) (low code version)
 
 **Other useful tutorials**
 
-* Create an end to end Web3 application: [smart contract](https://github.com/cronos-labs/cronos-accelerator-workshop-hardhat) and [front-end client](https://github.com/cronos-labs/cronos-accelerator-workshop-client) (repositories)
+* Create an end to end Web3 application: [smart contract](https://github.com/cronos-labs/cronos-accelerator-workshop-hardhat) and [front-end client](https://github.com/cronos-labs/cronos-accelerator-workshop-client) (GitHub)
 * [Create a NFT collection on Cronos and IPFS](https://cronoslabs.substack.com/p/cronos-developer-series-build-a-simple-dapp-with-react-crypto-com-defi-wallet-and-metamask-87c37ccd589f)
-* [Create dApps on Cronos chain](https://www.youtube.com/watch?v=lKzzyUXPeRk) (video)
+* [ Get Started with Cronos Chain](https://www.youtube.com/watch?v=lKzzyUXPeRk) (video)
 * [Build your Web3 Game with Cronos Play](https://www.youtube.com/watch?v=lmM7HgXDZ2w) (video)
-* [How to win a hackathon](https://www.youtube.com/watch?v=kyMg0jtuT-8\&t=29s) (video)
+* [Cronos Metaverse Gaming Hackathon](https://www.youtube.com/live/kyMg0jtuT-8?si=Tr8ARBJalFsm11zt) (video)
 
 ## Essential developer tools 💻
 
@@ -116,15 +116,15 @@ Create games
 * Cronos Play overview: [Cronos Play](https://cronos.org/docs/play/cronos-gamefi-integraton.html)
 * Javascript SDK: [Moralis](https://moralis.io/)
 * Unity plugin: [docs](https://cronos.org/docs/play/getting-started.html) and [repo](https://github.com/ChainSafe/web3.unity)
-* Unreal plugin: [docs](https://cronos.org/docs/play/getting-started\_unreal.html#pre-requisites), [repo](https://github.com/cronos-labs/play-unreal-plugin) and [demo](https://github.com/cronos-labs/play-unreal-demo)
-* C++ SDK: [docs](https://cronos.org/docs/play/getting-started\_cpp.html#pre-requisites) and [repo](https://github.com/cronos-labs/play-cpp-sdk)
+* Unreal plugin: [docs](https://cronos.org/docs/play/getting-started_unreal.html#pre-requisites), [repo](https://github.com/cronos-labs/play-unreal-plugin) and [demo](https://github.com/cronos-labs/play-unreal-demo)
+* C++ SDK: [repo](https://github.com/cronos-labs/play-cpp-sdk)
 * [Full list of available dev tools and integration](useful-projects-on-cronos/overview-of-dev-tools-and-integrations.md)
 
 ## Developer support ☎️
 
-Please visit the #cronos-mainnet-beta channel on the Cronos [Discord](https://discord.com/invite/pahqHz26q4) server.
+Please visit the [#dev-mainnet ](https://discord.com/channels/783264383978569728/823481249179107389)channel on the Cronos [Discord](https://discord.com/invite/pahqHz26q4) server.
 
 Feedback is a gift! [Let us know](mailto:contact@cronoslabs.org) if there is anything that we can improve in this documentation.
 
-Socials: [Twitter](https://twitter.com/cronos\_chain) | [Telegram](https://t.me/Cronos\_Announcements) | [Discord](https://discord.com/invite/cronos) | [Youtube](https://www.youtube.com/@cronos\_chain)
+Socials: [X](https://twitter.com/cronos_chain) | [Telegram](https://t.me/Cronos_Announcements) | [Discord](https://discord.com/invite/cronos) | [YouTube](https://www.youtube.com/@cronos_chain)
 

@@ -82,7 +82,7 @@ const sendGetRequest = (query: string): void => {
 Here are additional resources to help you get started with Banxa:
 
 * [Introduction and how to get started with Banxa](https://docs.banxa.com/docs)
-* [Generating HMAC Auth](https://docs.banxa.com/recipes)
+* [Generating HMAC Auth](https://docs.banxa.com/docs/step-1-prerequisites#authentication)
 * [API References](https://docs.banxa.com/reference/get-fiat-currencies)
 * [Changelog](https://docs.banxa.com/changelog)
 

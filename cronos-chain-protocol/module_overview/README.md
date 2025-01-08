@@ -173,7 +173,7 @@ This mechanism aims to incentivize non-empty block proposals, better networking 
 
 The `community_tax` is the tax rate to the reward obtained by the validator. Specifically, part of the reward will be taxed and send to the community pool. The funds in the community pool can be withdrawn by submitting a community pool spend proposal with the [gov module](./#gov).
 
-Even if the `community_tax` is set to be zero, the balance of the community pool could be non-zero. For example, the truncated remainder in some accounting edge cases will be sent to the community pool as well. Besides that, users can fund the community pool voluntary, and there could be funds allocated to the community pool in the [genesis](../genesis\_file.md).
+Even if the `community_tax` is set to be zero, the balance of the community pool could be non-zero. For example, the truncated remainder in some accounting edge cases will be sent to the community pool as well. Besides that, users can fund the community pool voluntary, and there could be funds allocated to the community pool in the [genesis](../genesis_file.md).
 
 ### Transactions and Queries
 
@@ -260,7 +260,7 @@ The `gov` module enables on-chain governance which allows Cronos token holder to
 * Deposit tokens and fund an active proposal;
 * Vote for an active proposal.
 
-The details about the governance proposal process are available on [The Proposal Process page](https://crypto.org/docs/chain-details/govprocess.html).
+The details about the governance proposal process are available on [The Proposal Process page](https://docs.cronos-pos.org/cronos-pos-integration/blocks-and-transactions#governance).
 
 ### Overview
 
@@ -543,13 +543,15 @@ Punishments for a validator are triggered when they either make a _byzantine fau
 
 It is important that the validators maintain excellent availability and network connectivity to perform their tasks. A penalty should be imposed on validators' misbehavior to reinforce this.
 
-When a validator fails to successfully sign `missed_block_threshold` blocks in last `block_signing_window` blocks, it is immediately jailed and punished by deducting funds from their bonded and unbonded amount and removing them from active validator set. The funds to be deducted are calculated based on `slash_fraction_downtime`. Kindly refer to this [link](https://docs.cosmos.network/v0.40/modules/slashing/04\_begin\_block.html) on the logic of the liveness tracking.
+When a validator fails to successfully sign `missed_block_threshold` blocks in last `block_signing_window` blocks, it is immediately jailed and punished by deducting funds from their bonded and unbonded amount and removing them from active validator set. The funds to be deducted are calculated based on `slash_fraction_downtime`. Kindly refer to this [link](https://docs.cosmos.network/main/build/modules/slashing#liveness-tracking) on the logic of the liveness tracking.
 
 ### Jailing
 
-A validator is jailed when they make liveness or Byzantine fault, when a validator is jailed, it will no longer be considered as an active validator until they are un-jailed. Futhermore, it cannot be un-jailed before `downtime_jail_duration`. This `downtime_jail_duration` is a network parameter which can be configured during genesis.
+A validator is jailed when they make liveness or Byzantine fault, when a validator is jailed, it will no longer be considered as an active validator until they are un-jailed. Furthermore, it cannot be un-jailed before `downtime_jail_duration`. This `downtime_jail_duration` is a network parameter which can be configured during genesis.
 
-:::warning Important: When a validator is jailed because of a byzantine fault, their validator public key is added to a list of permanently banned validators and cannot re-join the network as a validator with the same public key, see [staking tombstone](https://docs.cosmos.network/master/modules/slashing/07\_tombstone.html) :::
+{% hint style="info" %}
+Warning Important: When a validator is jailed because of a byzantine fault, their validator public key is added to a list of permanently banned validators and cannot re-join the network as a validator with the same public key, see [staking tombstone](https://docs.cosmos.network/main/build/modules/slashing#staking-tombstone).
+{% endhint %}
 
 #### Un-jailing
 
@@ -654,7 +656,7 @@ Validators are responsible for signing or proposing block at each consensus roun
 
 The `staking` module enables CRO owners to delegate their tokens to active validators and share part of the reward obtained by the validator during the proof of stake protocol(see [distribution](./#distribution) module). Specifically, It allows token owners to take part in the consensus process without running a validator themselves.
 
-It is important to point out that the delegator and the validator are on the same boat: They share the reward and the risk. In particular, part of their delegated token could be slashed due to validator's misbehaviour (see [slashing](./#slashing)). Therefore, It is very important to choose a reliable validator to delegate. Kindly refer to this [link](https://docs.cosmos.network/v0.40/modules/staking/02\_state\_transitions.html#delegations) for detailed specification and state transitions of delegation.
+It is important to point out that the delegator and the validator are on the same boat: They share the reward and the risk. In particular, part of their delegated token could be slashed due to validator's misbehaviour (see [slashing](./#slashing)). Therefore, It is very important to choose a reliable validator to delegate. Kindly refer to this [link](https://docs.cosmos.network/main/build/modules/staking#state-transitions) for detailed specification and state transitions of delegation.
 
 ### Transactions and Queries
 

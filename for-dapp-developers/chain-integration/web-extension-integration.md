@@ -20,7 +20,7 @@ Crypto.com Onchain Wallet, Trust Wallet and MetaMask have mobile apps that inclu
 
 #### &#x20;A non-custodial wallet to store, earn, and grow your crypto
 
-[Crypto.com Onchain Wallet](https://crypto.com/defi-wallet) is a non-custodial wallet that gives users full control of their crypto and private keys. Private keys are encrypted locally on the user’s mobile phone, and protected by Biometric Authentication and 2-Factor Authentication.&#x20;
+[Crypto.com Onchain Wallet](https://crypto.com/sg/onchain) is a non-custodial wallet that gives users full control of their crypto and private keys. Private keys are encrypted locally on the user’s mobile phone, and protected by Biometric Authentication and 2-Factor Authentication.&#x20;
 
 If you are a dApp developer, integration with the Crypto.com Onchain Wallet is the best way to deliver a smooth user experience to more than 50 million Crypto.com customers.
 

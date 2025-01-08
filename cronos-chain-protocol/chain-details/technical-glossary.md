@@ -8,7 +8,7 @@ A | [B](technical-glossary.md#b) | [C](technical-glossary.md#c) | [D](technical-
 
 **Block Explorer**
 
-An application that allows a user to explore the different blocks on a blockchain. It has a record of all the transactions in each block and is often made public to increase blockchain visibility and transparency. Here are our explorers: [Crypto.org Chain Explorer](https://crypto.org/explorer/), [Cronos Explorer](https://cronoscan.com/) and [Cronos Testnet Explorer](https://cronos-explorer.crypto.org/testnet3).
+An application that allows a user to explore the different blocks on a blockchain. It has a record of all the transactions in each block and is often made public to increase blockchain visibility and transparency. Here are our explorers: [Cronos Explorer](https://explorer.cronos.org/) and [Cronos Testnet Explorer](https://explorer.cronos.org/testnet).
 
 **Bonded (staking state)**
 
@@ -20,7 +20,7 @@ A validator is said to make a byzantine fault when they sign conflicting message
 
 #### C
 
-**Chain ID** A unique identifier for the blockchain. Different prefixes of the Chain ID are used to distinguish between _mainnet_, _devnet_, and _testnet_. For example, the Chain ID of our [testnet](https://crypto.org/docs/getting-started/cronos-testnet.html) is `cronostestnet_338-1`.
+**Chain ID** A unique identifier for the blockchain. Different prefixes of the Chain ID are used to distinguish between _mainnet_, _devnet_, and _testnet_. For example, the Chain ID of our [testnet](https://docs.cronos.org/for-node-hosts/running-nodes/cronos-testnet#step-0-notes-on-testnet-network-upgrade) is `cronostestnet_338-1`.
 
 **Chain-abci**
 
@@ -68,7 +68,7 @@ It is a state machine that provides the necessary tools to run or create a contr
 
 #### F
 
-[**Faucet**](https://crypto.org/faucet)
+[**Faucet**](https://cronos.org/faucet)
 
 Service carried out that dispenses funds in the form of free test token that can be used on a testnet.
 
@@ -98,7 +98,7 @@ A permanent diversion of a blockchain can occur quickly due to a high priority c
 
 **HD Wallet**
 
-The [BIP-32](https://github.com/bitcoin/bips/blob/master/bip-0032.mediawiki) compatible Hierarchical Deterministic (HD) wallet is a system of deriving keys from a single starting point known as a [seed](https://en.bitcoin.it/wiki/Seed\_phrase). The seed can be presented in the form of a human-readable [mnemonic](technical-glossary.md#m) that can be used for easily backup and restore the wallet.
+The [BIP-32](https://github.com/bitcoin/bips/blob/master/bip-0032.mediawiki) compatible Hierarchical Deterministic (HD) wallet is a system of deriving keys from a single starting point known as a [seed](https://en.bitcoin.it/wiki/Seed_phrase). The seed can be presented in the form of a human-readable [mnemonic](technical-glossary.md#m) that can be used for easily backup and restore the wallet.
 
 #### I
 

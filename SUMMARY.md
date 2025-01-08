@@ -48,7 +48,7 @@
   * [Band Protocol](for-dapp-developers/useful-projects-on-cronos/band-protocol.md)
   * [Banxa](for-dapp-developers/useful-projects-on-cronos/banxa.md)
   * [Caldera](for-dapp-developers/dev-tools-and-integrations/caldera.md)
-  * [Covalent](for-dapp-developers/useful-projects-on-cronos/covalent.md)
+  * [GoldRush](for-dapp-developers/useful-projects-on-cronos/covalent.md)
   * [Cronos Safe](for-dapp-developers/useful-projects-on-cronos/cronos-safe.md)
   * [Flair](for-dapp-developers/dev-tools-and-integrations/flair.md)
   * [Google Bigquery](for-dapp-developers/dev-tools-and-integrations/google-bigquery.md)

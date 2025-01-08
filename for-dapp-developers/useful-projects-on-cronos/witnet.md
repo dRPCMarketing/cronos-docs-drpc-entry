@@ -6,7 +6,7 @@ description: Random Number Generation on Cronos with Witnet
 
 ## **Introduction**
 
-Witnet is a decentralized oracle protocol that provides reliable data to autonomous smart contracts. It works as a trustable source of randomness for creating unpredictability in various use cases, such as games and NFTs. Witnet has been live on the Cronos Mainnet and Testnet for several months, and the Witnet Random Number Generator is[ deployed on the Cronos](https://docs.witnet.io/smart-contracts/witnet-randomness-oracle/contract-addresses#cronos-chain) blockchain. In this post, we are going to introduce the purpose of the Witnet randomness generator and walk through a smart contract sample.
+Witnet is a decentralized oracle protocol that provides reliable data to autonomous smart contracts. It works as a trustable source of randomness for creating unpredictability in various use cases, such as games and NFTs. Witnet has been live on the Cronos Mainnet and Testnet for several months, and the Witnet Random Number Generator is[ deployed on the Cronos](https://docs.witnet.io/smart-contracts/witnet-randomness-oracle/contract-addresses#cronos) blockchain. In this post, we are going to introduce the purpose of the Witnet randomness generator and walk through a smart contract sample.
 
 ## Randomness Oracle in Smart Contracts
 
@@ -90,7 +90,7 @@ Decode output {
 
 <figure><img src="https://lh3.googleusercontent.com/OSmsr1GqjtlrhWouD1Xvnes7nQqleLxHirGad5jfJqFaOqE8qORmQx4lfLO-FvQdq9TDl-w_KXfYjYF_ZDuiBkSqlD39bZ4TBK_9jtmqugUy94VV-yaUmiVmL8AA-lJQmoWezNIe9STV_IHW_FG7E5X8Msza85P00kC6OAEAo4SskBmkjQ-Gj30j2g" alt=""><figcaption></figcaption></figure>
 
-![](https://lh6.googleusercontent.com/BYwhL506ZusNpz826P8p6aWu55nn-EIb3AnmXaFFaFtbQESwuhY4FwP44BeXZMmGQW27z1kZFnCZhtPxY08wCv7rM6dAErkLSSjuG3jwdtiOgjDG\_I8jkHxF8DnIrAC8AnkxvUP6yAM\_7Njeu0ivT3E-2vtddU6EbnqPIF462ggDelhwsWP8bttHdQ)
+![](https://lh6.googleusercontent.com/BYwhL506ZusNpz826P8p6aWu55nn-EIb3AnmXaFFaFtbQESwuhY4FwP44BeXZMmGQW27z1kZFnCZhtPxY08wCv7rM6dAErkLSSjuG3jwdtiOgjDG_I8jkHxF8DnIrAC8AnkxvUP6yAM_7Njeu0ivT3E-2vtddU6EbnqPIF462ggDelhwsWP8bttHdQ)
 
 If you would like to generate another random number, you need to execute the same two steps again:
 
@@ -98,7 +98,7 @@ If you would like to generate another random number, you need to execute the sam
 
 
 
-As usual, you can review your transaction details on [CronoScan](https://cronoscan.com/)/[Testnet CronoScan](https://testnet.cronoscan.com/).
+As usual, you can review your transaction details on [Cronos Explorer](https://explorer.cronos.org/)/[Cronos Testnet Explorer](https://explorer.cronos.org/testnet).
 
 
 
@@ -109,4 +109,4 @@ Here are several additional resources to help you get started with Witnet random
 * [**Witnet Randomness Oracle Page**](https://docs.witnet.io/smart-contracts/witnet-randomness-oracle/randomness-contract#best-practices)
 * [**WitnetRandomness Contract page**](https://docs.witnet.io/smart-contracts/witnet-randomness-oracle/randomness-contract)
 * [**Witnet Solidity Bridge Contract**](https://github.com/witnet/witnet-solidity-bridge/tree/master/contracts)
-* [**Witnet Discord Support**](https://discord.gg/X4uurfP)
+* [**Witnet Discord Support**](https://discord.com/invite/witnet)

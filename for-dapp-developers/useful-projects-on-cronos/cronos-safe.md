@@ -56,7 +56,7 @@ Test a few small transfers on your end to verify that you are able to control th
 
 Cronos Safe smart contracts were deployed using a deterministic deployment proxy factory and create2 op\_code. The address of each smart contract is calculated based on the proxy address and the contract bytecode. As a result, Cronos Safe contract addresses are the same as on the other chains that have Gnosis Safe deployments, which means that their bytecodes are identical.
 
-The addresses of deployed contracts can be found in Gnosis Safe deployments repository (https://github.com/safe-global/safe-deployments/tree/main/src/assets/v1.3.0). The smart contracts deployed to Cronos mainnet have been verified on Cronoscan.
+The addresses of deployed contracts can be found in Gnosis Safe deployments [repository](https://github.com/safe-global/safe-deployments/tree/main/src/assets/v1.3.0). The smart contracts deployed to Cronos mainnet have been verified on Cronoscan.
 
 ***
 

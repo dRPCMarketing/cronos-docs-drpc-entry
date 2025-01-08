@@ -81,7 +81,7 @@ Web: [Cronos](https://cronos.org) | [Cronos Labs](https://cronoslabs.org)
 
 Blog: [Cronos](https://blog.cronos.org/)
 
-Socials: [Twitter](https://twitter.com/cronos\_chain) | [Telegram](https://t.me/Cronos\_Announcements) | [Discord](https://discord.com/invite/pahqHz26q4) | [Youtube](https://www.youtube.com/@cronos\_chain)
+Socials:[ X.com](https://x.com/cronos_chain) | [Telegram](https://t.me/Cronos_Announcements) | [Discord](https://discord.com/invite/pahqHz26q4) | [Youtube](https://www.youtube.com/@cronos_chain)
 
 White paper: [Cronos Whitepaper](https://whitepaper.cronos.org/)
 

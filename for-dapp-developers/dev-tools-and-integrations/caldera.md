@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Caldera
 
 ## What does Caldera do?&#x20;
@@ -18,7 +22,7 @@ For more info on how Caldera works visit, the [Caldera docs](https://calderaxyz.
 
 Let's take a look at how we can start using Caldera L2 Testnet, which is a rollup on the Cronos Testnet.
 
-1. Visit: [https://cronos.caldera.dev/](https://cronos.caldera.dev/)
+1. Visit: [Caldera Public Testnets](https://calderaxyz.gitbook.io/caldera-documentation/getting-started/caldera-public-testnets)
 2. Add chains to metamask via the "add to metamask button"
 
 <figure><img src="../../.gitbook/assets/caldera-mm.png" alt=""><figcaption></figcaption></figure>

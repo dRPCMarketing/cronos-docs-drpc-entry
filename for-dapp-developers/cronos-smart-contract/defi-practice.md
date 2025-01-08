@@ -62,7 +62,7 @@ Decentralized Finance (DeFi) is revolutionizing the finance industry and bringin
   * Ensure testing is part of continuous integration (CI). Ideally, anyone can see the test result/execution from a repository like github.
   * Ensure anyone can checkout the repository and run the test without any additional setup.
   * Ensure writing through unit tests. An extensive test suite is crucial to build high-quality software.
-  * Need to know [more about testing](https://guidelines.secureth.org/development/testing)
+  * Need to know [more about testing](https://ethereum-tests.readthedocs.io/en/latest/)
 
 ### Deployment
 
@@ -86,11 +86,11 @@ _The above section is based on the_ [_Building Secure Smart Contracts guide_](ht
 ## DeFi Administrator Operation
 
 * Proper key management
-  * Using hardware wallets for privileged users or administrators of smart contracts. Recently, a DeFi project bZx has been [hacked](https://bzx.network/blog/prelminary-post-mortem) due to the administrator's private key being leaked. The private key was leaked because the administrator was a target of a phishing attack resulting in the user’s wallet mnemonic being compromised. To learn how to properly use a hardware wallet refer to [this](https://blog.trailofbits.com/2018/11/27/10-rules-for-the-secure-use-of-cryptocurrency-hardware-wallets/).
+  * Using hardware wallets for privileged users or administrators of smart contracts. Recently, a DeFi project bZx has been [hacked](https://rekt.news/bzx-rekt/) due to the administrator's private key being leaked. The private key was leaked because the administrator was a target of a phishing attack resulting in the user’s wallet mnemonic being compromised. To learn how to properly use a hardware wallet refer to [this](https://blog.trailofbits.com/2018/11/27/10-rules-for-the-secure-use-of-cryptocurrency-hardware-wallets/).
   * Use timelock for smart contract changes. There are standards such as one provided by OpenZeppelin for a transaction delay/cancel/other control authority. Related use issue check can refer to this [link](https://forum.openzeppelin.com/t/timelockcontroller-vulnerability-post-mortem/14958).
   * Use multisignature to avoid a single point (owner) of failure (lose/compromise private key).
   * Ownership management - it is unavoidable in some cases, actions in smart contracts need to be controlled by administrators. In such cases, it is advised to use proven open source libraries such as [OpenZeppelin - Access](https://github.com/OpenZeppelin/openzeppelin-contracts/tree/master/contracts/access).
-* Clearly document the control or access available to issuers or owners of smart contracts in plain English. A good example please refer to this [link](https://guidelines.secureth.org/access-controls/access-controls-section/example-access-controls-doc)
+* Clearly document the control or access available to issuers or owners of smart contracts in plain English. A good example please refer to this [link](https://docs.openzeppelin.com/contracts/3.x/access-control)
 * Refrain from having owners/issuers to have permission to transfer user’s funds.
 
 ## Bug Bounty
