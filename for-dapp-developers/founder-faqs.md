@@ -17,7 +17,7 @@ Don’t forget to follow these Twitter accounts to receive key announcements:
 
 ## TLDR; what do I need to know if I am considering Cronos for my dapp?
 
-[Cronos (cronos.org)](https://cronos.org) is the leading Ethereum-compatible layer 1 blockchain network built on the Cosmos SDK, supported by Crypto.com, Crypto.org and more than 500 app developers and partners. Today, the #CROfam ecosystem represents an addressable user base of more than 80 million people worldwide. Our mission is to make it easy and safe for the next billion crypto users to adopt Web3, with a focus on decentralized applications in the DeFi, NFTs and GameFi verticals.
+[Cronos (cronos.org)](https://cronos.org) is the leading Ethereum-compatible layer 1 blockchain network built on the Cosmos SDK, supported by Crypto.com and more than 500 app developers and partners. Today, the #CROfam ecosystem represents an addressable user base of more than 80 million people worldwide. Our mission is to make it easy and safe for the next billion crypto users to adopt Web3, with a focus on decentralized applications in the DeFi, NFTs and GameFi verticals.
 
 [Cronos Labs](https://cronoslabs.org) can help most dapp creators to enhance the visibility of their product in the Cronos user community. However, Cronos Labs is generally not able to promote token or NFT sales. The following support is available to dapp creators:
 
@@ -38,7 +38,7 @@ Don’t forget to follow these Twitter accounts to receive key announcements:
 **How can I get my project featured in the Crypto.com Onchain Wallet in-app browser, once deployed on Cronos?**
 
 * Step 1:
-  * The first step is to implement login via the Crypto .com Defi Wallet’s SDK, using the DeFiWeb3Connector.
+  * The first step is to implement login via the Crypto .com Onchain Wallet’s SDK, using the DeFiWeb3Connector.
   * See [this tutorial](chain-integration/web3-wallet.md) on how to implement wallet connections. The code sample uses [Web3 Wallet](https://web3-wallet.github.io/web3-wallet/docs/getting-started), a wallet connection library used by many Cronos dapps.
   * For more details, you can refer to this repository for documentation and usage: [https://github.com/crypto-com/deficonnect-monorepo/wiki/Chrome-Extension-Wallet-Integration](https://github.com/crypto-com/deficonnect-monorepo/wiki/Chrome-Extension-Wallet-Integration)
   * You cannot proceed to Step 2 until you have checked that your dApp offers a functional connection to the Crypto.com Onchain Wallet’s Browser Extension in a desktop browser ([here is the link to the browser extension in the Chrome store](https://chrome.google.com/webstore/detail/cryptocom-wallet-extensio/hifafgmccdpekplomjjkcfgodnhcellj)).
