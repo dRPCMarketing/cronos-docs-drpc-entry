@@ -9,6 +9,7 @@
 
 ## FOR USERS
 
+* [💳 Crypto.com Card Top Up](for-users/crypto.com-card-top-up.md)
 * [🔥 Crypto Wallets](for-users/crypto-wallets.md)
 * [🦊 MetaMask Configuration](for-users/metamask.md)
 * [🦁 Brave Wallet](for-users/brave-wallet.md)
