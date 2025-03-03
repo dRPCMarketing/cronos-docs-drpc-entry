@@ -45,17 +45,17 @@ We officially support macOS, Windows, and Linux only. Other platforms may work b
 
 To run Cronos Tesnet nodes, you will need a machine with the following minimum requirements to run different types of nodes:
 
-* Pruned node (setting pruning=everything)&#x20;
-  * Storage: \~25G\*&#x20;
-  * RAM: 4 GB (LevelDB) or 64G RAM (RocksDB)\*\*\*&#x20;
+* Pruned node (setting pruning=everything)
+  * Storage: \~25G\*
+  * RAM: 16G (LevelDB) or 64G RAM (RocksDB)\*\*\*
   * CPU: 4-core
-* Default full node (setting pruning=default)&#x20;
-  * Storage: \~1.5T\*\*&#x20;
-  * RAM: 4 GB (LevelDB) or 64G RAM (RocksDB)\*\*\*&#x20;
+* Default full node (setting pruning=default)
+  * Storage: \~1.5T\*\*
+  * RAM: 16G (LevelDB) or 64G RAM (RocksDB)\*\*\*
   * CPU: 4-core
-* Archive node (setting pruning=nothing)&#x20;
-  * Storage: \~2.8T\*\*
-  * RAM: 4 GB (LevelDB) or 64G RAM (RocksDB)\*\*\*&#x20;
+* Archive node (setting pruning=nothing)
+  * Storage: \~2.8T\*\* (LevelDB) or \~1.8T (RocksDB)
+  * RAM: 16G (LevelDB) or 64G RAM (RocksDB)\*\*\*
   * CPU: 4-core
 
 _\*Only in case of state-sync enabled._ \
@@ -69,7 +69,7 @@ Note that all depends on the type of node you are running and settings will vary
 {% tabs %}
 {% tab title="Testnet" %}
 * [Seeds for Fullnode](https://github.com/crypto-org-chain/cronos-testnets/blob/main/testnet.json#L21)
-* [Genesis files](https://raw.githubusercontent.com/crypto-org-chain/cronos-testnets/main/cronostestnet\_338-3/genesis.json)
+* [Genesis files](https://raw.githubusercontent.com/crypto-org-chain/cronos-testnets/main/cronostestnet_338-3/genesis.json)
 * [Binaries Links](https://github.com/crypto-org-chain/cronos/releases)
 {% endtab %}
 {% endtabs %}

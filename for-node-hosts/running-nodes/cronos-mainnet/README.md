@@ -45,17 +45,17 @@ We officially support macOS, Windows, and Linux only. Other platforms may work b
 
 To run Cronos Mainnet nodes, you will need a machine with the following minimum requirements to run different types of nodes:
 
-* Pruned node (setting pruning=everything)&#x20;
-  * Storage: \~25G\*&#x20;
-  * RAM: 4 GB (LevelDB) or 64G RAM (RocksDB)\*\*\*&#x20;
+* Pruned node (setting pruning=everything)
+  * Storage: \~25G\*
+  * RAM: 16G (LevelDB) or 64G RAM (RocksDB)\*\*\*
   * CPU: 4-core
-* Default full node (setting pruning=default)&#x20;
-  * Storage: \~1.5T\*\*&#x20;
-  * RAM: 4 GB (LevelDB) or 64G RAM (RocksDB)\*\*\*&#x20;
+* Default full node (setting pruning=default)
+  * Storage: \~1.5T\*\*
+  * RAM: 16G (LevelDB) or 64G RAM (RocksDB)\*\*\*
   * CPU: 4-core
-* Archive node (setting pruning=nothing)&#x20;
-  * Storage: \~2.8T\*\*&#x20;
-  * RAM: 4 GB (LevelDB) or 64G RAM (RocksDB)\*\*\*&#x20;
+* Archive node (setting pruning=nothing)
+  * Storage: \~5.5T (LevelDB) or \~4.2T (RocksDB)
+  * RAM: 16G (LevelDB) or 64G RAM (RocksDB)\*\*\*
   * CPU: 4-core
 
 _\*Only in case state-sync enabled._ \
@@ -69,8 +69,8 @@ Note that all depends on the type of node you are running and settings will vary
 {% tabs %}
 {% tab title="Mainnet" %}
 * [Seeds for Fullnode](https://github.com/crypto-org-chain/cronos-mainnet#seed-nodes)
-* [Genesis files](https://raw.githubusercontent.com/crypto-org-chain/cronos-mainnet/master/cronosmainnet\_25-1/genesis.json)
-* Binaries for [Linux](https://github.com/crypto-org-chain/cronos/releases/download/v0.6.5/cronos\_0.6.5\_Linux\_x86\_64.tar.gz), Mac ([Intel x86](https://github.com/crypto-org-chain/cronos/releases/download/v0.6.5/cronos\_0.6.5\_Darwin\_x86\_64.tar.gz) / [M1](https://github.com/crypto-org-chain/cronos/releases/download/v0.6.5/cronos\_0.6.5\_Darwin\_arm64.tar.gz)) and [Windows](https://github.com/crypto-org-chain/cronos/releases/download/v0.6.5/cronos\_0.6.5\_Windows\_x86\_64.zip)
+* [Genesis files](https://raw.githubusercontent.com/crypto-org-chain/cronos-mainnet/master/cronosmainnet_25-1/genesis.json)
+* Binaries for [Linux](https://github.com/crypto-org-chain/cronos/releases/download/v0.6.5/cronos_0.6.5_Linux_x86_64.tar.gz), Mac ([Intel x86](https://github.com/crypto-org-chain/cronos/releases/download/v0.6.5/cronos_0.6.5_Darwin_x86_64.tar.gz) / [M1](https://github.com/crypto-org-chain/cronos/releases/download/v0.6.5/cronos_0.6.5_Darwin_arm64.tar.gz)) and [Windows](https://github.com/crypto-org-chain/cronos/releases/download/v0.6.5/cronos_0.6.5_Windows_x86_64.zip)
 {% endtab %}
 {% endtabs %}
 
@@ -99,7 +99,7 @@ The following is the minimal setup for a **validator node** / **full node**.
 {% endhint %}
 
 To simplify the following step, we will be using **Linux** (Intel x86) for illustration.\
-Binaries for **Mac** ([Intel x86](https://github.com/crypto-org-chain/cronos/releases/download/v0.6.5/cronos\_0.6.5\_Darwin\_x86\_64.tar.gz) / [M1](https://github.com/crypto-org-chain/cronos/releases/download/v0.6.5/cronos\_0.6.5\_Darwin\_arm64.tar.gz)) and [Windows](https://github.com/crypto-org-chain/cronos/releases/download/v0.6.5/cronos\_0.6.5\_Windows\_x86\_64.zip) are also available.
+Binaries for **Mac** ([Intel x86](https://github.com/crypto-org-chain/cronos/releases/download/v0.6.5/cronos_0.6.5_Darwin_x86_64.tar.gz) / [M1](https://github.com/crypto-org-chain/cronos/releases/download/v0.6.5/cronos_0.6.5_Darwin_arm64.tar.gz)) and [Windows](https://github.com/crypto-org-chain/cronos/releases/download/v0.6.5/cronos_0.6.5_Windows_x86_64.zip) are also available.
 
 *   To install released **Cronos Mainnet binaries** from github:
 
