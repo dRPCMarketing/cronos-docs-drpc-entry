@@ -34,6 +34,7 @@
 * [📃 Smart Contracts](for-dapp-developers/cronos-smart-contract/README.md)
   * [Contract Development on Testnet](for-dapp-developers/cronos-smart-contract/contract-deployment.md)
   * [Contract Deployment and Verification](for-dapp-developers/cronos-smart-contract/contract-verification.md)
+  * [Contract Verification Export: Cronoscan <> Cronos Explorer](for-dapp-developers/cronos-smart-contract/contract-verification-export-cronoscan-less-than-greater-than-cronos-explorer.md)
   * [Best Practices](for-dapp-developers/cronos-smart-contract/defi-practice.md)
   * [Token Contract Addresses](for-dapp-developers/cronos-smart-contract/token-contract-addresses.md)
 * [💻 dApp Creation](for-dapp-developers/chain-integration/README.md)
