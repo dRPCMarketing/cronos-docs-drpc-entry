@@ -101,19 +101,21 @@ The following is the minimal setup for a **validator node** / **full node**.
 To simplify the following step, we will be using **Linux** (Intel x86) for illustration.\
 Binaries for **Mac** ([Intel x86](https://github.com/crypto-org-chain/cronos/releases/download/v0.6.5/cronos_0.6.5_Darwin_x86_64.tar.gz) / [M1](https://github.com/crypto-org-chain/cronos/releases/download/v0.6.5/cronos_0.6.5_Darwin_arm64.tar.gz)) and [Windows](https://github.com/crypto-org-chain/cronos/releases/download/v0.6.5/cronos_0.6.5_Windows_x86_64.zip) are also available.
 
-*   To install released **Cronos Mainnet binaries** from github:
+* To install released **Cronos Mainnet binaries** from github:
+* Create a new folder for the Install e.g. (cronosmainnet):
 
-    ```bash
-    $ curl -LOJ https://github.com/crypto-org-chain/cronos/releases/download/v0.6.11/cronos_0.6.11_Linux_x86_64.tar.gz
-    $ tar -zxvf cronos_0.6.11_Linux_x86_64.tar.gz
-    ```
+<pre class="language-bash"><code class="lang-bash"><strong>$ cd cronosmainnet
+</strong>$ curl -LOJ https://github.com/crypto-org-chain/cronos/releases/download/v0.6.11/cronos_0.6.11_Linux_x86_64.tar.gz
+$ tar -zxvf cronos_0.6.11_Linux_x86_64.tar.gz
+</code></pre>
 
-    Afterward, you can check the version of `cronosd` by
+Afterward, you can check the version of `cronosd` by:
 
-    ```bash
-    $ ./cronosd version
-    0.6.11
-    ```
+```bash
+$ cd cronosmainnet/bin
+$ ./cronosd version
+0.6.11
+```
 
 ## Step 2. Configure `cronosd`
 

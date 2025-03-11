@@ -92,16 +92,19 @@ To simplify the following step, we will be using **Linux** (Intel x86) for illus
 
 **Mac** Intel x86 as `Darwin_x86_64`, **Mac** M1 as `arm64` and **Windows** as `Windows_x86_64` are also available [here](https://github.com/crypto-org-chain/cronos/releases). Please check the required node version [here](https://github.com/crypto-org-chain/cronos-testnets/blob/main/testnet.json).
 
-*   To install released **Cronos testnet binaries** from github:
+* To install released **Cronos testnet binaries** from github:
+*   Create a new folder for the Install e.g. (cronostestnet):
 
     ```bash
+    $ cd cronostestnet
     $ curl -LOJ https://github.com/crypto-org-chain/cronos/releases/download/v1.0.9/cronos_1.0.9-testnet_Linux_x86_64.tar.gz
     $ tar -zxvf cronos_1.0.9-testnet_Linux_x86_64.tar.gz
     ```
 
-    Afterwards, you can check the version of `cronosd` by
+    Afterwards, you can check the version of `cronosd` by:
 
     ```bash
+    $ cd cronostestnet/bin
     $ ./cronosd version
     v1.0.9-testnet
     ```
