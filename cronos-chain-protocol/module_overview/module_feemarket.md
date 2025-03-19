@@ -20,7 +20,7 @@ Below are the parameters for the `x/feemarket` module:
 
 
 
-<table><thead><tr><th width="192">Key</th><th width="121">Type</th><th width="125">Default Values</th><th>Description</th></tr></thead><tbody><tr><td>NoBaseFee</td><td>bool</td><td>false</td><td>control the base fee adjustment</td></tr><tr><td>BaseFeeChangeDenominator</td><td>uint32</td><td>8</td><td>bounds the amount the base fee that can change between blocks</td></tr><tr><td>ElasticityMultiplier</td><td>uint32</td><td>2</td><td>bounds the threshold which the base fee will increase or decrease depending on the total gas used in the previous block</td></tr><tr><td>BaseFee</td><td>uint32</td><td>1000000000</td><td>base fee for EIP-1559 blocks</td></tr><tr><td>EnableHeight</td><td>uint32</td><td>0</td><td>height which enable fee adjustment</td></tr><tr><td>MinGasPrice</td><td>sdk.Dec</td><td>0</td><td>global minimum gas price that needs to be paid to include a transaction in a block</td></tr><tr><td>min_gas_multiplier</td><td>sdk.Dec</td><td>0</td><td>bounds the minimum gasUsed to be charged to senders based on the GasLimit</td></tr></tbody></table>
+<table><thead><tr><th width="192">Key</th><th width="121">Type</th><th width="179.73089599609375">Default Values</th><th>Description</th></tr></thead><tbody><tr><td>NoBaseFee</td><td>bool</td><td>false</td><td>control the base fee adjustment</td></tr><tr><td>BaseFeeChangeDenominator</td><td>uint32</td><td>300</td><td>bounds the amount the base fee that can change between blocks</td></tr><tr><td>ElasticityMultiplier</td><td>uint32</td><td>4</td><td>bounds the threshold which the base fee will increase or decrease depending on the total gas used in the previous block</td></tr><tr><td>BaseFee</td><td>uint32</td><td>3750000000000</td><td>base fee for EIP-1559 blocks</td></tr><tr><td>EnableHeight</td><td>uint32</td><td>0</td><td>height which enable fee adjustment</td></tr><tr><td>MinGasPrice</td><td>sdk.Dec</td><td>3750000000000</td><td>global minimum gas price that needs to be paid to include a transaction in a block</td></tr><tr><td>min_gas_multiplier</td><td>sdk.Dec</td><td>0.500000000000000000</td><td>bounds the minimum gasUsed to be charged to senders based on the GasLimit</td></tr></tbody></table>
 
 #### Base Fee
 
@@ -78,8 +78,8 @@ The parameters can also be checked by browsing to the following REST endpoint&#x
     "base_fee_change_denominator": 300,
     "elasticity_multiplier": 4,
     "enable_height": "0",
-    "base_fee": "10018977710000",
-    "min_gas_price": "10000000000000.000000000000000000",
+    "base_fee": "3750000000000",
+    "min_gas_price": "3750000000000.000000000000000000",
     "min_gas_multiplier": "0.500000000000000000"
   }
 }
@@ -97,11 +97,11 @@ The parameters can also be checked by browsing to the following REST endpoint&#x
 {
   "params": {
     "no_base_fee": false,
-    "base_fee_change_denominator": 100000000,
-    "elasticity_multiplier": 2,
-    "enable_height": "2280800",
-    "base_fee": "1955046261113",
-    "min_gas_price": "0.000000000000000000",
+    "base_fee_change_denominator": 300,
+    "elasticity_multiplier": 4,
+    "enable_height": "0",
+    "base_fee": "3750000000000",
+    "min_gas_price": "3750000000000.000000000000000000",
     "min_gas_multiplier": "0.500000000000000000"
   }
 }
@@ -133,18 +133,18 @@ For example returns
 
 ```json
 {
-    "id": 44,
-    "result": {
-        "oldestBlock": "0xbbbe82",
-        "baseFeePerGas": [
-            "0x9184e72a000",
-            "0x9108fffb52b"
-        ],
-        "gasUsedRatio": [
-            0.0005502
-        ]
-    },
-    "jsonrpc": "2.0"
+  "id": 44,
+  "result": {
+    "oldestBlock": "0x11c6885",
+    "baseFeePerGas": [
+      "0x3691d6afc00",
+      "0x3691d6afc00"
+    ],
+    "gasUsedRatio": [
+      0.00677545
+    ]
+  },
+  "jsonrpc": "2.0"
 }
 ```
 
