@@ -1,4 +1,4 @@
-# Account Abstraction (Experimental)
+# Account Abstraction
 
 ## Introduction
 
@@ -7,22 +7,22 @@ Account Abstraction simplifies blockchain interactions by allowing smart contrac
 Account Abstraction opens up possibilities for numerous use cases such as multi-signature transactions, social recovery, contract whitelisting, custom gas tokens, subsidizing gas fees, and much more. It expands the use-case potential of DApps and enables a more intuitive user experience. \
 
 
-Key components have been developed to facilitate the development of Account Abstraction. Note that some of these components are still at an experimental stage: &#x20;
+Key components are provided to support Account Abstraction development:
 
-* **User Operations**, serve as a new type of transaction object containing additional data, allows for custom transaction and security configurations.
-* **JSON-RPC API debug\_traceCall,** allows for the simulation of User Operations before their actual execution on the chain.&#x20;
-* **Bundlers** serve as crucial nodes that bundle unsigned User Operations into a single package for signing and subsequent publication on the mainnet. Bundlers estimate transaction fees.&#x20;
-* **Entry Point Contract**, an audited and trusted singleton contract, is functional and can process the execution and validating User Operations.&#x20;
+* **User Operations:** A new transaction object type that includes additional data, allowing for custom transaction and security configurations.
+* **JSON-RPC API debug\_traceCall:** Enables simulation of User Operations before they are executed on-chain.
+* **Bundlers:** Crucial nodes that bundle unsigned User Operations into a single package for signing and subsequent publication on the mainnet. Bundlers estimate transaction fees.&#x20;
+* **Entry Point Contract:** an audited and trusted singleton contract, is functional and can process the execution and validating User Operations.&#x20;
 
 \
-Native account abstraction is still at an experimental stage on Cronos, not yet suitable for production use case. However, there are application-level account abstraction solutions available for developers who need AA functionality now, such as [Cometh](https://docs.cometh.io/connect/quickstart/supported-networks). Please contact [Cronos Labs](https://cronoslabs.org) if you would like to be introduced to the relevant developer tool platforms.&#x20;
+Account Abstraction is natively supported on Cronos, and developers can leverage these features for their own use cases. There are also application-level account abstraction solutions available for developers who need Account Abstraction functionality now, such as [Cometh](https://docs.cometh.io/connect/quickstart/supported-networks). Please contact [Cronos Labs](https://cronoslabs.org) if you would like to be introduced to the relevant developer tool platforms.&#x20;
 
 
 
 ## Send a UserOperation using userop.js
 
 In this guide, we will go through how to send a userop transaction with subsidized gas fee. \
-Here we are using [userop.js](https://github.com/stackup-wallet/userop.js) to send UserOperations but you can use any library you like, even using `curl`
+Here we are using [userop.js](https://github.com/stackup-wallet/userop.js) to send UserOperations but you can use any library you like, even using `curl` .
 
 We will create a new project for sending transactions
 

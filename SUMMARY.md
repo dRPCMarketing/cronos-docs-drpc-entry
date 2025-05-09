@@ -46,7 +46,7 @@
   * [Swagger Playground](https://cronos.org/swagger?network=mainnet)
 * [⚙️ Dev Tools & Integrations](for-dapp-developers/dev-tools-and-integrations/README.md)
   * [All dev tools & integrations](for-dapp-developers/useful-projects-on-cronos/overview-of-dev-tools-and-integrations.md)
-  * [Account Abstraction (Experimental)](for-dapp-developers/dev-tools-and-integrations/account-abstraction-experimental.md)
+  * [Account Abstraction](for-dapp-developers/dev-tools-and-integrations/account-abstraction-experimental.md)
   * [Band Protocol](for-dapp-developers/useful-projects-on-cronos/band-protocol.md)
   * [Banxa](for-dapp-developers/useful-projects-on-cronos/banxa.md)
   * [Caldera](for-dapp-developers/dev-tools-and-integrations/caldera.md)
