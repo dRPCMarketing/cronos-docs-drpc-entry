@@ -301,3 +301,23 @@ It should begin fetching blocks from the other peers.
     ```bash
     $ ./cronosd status 2>&1 | jq '.SyncInfo.latest_block_height'
     ```
+
+## Different ways to sync Cronos with snapshots
+
+The above outlines how to set up a node from scratch. Alternatively, you can set up a node using snapshots:
+
+{% content-ref url="quicksync.md" %}
+[quicksync.md](quicksync.md)
+{% endcontent-ref %}
+
+{% content-ref url="state-sync.md" %}
+[state-sync.md](state-sync.md)
+{% endcontent-ref %}
+
+{% content-ref url="public-node-sync.md" %}
+[public-node-sync.md](public-node-sync.md)
+{% endcontent-ref %}
+
+{% content-ref url="ksync.md" %}
+[ksync.md](ksync.md)
+{% endcontent-ref %}

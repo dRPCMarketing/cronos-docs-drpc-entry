@@ -16,7 +16,7 @@ To run Cronos Mainnet nodes, you will need a machine with the following minimum 
 
 ## Introduction
 
-The fastest way to get a node synced to the latest block-height, is by using [State-sync](https://docs.tendermint.com/v0.34/tendermint-core/state-sync.html). With state-sync your node downloads a data snapshot near the head of the chain and verifies this data. This leads to drastically shorter times to join the network.
+The fastest way to get a node synced to the latest block-height, is by using [State-sync](https://docs.tendermint.com/master/nodes/state-sync.html#configure-state-sync). With state-sync your node downloads a data snapshot near the head of the chain and verifies this data. This leads to drastically shorter times to join the network.
 
 Keep in mind that the blocks before state-sync trust height will not be queryable. \
 So, in order to run a full node, it is better not to use state-sync, but use [Quicksync](quicksync.md)'s archive snapshot instead.&#x20;
@@ -30,23 +30,21 @@ State-sync depends on the ability to pull a snapshot from its persistent-peers, 
 ## Step 1. Get the latest cronosd binary
 
 {% hint style="info" %}
-The latest Cronosd [version](https://github.com/crypto-org-chain/cronos/releases) release is `cronosd v1.0.15`
+The latest Cronosd [version](https://github.com/crypto-org-chain/cronos/releases) release is `cronosd v1.4.5`
 {% endhint %}
 
 * Install the **Cronos Mainnet** binaries from GitHub:
 
-<pre class="language-bash"><code class="lang-bash"><strong>curl -LOJ https://github.com/crypto-org-chain/cronos/releases/download/v1.0.15/cronos_1.0.15_Darwin_x86_64.tar.gz
-</strong>tar -zxvf cronos_1.0.15_Darwin_x86_64.tar.gz
-</code></pre>
+<pre class="language-bash"><code class="lang-bash"><strong>curl -LOJ https://github.com/crypto-org-chain/cronos/releases/download/v1.4.5/cronos_1.4.5_Darwin_x86_64.tar.gz
+</strong><strong>tar -zxvf cronos_1.4.5_Darwin_x86_64.tar.gz
+</strong></code></pre>
 
 * Check that **`cronosd`** is effectively installed:
 
 ```bash
 ./bin/cronosd version
-1.0.15
+1.4.5
 ```
-
-
 
 ## Step 2. Configure cronosd
 
