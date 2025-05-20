@@ -585,7 +585,7 @@ $ cronosd query staking validators -o json | jq
 After the jailing period has passed, one can broadcast a `unjail` transaction to unjail the validator and resume its normal operations by
 
 ```bash
-$ cronosd tx slashing unjail --from node1 --chain-id cronostestnet_338-1
+$ cronosd tx slashing unjail --from node1 --chain-id cronostestnet_338-3
   {"body":{"messages":[{"@type":"/cosmos.slashing.v1beta1.MsgUnjail"...}]}
   confirm transaction before signing and broadcasting [y/N]: y
 ```

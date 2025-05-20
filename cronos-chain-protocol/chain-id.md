@@ -37,7 +37,7 @@ canonicalUrl: https://docs.cronos.org/chain-details/chain-id.html
 
 Cronos has different Chain IDs to distinguish between the _devnet_, _testnet_ and _mainnet_. When running Cronos in your local environment, you will need to decide your own Chain ID.
 
-For example, our testnet Chain ID is `cronostestnet_338-1`.
+For example, our testnet Chain ID is `cronostestnet_338-3`.
 
 ## Address prefix
 
@@ -55,7 +55,7 @@ Cronos uses the Bech32 address format wherever users must handle binary data. Be
 | Validator Operator | `tcrcvaloper`         |
 | Consensus Nodes    | `tcrcvalcons`         |
 
-We can use the `keys show` command of `cronosd` with the flag `--bech <type> (acc|val|cons)` to obtain the addresses and keys as mentioned above. \
+We can use the `keys show` command of `cronosd` with the flag `--bech <type> (acc|val|cons)` to obtain the addresses and keys as mentioned above.\
 For example:
 
 ```bash

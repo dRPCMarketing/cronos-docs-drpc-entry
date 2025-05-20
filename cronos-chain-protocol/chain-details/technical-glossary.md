@@ -20,7 +20,7 @@ A validator is said to make a byzantine fault when they sign conflicting message
 
 #### C
 
-**Chain ID** A unique identifier for the blockchain. Different prefixes of the Chain ID are used to distinguish between _mainnet_, _devnet_, and _testnet_. For example, the Chain ID of our [testnet](https://docs.cronos.org/for-node-hosts/running-nodes/cronos-testnet#step-0-notes-on-testnet-network-upgrade) is `cronostestnet_338-1`.
+**Chain ID** A unique identifier for the blockchain. Different prefixes of the Chain ID are used to distinguish between _mainnet_, _devnet_, and _testnet_. For example, the Chain ID of our [testnet](https://docs.cronos.org/for-node-hosts/running-nodes/cronos-testnet#step-0-notes-on-testnet-network-upgrade) is `cronostestnet_338-3`.
 
 **Chain-abci**
 

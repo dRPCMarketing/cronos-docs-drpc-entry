@@ -82,13 +82,13 @@ $ cronosd config
 
 We can make changes to the default settings upon our choices, so it allows users to set the configuration beforehand all at once, so it would be ready with the same config afterward.
 
-For example, the `chain-id` can be changed to `cronostestnet_338-1` from a blank name by
+For example, the `chain-id` can be changed to `cronostestnet_338-3` from a blank name by
 
 ```bash
-$ cronosd config "chain-id" cronostestnet_338-1
+$ cronosd config "chain-id" cronostestnet_338-3
 $ cronosd config
 {
-	"chain-id": "cronostestnet_338-1",
+	"chain-id": "cronostestnet_338-3",
 	"keyring-backend": "os",
 	"output": "text",
 	"node": "tcp://localhost:26657",
@@ -106,7 +106,7 @@ Alternatively, we can directly make the changes to the config values in one plac
 ############################################################################
 
 # The network chain ID
-chain-id = "cronostestnet_338-1"
+chain-id = "cronostestnet_338-3"
 # The keyring's backend, where the keys are stored (os|file|kwallet|pass|test|memory)
 keyring-backend = "os"
 # CLI output format (text|json)
@@ -375,7 +375,7 @@ Transfer operation involves the transfer of tokens between two addresses.
 Example: Send 10tcro from one address to another.
 
 ```bash
-$ cronosd tx bank send Default tcrc1gjdxrv77zfpq6cywcs8kg6gqyfhl5768ucel6t 10tcro  --chain-id cronostestnet_338-1
+$ cronosd tx bank send Default tcrc1gjdxrv77zfpq6cywcs8kg6gqyfhl5768ucel6t 10tcro  --chain-id cronostestnet_338-3
   ## Transaction payload##
   {"body":{"messages":[{"@type":"/cosmos.bank.v1beta1.MsgSend","from_address"....}
 confirm transaction before signing and broadcasting [y/N]: y
@@ -394,7 +394,7 @@ To bond funds for staking, you can delegate funds to a validator by the `delegat
 Example: Delegate funds from `mykey` to a validator under the address `ethvaloper...lq`
 
 ```bash
-$ cronosd tx staking delegate ethvaloper1qsklxwt77qrxur494uvw07zjynu03dq9rdsrlq 100tcro --from mykey --chain-id cronostestnet_338-1
+$ cronosd tx staking delegate ethvaloper1qsklxwt77qrxur494uvw07zjynu03dq9rdsrlq 100tcro --from mykey --chain-id cronostestnet_338-3
 ## Transactions payload##
 {"body":{"messages":[{"@type":"/cosmos.staking.v1beta1.MsgDelegate"....}
 confirm transaction before signing and broadcasting [y/N]: y
@@ -494,7 +494,7 @@ $ cronosd tx staking create-validator \
 --amount="100cro" \
 --pubkey='{"@type":...,"key":...}' \
 --moniker="The_new_node" \
---chain-id="cronostestnet_338-1" \
+--chain-id="cronostestnet_338-3" \
 --commission-rate="0.10" \
 --commission-max-rate="0.20" \
 --commission-max-change-rate="0.01" \
@@ -528,7 +528,7 @@ $ cronosd query staking validators -o json | jq
 After the jailing period has passed, one can broadcast a `unjail` transaction to unjail the validator and resume its normal operations by
 
 ```bash
-$ cronosd tx slashing unjail --from node1 --chain-id cronostestnet_338-1
+$ cronosd tx slashing unjail --from node1 --chain-id cronostestnet_338-3
   {"body":{"messages":[{"@type":"/cosmos.slashing.v1beta1.MsgUnjail"...}]}
   confirm transaction before signing and broadcasting [y/N]: y
 ```
