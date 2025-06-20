@@ -82,7 +82,8 @@ Mainnet
   * [Distributed RPC Service](https://public.blockpi.io/)
 * All That Node:
   * [Cronos Nodes](https://www.allthatnode.com/cronos.dsrv)
-*   Allnodes:
-
-    * [RPC Gateway to Cronos](https://cronos.publicnode.com/)
+* Allnodes:
+  * [RPC Gateway to Cronos](https://cronos.publicnode.com/)
+* Dwellir:
+  * [Connect your dApp or Web3 project with any blockchain](https://www.dwellir.com/networks/cronos)
 
