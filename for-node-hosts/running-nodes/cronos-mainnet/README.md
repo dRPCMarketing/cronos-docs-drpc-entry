@@ -31,7 +31,7 @@ meta:
 canonicalUrl: https://docs.cronos.org/getting-started/cronos-mainnet.html
 ---
 
-# Cronos Mainnet
+# Cronos EVM Mainnet
 
 This is a detailed documentation for setting up a full node on Cronos mainnet `cronosmainnet_25-1`.
 
@@ -46,16 +46,16 @@ We officially support macOS, Windows, and Linux only. Other platforms may work b
 To run Cronos Mainnet nodes, you will need a machine with the following minimum requirements to run different types of nodes:
 
 * Pruned node (setting pruning=everything)
-  * Storage: \~25G\*
-  * RAM: 16G (LevelDB) or 64G RAM (RocksDB)\*\*\*
+  * Storage: \~50G\*
+  * RAM: 32G (LevelDB) or 64G RAM (RocksDB)\*\*\*
   * CPU: 4-core
 * Default full node (setting pruning=default)
-  * Storage: \~1.5T\*\*
-  * RAM: 16G (LevelDB) or 64G RAM (RocksDB)\*\*\*
+  * Storage: \~1T\*\*
+  * RAM: 32G (LevelDB) or 64G RAM (RocksDB)\*\*\*
   * CPU: 4-core
 * Archive node (setting pruning=nothing)
-  * Storage: \~5.5T (LevelDB) or \~4.2T (RocksDB)
-  * RAM: 16G (LevelDB) or 64G RAM (RocksDB)\*\*\*
+  * Storage: \~6T (LevelDB) or \~4.5T (RocksDB)
+  * RAM: 32G (LevelDB) or 64G RAM (RocksDB)\*\*\*
   * CPU: 4-core
 
 _\*Only in case state-sync enabled._ \

@@ -31,7 +31,7 @@ meta:
 canonicalUrl: https://docs.cronos.org/getting-started/cronos-testnet.html
 ---
 
-# Cronos Testnet
+# Cronos EVM Testnet
 
 ### Pre-requisites
 
@@ -47,15 +47,15 @@ To run Cronos Tesnet nodes, you will need a machine with the following minimum r
 
 * Pruned node (setting pruning=everything)
   * Storage: \~25G\*
-  * RAM: 16G (LevelDB) or 64G RAM (RocksDB)\*\*\*
+  * RAM: 16G (LevelDB) or 32G RAM (RocksDB)\*\*\*
   * CPU: 4-core
 * Default full node (setting pruning=default)
   * Storage: \~1.5T\*\*
-  * RAM: 16G (LevelDB) or 64G RAM (RocksDB)\*\*\*
+  * RAM: 16G (LevelDB) or 32G RAM (RocksDB)\*\*\*
   * CPU: 4-core
 * Archive node (setting pruning=nothing)
-  * Storage: \~2.8T\*\* (LevelDB) or \~1.8T (RocksDB)
-  * RAM: 16G (LevelDB) or 64G RAM (RocksDB)\*\*\*
+  * Storage: \~3T\*\* (LevelDB) or \~1.8T (RocksDB)
+  * RAM: 16G (LevelDB) or 32G RAM (RocksDB)\*\*\*
   * CPU: 4-core
 
 _\*Only in case of state-sync enabled._ \

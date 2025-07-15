@@ -69,7 +69,7 @@
 ## FOR NODE HOSTS
 
 * [Running nodes](for-node-hosts/running-nodes/README.md)
-  * [Cronos Mainnet](for-node-hosts/running-nodes/cronos-mainnet/README.md)
+  * [Cronos EVM Mainnet](for-node-hosts/running-nodes/cronos-mainnet/README.md)
     * [Quicksync](for-node-hosts/running-nodes/cronos-mainnet/quicksync.md)
     * [State-sync](for-node-hosts/running-nodes/cronos-mainnet/state-sync.md)
     * [Public Node Sync](for-node-hosts/running-nodes/cronos-mainnet/public-node-sync.md)
@@ -82,7 +82,7 @@
     * [The "v1.3" upgrade guide (v1.2.\* to v1.3.0)](for-node-hosts/running-nodes/cronos-mainnet/the-v1.3-upgrade-guide-v1.2.-to-v1.3.0.md)
     * [The "v1.4" Pallene upgrade guide (v1.3.\* to v1.4.1)](for-node-hosts/running-nodes/cronos-mainnet/the-v1.4-pallene-upgrade-guide-v1.3.-to-v1.4.1.md)
     * [Patching Unlucky & Duplicate Tx](for-node-hosts/running-nodes/cronos-mainnet/patching-unlucky-tx.md)
-  * [Cronos Testnet](for-node-hosts/running-nodes/cronos-testnet.md)
+  * [Cronos EVM Testnet](for-node-hosts/running-nodes/cronos-testnet.md)
   * [Devnet](for-node-hosts/running-nodes/local-devnet.md)
   * [Best Practices](for-node-hosts/running-nodes/cronos-node-best-practises.md)
   * [Cronosd build with Nix](for-node-hosts/running-nodes/cronosd-build-with-nix.md)
