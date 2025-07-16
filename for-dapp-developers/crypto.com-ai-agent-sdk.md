@@ -70,6 +70,6 @@ Explorer API keys for the Cronos EVM Chain is required to query block chain data
 
 ### Get Started
 
-To start building with the AI Agent SDK, simply install the NPM/PyPi package and follow our comprehensive documentation [Crypto.com AI Agent Client](https://ai-agent-sdk-docs.crypto.com/crypto.com-ai-agent-client). \
+To start building with the AI Agent SDK, simply install the NPM/PyPi package and follow our comprehensive documentation [Crypto.com AI Agent Client](https://ai-agent-sdk-docs.crypto.com/outdated-contents/crypto.com-ai-agent-client). \
 \
 Visit the [Crypto.com AI SDK documentation by clicking here](https://ai-agent-sdk-docs.crypto.com/).
