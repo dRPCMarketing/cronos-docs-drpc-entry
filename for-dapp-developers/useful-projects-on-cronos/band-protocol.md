@@ -1,16 +1,17 @@
 ---
+description: Unified Data Layer for AI and Web3
 layout: editorial
 ---
 
 # Band Protocol
 
-## Band Protocol's Data Feed
-
 ### Introduction
 
-Band Protocol is a secure, blockchain-agnostic decentralised oracle solution ([more detail here](https://docs.bandchain.org/)). It features a blockchain of its own (BandChain) that does the heavy lifting of pulling data from external sources, aggregating all the results, and creating a verifiable proof of data integrity to be used in other blockchain applications — all with a secure crypto-economic which guarantees data availability and correctness.
+Band is the data layer that trains AI engines and powers blockchain applications. By empowering DeFi, GameFi, and AI agents, it enables developers, institutions, and users to access real-time data with zero counterparty risk.&#x20;
 
-Developers building applications on Cronos can now utilise Band’s decentralised oracle services. With Band’s oracle, they now have access to various cryptocurrency price data points to integrate into their applications.
+With Band’s open, battle-tested data infrastructure built for blockchains and LLMs, it ensures that real-time information is always accessible - fuelling everything from financial protocols to autonomous AI systems.
+
+On Cronos, developers can integrate Band’s decentralized oracle services to access a wide range of cryptocurrency price feeds and bring real-world data directly into their applications.
 
 ### Currency Pair and Supported Currencies
 
