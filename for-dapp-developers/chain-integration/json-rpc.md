@@ -4,7 +4,7 @@
 
 ### Pre-requisite Readings
 
-* [Ethereum JSON-RPC](https://eth.wiki/json-rpc/API)
+* [Ethereum JSON-RPC](https://ethereum.org/en/developers/docs/apis/json-rpc/)
 * [Geth JSON-RPC APIs](https://geth.ethereum.org/docs/rpc/server)
 
 Below is a list of Ethereum type JSON-RPC Methods where users can curl via local node. While you can also surf to our `swagger playground`for a better understanding.
@@ -17,7 +17,7 @@ Below is a list of Ethereum type JSON-RPC Methods where users can curl via local
 
 #### Getting Blocks
 
-<table><thead><tr><th width="248">Method</th><th>Namespace</th><th>Implemented</th><th width="40">Public</th></tr></thead><tbody><tr><td><code>eth_getBalance</code></td><td>Eth</td><td>✔</td><td>✔</td></tr><tr><td><code>eth_getBlockByNumber</code></td><td>Eth</td><td>✔</td><td>✔</td></tr><tr><td><code>eth_getBlockByHash</code></td><td>Eth</td><td>✔</td><td>✔</td></tr></tbody></table>
+<table><thead><tr><th width="248">Method</th><th>Namespace</th><th>Implemented</th><th width="40">Public</th></tr></thead><tbody><tr><td><code>eth_getBalance</code></td><td>Eth</td><td>✔</td><td>✔</td></tr><tr><td><code>eth_getBlockByNumber</code></td><td>Eth</td><td>✔</td><td>✔</td></tr><tr><td><code>eth_getBlockByHash</code></td><td>Eth</td><td>✔</td><td>✔</td></tr><tr><td><code>eth_getBlockReceipts</code></td><td>Eth</td><td>✔</td><td>✔</td></tr></tbody></table>
 
 #### Read data
 
