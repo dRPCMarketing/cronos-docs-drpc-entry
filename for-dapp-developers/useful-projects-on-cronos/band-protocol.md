@@ -1,6 +1,18 @@
 ---
-description: Unified Data Layer for AI and Web3
-layout: editorial
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: false
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
 ---
 
 # Band Protocol

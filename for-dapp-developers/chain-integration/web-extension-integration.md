@@ -4,11 +4,10 @@
 
 Cronos chain is supported by the following self-custodial wallets:
 
-* Crypto.com Onchain Wallet.
+* Crypto.com Onchain Wallet
 * Rabby (rabby.io)
-* MetaMask (requires custom network configuration) (metamask.io).
+* MetaMask (requires custom network configuration) (metamask.io)
 * Trust Wallet.
-* and more than 30 other wallets (you can see a more complete list of dev tools [here](https://crofam.me/devtools)).
 
 Crypto.com Onchain Wallet, Trust Wallet and MetaMask have mobile apps that include in-app dApp browsers. Users can access dApps on the go via these in-app browsers. We recommend that all dApp developers integrate with these 3 wallets at least, and more if possible.
 
@@ -18,23 +17,35 @@ Crypto.com Onchain Wallet, Trust Wallet and MetaMask have mobile apps that inclu
 
 ## Crypto.com Onchain Wallet
 
-#### &#x20;A non-custodial wallet to store, earn, and grow your crypto
-
 [Crypto.com Onchain Wallet](https://crypto.com/sg/onchain) is a non-custodial wallet that gives users full control of their crypto and private keys. Private keys are encrypted locally on the user’s mobile phone, and protected by Biometric Authentication and 2-Factor Authentication.&#x20;
 
-If you are a dApp developer, integration with the Crypto.com Onchain Wallet is the best way to deliver a smooth user experience to more than 50 million Crypto.com customers.
+**Key Features:**
 
-Users will be able to login with your dApp in several ways:
+* Users maintain complete ownership of their crypto assets and private keys with no third-party custody
+* Private keys are encrypted and stored locally on the user's mobile device for enhanced security
+* Protected by biometric authentication and two-factor authentication (2FA) for comprehensive security
 
-* On Mobile, they can visit your dApp and connect to it via the in-app browser of the Crypto.com Onchain Wallet iOS or Android apps.
-* On Desktop, they can install the Crypto.com Wallet Extension from the Chrome extension store into their Chrome, Edge or Brave browser. The extension can be connected to the Crypto.com Onchain Wallet mobile app (in which case the user will need to confirm each transaction on their mobile phone), or alternatively it can work as a standalone extension entirely in the browser.
-* Finally, on Desktop too, the Crypto.com Onchain Wallet is available as a standalone app.&#x20;
+Integration with the Crypto.com Onchain Wallet provides dApp developers access to over 50 million Crypto.com customers with a seamless user experience.\
 
-To get your dApp listed on the dApp section of Crypto.com Onchain Wallet, the steps are as below:&#x20;
 
-* Ensure your dApp successfully integrates the Crypto.com Wallet Extension SDK, with a functional wallet connection (refer to the details below)
-* Submit your dApp details using the [Submission Form](https://airtable.com/app5F2H2Qp46Q9fGC/shr2pGmQR5lzoMOBh)
-* The relevant team will review your submission and may proceed with the listing of your dApp.
+Users will be able to login with your dApp in several ways:&#x20;
+
+* On Mobile: Users access your dApp through the in-app browser within the Crypto.com Onchain Wallet iOS or Android applications
+* On Desktop: Users can install the Crypto.com Wallet Extension from the [Chrome Web Store](https://chromewebstore.google.com/category/extensions?utm_source=ext_sidebar\&hl=en-GB) into their Chrome, Edge or Brave browser.&#x20;
+* Hybrid Mode: The desktop extension can be connected to the Crypto.com Onchain Wallet mobile app (in which case the user will need to confirm each transaction on their mobile phone), or alternatively it can work as a standalone extension entirely in the browser.\
+
+
+To get your dApp listed on the dApp section of Crypto.com Onchain Wallet, follow these steps:&#x20;
+
+* **Get listed on DefiLlama**: Submit your dApp following [How to list a DeFi Project](https://docs.llama.fi/list-your-project/submit-a-project)
+* **Wait for synchronization**: Allow 48 hours for data to sync between Crypto.com Onchain Wallet and DeFiLlama
+* **Submit manual request if needed**: If your dApp doesn't appear in the wallet UI after 48 hours, complete the [dApp Submission Form](https://airtable.com/app5F2H2Qp46Q9fGC/shr2pGmQR5lzoMOBh)
+
+To get your dApp featured in the "Featured dApps" section of the Crypto.com Onchain Browser Extension:
+
+* **Submit application:** Complete the [dApp Submission Form](https://airtable.com/app5F2H2Qp46Q9fGC/shr2pGmQR5lzoMOBh) with your project details
+* **Team review:** Applications are reviewed at the discretion of the Crypto.com team for featured placement
+* **Selection criteria:** Listing in the featured section is subject to internal evaluation and approval processes
 
 As a developer, if you would like to offer all the mobile and desktop connection options provided by the Crypto.com Onchain Wallet, the first step is to integrate your dApp with the Crypto.com Wallet  Extension.
 
@@ -44,7 +55,7 @@ The Crypto.com Wallet Extension currently supports the following networks:
 
 {% tabs %}
 {% tab title="Mainnet" %}
-* Cronos
+* Cronos EVM Chain
 * Cronos POS Chain
 * Ethereum
 * Bitcoin
@@ -71,9 +82,9 @@ The Crypto.com Wallet Extension currently supports the following networks:
 
 The official repository and documentation of Crypto.com Wallet Extension are available at: [https://github.com/crypto-com/deficonnect-monorepo](https://github.com/crypto-com/deficonnect-monorepo).
 
-**For most dApp developers,** the best way to integrate the Crypto.com Wallet Extension is to develop your application's front-end in React and to use the DeFiWeb3Connector object which is provided by the `"@deficonnect/web3-connector"` npm package as documented here: [https://github.com/crypto-com/deficonnect-monorepo/tree/develop/packages/web3-connector](https://github.com/crypto-com/deficonnect-monorepo/tree/develop/packages/web3-connector).
+**For most dApp developers,** the best way to integrate the Crypto.com Onchain Wallet Extension is to develop your application's front-end in React and to use the `DeFiWeb3Connector` object which is provided by the `"@deficonnect/web3-connector"` npm package as documented here: [https://github.com/crypto-com/deficonnect-monorepo/tree/develop/packages/web3-connector](https://github.com/crypto-com/deficonnect-monorepo/tree/develop/packages/web3-connector).
 
-Once the connector is activated, your dApp can retrieve the provider using `getProvider()` and subsequently use it via a common Web3 SDK like ethers.js.
+Once the connector is activated, your dApp can retrieve the provider using `getProvider()` and subsequently use it via a common Web3 SDK like `ethers.js`.
 
 **Some developers** may need to dig deeper into the documentation, for example if they are not using React or need more customization. In this case, please refer to:
 
