@@ -17,7 +17,7 @@
 
 Cronos Explorer is the reference transaction and block explorer on Cronos `https://explorer.cronos.org`
 
-### Creating Account and Getting API Key **Cronso Explorer**
+### Creating Account and Getting API Key **Cronos Explorer**
 
 The Cronos Explorer Developer APIs are designed to provide accessible and consistent Cronos data to the Cronos community.&#x20;
 
