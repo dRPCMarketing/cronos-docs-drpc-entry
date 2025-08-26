@@ -10,11 +10,11 @@ As of `v0.9.0`, we have merged the binary to support both levelDB and rocksDB. T
 
 This guide provides step-by-step instructions to perform a faster sync for Cronosd using Public Node Sync snapshots. Please note that the type of snapshot provided is pruned. If you require more complete data or run a full node, consider using [Quicksync](https://docs.cronos.org/for-node-hosts/running-nodes/cronos-mainnet/quicksync).
 
-## Step 1: Download Public Node Snapshot
+### Step 1: Download Public Node Snapshot
 
 Users can visit [Public Node Page](https://www.publicnode.com/snapshots#cronos) and download the snapshots for Cronos. Make sure to select “Cronos” and download the `lz4` file.&#x20;
 
-## Step 2: Cronosd Setup
+### Step 2: Cronosd Setup
 
 Download the latest version of Cronosd from [Cronos Chain Github](https://github.com/crypto-org-chain/cronos/releases/latest) based on your preferred operating system.&#x20;
 
@@ -39,7 +39,7 @@ max-tx-gas-wanted=500000
 
 &#x20;[Run Everything](https://docs.cronos.org/for-node-hosts/running-nodes/cronos-mainnet#step-3.-run-everything), `Cronosd` should be able to sync.&#x20;
 
-## Step 3: Extract Data from the Public Node Sync Snapshot
+### Step 3: Extract Data from the Public Node Sync Snapshot
 
 After you successfully initialized `cronosd`, you should find a new folder named `.cronos` under `/Users/<username>.` Move the `.lz4` snapshot file (e.g., `cronos-pruned-18949418-18949428.tar.lz4`) into the `.cronos` directory. \
 Decompress with `tar` by:

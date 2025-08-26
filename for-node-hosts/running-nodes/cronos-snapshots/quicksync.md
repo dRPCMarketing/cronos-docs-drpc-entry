@@ -5,19 +5,19 @@
 {% hint style="info" %}
 IMPORTANT
 
-In order to use Quicksync you need to first complete [Step 3-2](./#step-3-2.-run-everything) with the latest binary.
+In order to use Quicksync you need to first complete [Step 3-2](../cronos-mainnet/#step-3-2.-run-everything) with the latest binary.
 
 \
 **Note** that as of `v0.9.0`, we have merged the binary to support both levelDB and rocksDB. Therefore, make sure to select the right [`app-db-backend`](https://github.com/crypto-org-chain/cronos/releases/tag/v1.0.2)in your `app.toml`.&#x20;
 {% endhint %}
 
-Syncing Cronos could be a time-consuming process, that's why the Cronos team has partnered with Chainlayer to provide the “**Quicksync**” service and make the process more efficient for our users.
+The Cronos team has partnered with Chainlayer to provide the “**Quicksync**” service and make the process more efficient for our users.
 
 Users can visit [Chainlayer QuickSync Cronos page](https://quicksync.io/cronos-chain) and download the snapshots for Cronos Chain with different pruning settings.
 
 ### Step 1: Quicksync Download
 
-After executing the command `./cronosd` start at [Step 3-2](./#step-3-2.-run-everything) Run everything, it starts the node and syncs the blockchain data. When you see it starts to sync from 0, you can terminate the terminal.\
+After executing the command `./cronosd` start at [Step 3-2](../cronos-mainnet/#step-3-2.-run-everything) Run everything, it starts the node and syncs the blockchain data. When you see it starts to sync from 0, you can terminate the terminal.\
 \
 Both RocksDB and LevelDB snapshots are now available for Cronos Chain.
 

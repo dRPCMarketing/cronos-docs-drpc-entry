@@ -84,7 +84,7 @@ For the host who would like to build a Full Node with complete blockchain data f
 
 
 
-Users can refer to the [upgrade guide of "Huygen"](huygen.md) for the detailed upgrade steps.
+Users can refer to the [upgrade guide of "Huygen"](upgrade-guide/huygen.md) for the detailed upgrade steps.
 
 {% hint style="info" %}
 To patch "unlucky" transactions, follow this guide on [patching unlucky tx](patching-unlucky-tx.md)
@@ -306,18 +306,18 @@ It should begin fetching blocks from the other peers.
 
 The above outlines how to set up a node from scratch. Alternatively, you can set up a node using snapshots:
 
-{% content-ref url="quicksync.md" %}
-[quicksync.md](quicksync.md)
+{% content-ref url="../cronos-snapshots/quicksync.md" %}
+[quicksync.md](../cronos-snapshots/quicksync.md)
 {% endcontent-ref %}
 
-{% content-ref url="state-sync.md" %}
-[state-sync.md](state-sync.md)
+{% content-ref url="../cronos-snapshots/state-sync.md" %}
+[state-sync.md](../cronos-snapshots/state-sync.md)
 {% endcontent-ref %}
 
-{% content-ref url="public-node-sync.md" %}
-[public-node-sync.md](public-node-sync.md)
+{% content-ref url="../cronos-snapshots/public-node-sync.md" %}
+[public-node-sync.md](../cronos-snapshots/public-node-sync.md)
 {% endcontent-ref %}
 
-{% content-ref url="ksync.md" %}
-[ksync.md](ksync.md)
+{% content-ref url="../cronos-snapshots/ksync.md" %}
+[ksync.md](../cronos-snapshots/ksync.md)
 {% endcontent-ref %}

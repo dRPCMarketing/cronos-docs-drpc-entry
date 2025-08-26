@@ -1,6 +1,6 @@
 # Best Practices
 
-In order to make it more convenient for DApps and node hosts to set up a node, we have put together a list of useful settings and configurations. Feel free to refer to this guide and adapt settings to suit your own use cases. For a sample config check [here](https://github.com/crypto-org-chain/cronos-mainnet/tree/master/cronosmainnet\_25-1).
+In order to make it more convenient for DApps and node hosts to set up a node, we have put together a list of useful settings and configurations. Feel free to refer to this guide and adapt settings to suit your own use cases. For a sample config check [here](https://github.com/crypto-org-chain/cronos-mainnet/tree/master/cronosmainnet_25-1).
 
 ## config.toml
 
@@ -23,7 +23,7 @@ Since 1.0.2 there is another db parameter in app.toml as well. Be sure to make t
 * `max_num_outbound_peers` For users on a private network set a higher number of outbound peers to 30 for example.
 * After peers are connected, set it back to its default value. Note that some trial values might be needed to get it right.
 * `seeds` Set the list of seeds as instructed in the [.](./ "mention") section to connect to.
-* `persistent_peers` is especially useful when using [state-sync.md](cronos-mainnet/state-sync.md "mention") to pull snapshots from.
+* `persistent_peers` is especially useful when using [state-sync.md](cronos-snapshots/state-sync.md "mention") to pull snapshots from.
 
 ### send\_rate and recv\_rate
 
@@ -120,8 +120,6 @@ Second fallback (if the types.DBBackend also isn't set), is the db-backend value
 * `evm-timeout` Freely tweak this parameter. Set to a slightly higher value, such as `60s` to avoid timeouts on eth\_calls.
 * `http-timeout` Freely tweak this parameter. Set to a slightly higher value, such as `60s` to avoid read/writes timeouts of the http json-rpc server.
 * `http-idle-timeout`. Freely tweak this parameter. Set to a slightly higher value, such as `120s` to avoid idle timeout of the http json-rpc server.
-
-
 
 
 

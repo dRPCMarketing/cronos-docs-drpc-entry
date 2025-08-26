@@ -27,7 +27,7 @@ IMPORTANT
 State-sync depends on the ability to pull a snapshot from its persistent-peers, so there is some amount of timing and luck involved with this method. Although it is the fastest way, it is not always going to work, in case state-sync is not syncing, we recommend using [quicksync](quicksync.md), although it takes a longer time to download the snapshot, this method is more guaranteed to work.
 {% endhint %}
 
-## Step 1. Get the latest cronosd binary
+### Step 1: Get the latest cronosd binary
 
 {% hint style="info" %}
 The latest Cronosd [version](https://github.com/crypto-org-chain/cronos/releases) release is `cronosd v1.4.5`
@@ -46,7 +46,7 @@ The latest Cronosd [version](https://github.com/crypto-org-chain/cronos/releases
 1.4.5
 ```
 
-## Step 2. Configure cronosd
+### Step 2: Configure cronosd
 
 * Initialize **cronosd.** Replace the **\[moniker]** with an ID for your node. &#x20;
 
@@ -82,7 +82,7 @@ s|^(persistent_peers[[:space:]]+=[[:space:]]+).*$|\1\"0d5cf1394a1cfde28dc8f02356
 s|^(seeds[[:space:]]+=[[:space:]]+).*$|\1\"\"|" ~/.cronos/config/config.toml
 ```
 
-## Step 3. Run everything
+### Step 3: Run everything
 
 * Now that `cronosd` has been configured, we are ready to start the node:
 
@@ -112,7 +112,5 @@ To check the current node syncing status:
 ```bash
 ./bin/cronosd status 2>&1 | jq '.SyncInfo.catching_up'
 ```
-
-
 
 That's it! You are now running a synced node on **Cronos Mainnet**!
