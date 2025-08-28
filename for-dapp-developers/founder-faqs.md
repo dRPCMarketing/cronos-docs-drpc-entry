@@ -35,18 +35,15 @@ Don’t forget to follow these Twitter accounts to receive key announcements:
 
 * Visit [https://discover.cronos.org](https://discover.cronos.org) where you can add your project to the list of Cronos ecosystem projects (click the Submit button).&#x20;
 
-**How can I get my project featured in the Crypto.com Onchain Wallet in-app browser, once deployed on Cronos?**
+**How can I get my project (dApp) featured in the Crypto.com Onchain Wallet browser extension?**
 
-* Step 1:
-  * The first step is to implement login via the Crypto .com Onchain Wallet’s SDK, using the DeFiWeb3Connector.
-  * See [this tutorial](chain-integration/web3-wallet.md) on how to implement wallet connections. The code sample uses [Web3 Wallet](https://web3-wallet.github.io/web3-wallet/docs/getting-started), a wallet connection library used by many Cronos dapps.
-  * For more details, you can refer to this repository for documentation and usage: [https://github.com/crypto-com/deficonnect-monorepo/wiki/Chrome-Extension-Wallet-Integration](https://github.com/crypto-com/deficonnect-monorepo/wiki/Chrome-Extension-Wallet-Integration)
-  * You cannot proceed to Step 2 until you have checked that your dApp offers a functional connection to the Crypto.com Onchain Wallet’s Browser Extension in a desktop browser ([here is the link to the browser extension in the Chrome store](https://chrome.google.com/webstore/detail/cryptocom-wallet-extensio/hifafgmccdpekplomjjkcfgodnhcellj)).
-* Step 2:
-  * Complete [this form](https://airtable.com/appc8zlP6Hctdw7lA/pag8yAWJldMZAmGL9/form) to apply to get the URL of your dApp featured in the DeFi Wallet’s dApp ranking tab.
-  * The Crypto.com team may need some time to assess the suitability of your dApp and does not provide updates regarding their internal decision making process until there is a positive decision (if any). They may revisit their decisions occasionally, for example a token sale page may not be featured in the Dapp ranking but it may be featured later, once it includes a Dapp with real utility for end-users.
-  * Decision criteria include the transparency and security of the dApp, and the quality of the user experience. Therefore, in order to increase your chances of being approved, please ensure that your user-facing website includes a link to your docs and to your Github repository, and that the docs include links to the verified smart contracts on [Cronoscan](https://cronoscan.com). You can refer to [this tutorial](https://github.com/kentimsit/cronos-hardhat-boilerplate) on how to deploy your smart contracts to Cronos and verify them on Cronoscan.
-* Note: There is currently no process in place to request a token integration with the Crypto.com Onchain Wallet. Token integrations happen once in a while. Meanwhile, your users can import your token manually. See this [Crypto.com help page](https://help.crypto.com/en/articles/5755942-tokens-import) for more information.
+* **Get listed on DeFi Llama:** Submit your dApp through the [DeFi Llama project submission process](https://docs.llama.fi/list-your-project/submit-a-project).
+* **Wait for synchronization:** Allow 48 hours for data to sync between Crypto.com Onchain Wallet and DeFi Llama.
+* **Submit manual request if needed:** If your dApp doesn't appear in the wallet UI after 48 hours, complete the [Crypto.com dApp Submission Form](https://airtable.com/app5F2H2Qp46Q9fGC/shr2pGmQR5lzoMOBh).
+* **Team review:** Applications are reviewed at the discretion of the Crypto.com team for featured placement.&#x20;
+* **Selection criteria:** Listing in the featured section is subject to internal evaluation and approval processes. \
+  In order to increase your chances of being approved, please ensure that your user-facing website includes a link to your docs and to your Github repository, and that the docs include links to the verified smart contracts on [Cronos Explorer](https://explorer.cronos.org/). \
+  Refer to [this tutorial](https://github.com/kentimsit/cronos-hardhat-boilerplate) on how to deploy and verify smart contracts on Cronos Explorer.
 
 **How can I get my project featured in Trust Wallet, once deployed on Cronos?**
 
