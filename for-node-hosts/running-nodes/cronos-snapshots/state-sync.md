@@ -1,12 +1,18 @@
-# State-sync
+# State Sync
 
-## Pre-requisites
+### Introduction
 
-### Supported OS
+The fastest way to get a node synced to the latest block-height is by using [State Sync](https://docs.tendermint.com/master/nodes/state-sync.html#configure-state-sync). With State Sync, your node downloads a snapshot near the head of the chain and verifies this data. This leads to drastically shorter times to join the network.
+
+Keep in mind that blocks prior to the trust height used for State Sync will not be queryable.&#x20;
+
+Therefore, if your goal is to run a full node with historical data, it is recommended not to use State Sync, but instead to explore other Snapshot option such as [Native Snapshots](native-snapshots.md) or [Quicksync](quicksync.md) archive snapshot.
+
+#### Supported OS
 
 Linux x86\_64 is confirmed to work. Other platforms may work but there is no guarantee. We will extend our support to other operating systems after we have stabilised our current architecture.
 
-### Prepare your machine
+#### Prepare your machine
 
 To run Cronos Mainnet nodes, you will need a machine with the following minimum requirements:
 
@@ -14,20 +20,13 @@ To run Cronos Mainnet nodes, you will need a machine with the following minimum 
 * 16 GB RAM
 * 1 TB of storage space.
 
-## Introduction
-
-The fastest way to get a node synced to the latest block-height, is by using [State-sync](https://docs.tendermint.com/master/nodes/state-sync.html#configure-state-sync). With state-sync your node downloads a data snapshot near the head of the chain and verifies this data. This leads to drastically shorter times to join the network.
-
-Keep in mind that the blocks before state-sync trust height will not be queryable. \
-So, in order to run a full node, it is better not to use state-sync, but use [Quicksync](quicksync.md)'s archive snapshot instead.&#x20;
-
 {% hint style="info" %}
 IMPORTANT
 
 State-sync depends on the ability to pull a snapshot from its persistent-peers, so there is some amount of timing and luck involved with this method. Although it is the fastest way, it is not always going to work, in case state-sync is not syncing, we recommend using [quicksync](quicksync.md), although it takes a longer time to download the snapshot, this method is more guaranteed to work.
 {% endhint %}
 
-### Step 1: Get the latest cronosd binary
+#### Step 1: Get the latest cronosd binary
 
 {% hint style="info" %}
 The latest Cronosd [version](https://github.com/crypto-org-chain/cronos/releases) release is `cronosd v1.4.5`
@@ -46,7 +45,7 @@ The latest Cronosd [version](https://github.com/crypto-org-chain/cronos/releases
 1.4.5
 ```
 
-### Step 2: Configure cronosd
+#### Step 2: Configure cronosd
 
 * Initialize **cronosd.** Replace the **\[moniker]** with an ID for your node. &#x20;
 
@@ -82,7 +81,7 @@ s|^(persistent_peers[[:space:]]+=[[:space:]]+).*$|\1\"0d5cf1394a1cfde28dc8f02356
 s|^(seeds[[:space:]]+=[[:space:]]+).*$|\1\"\"|" ~/.cronos/config/config.toml
 ```
 
-### Step 3: Run everything
+#### Step 3: Run everything
 
 * Now that `cronosd` has been configured, we are ready to start the node:
 

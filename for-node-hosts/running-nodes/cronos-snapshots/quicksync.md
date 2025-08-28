@@ -1,6 +1,16 @@
+---
+description: >-
+  Download the latest Cronos Chain snapshots to accelerate node setup and
+  maintain sync with current network data
+---
+
 # Quicksync
 
-## Introduction
+### Introduction
+
+The Cronos team has partnered with Chainlayer to provide the Quicksync service and make the process more efficient for our users.
+
+Users can visit [Chainlayer QuickSync Cronos page](https://quicksync.io/cronos) and download the snapshots for Cronos Chain with different pruning settings.
 
 {% hint style="info" %}
 IMPORTANT
@@ -11,11 +21,7 @@ In order to use Quicksync you need to first complete [Step 3-2](../cronos-mainne
 **Note** that as of `v0.9.0`, we have merged the binary to support both levelDB and rocksDB. Therefore, make sure to select the right [`app-db-backend`](https://github.com/crypto-org-chain/cronos/releases/tag/v1.0.2)in your `app.toml`.&#x20;
 {% endhint %}
 
-The Cronos team has partnered with Chainlayer to provide the “**Quicksync**” service and make the process more efficient for our users.
-
-Users can visit [Chainlayer QuickSync Cronos page](https://quicksync.io/cronos-chain) and download the snapshots for Cronos Chain with different pruning settings.
-
-### Step 1: Quicksync Download
+### Step 1: Quicksync Download&#x20;
 
 After executing the command `./cronosd` start at [Step 3-2](../cronos-mainnet/#step-3-2.-run-everything) Run everything, it starts the node and syncs the blockchain data. When you see it starts to sync from 0, you can terminate the terminal.\
 \
@@ -24,7 +30,7 @@ Both RocksDB and LevelDB snapshots are now available for Cronos Chain.
 ### Step 2: Quicksync Extract
 
 To start with Quicksync, you need to run `brew install lz4` to install lz4 in a new terminal.\
-Then download the file with preferred pruning settings directly from [Quicksync](https://quicksync.io/cronos-chain).
+Then download the file with preferred pruning settings directly from [Quicksync](https://quicksync.io/cronos).
 
 **Cronosmainnet\_25-1-pruned**
 
@@ -43,7 +49,7 @@ Then download the file with preferred pruning settings directly from [Quicksync]
 In the following steps, we will take as an example the version\
 `cronosmainnet_25-1-pruned.20220309.2010.tar.lz4`.
 
-* (Optional) you can download an addressbook from [Quicksync](https://quicksync.io/cronos-chain) to get connected to peers faster. After downloading it, place the new `addrbook.json` under `.cronos/config` folder and restart your node to take effect.
+* (Optional) you can download an addressbook from [Quicksync](https://quicksync.io/cronos) to get connected to peers faster. After downloading it, place the new `addrbook.json` under `.cronos/config` folder and restart your node to take effect.
 * Now add the `cronosmainnet_25-1-pruned.20220309.2010.tar.lz4` inside `.cronos`
 
 Then perform the following steps:

@@ -116,7 +116,7 @@ sed -i.bak -E 's#^(timeout_commit[[:space:]]+=[[:space:]]+).*$#\1"5s"#' ~/.crono
 4. Update the `minimum-gas-prices` in the app.toml file:
 
 ```
-minimum-gas-prices = "10000000000000basetcro"
+minimum-gas-prices = "46000000000000basecro"
 ```
 
 ### Step 5: Start the Node

@@ -1,6 +1,18 @@
-# Public Node Sync
+---
+description: Public Node Blockchain Snapshots for Cronos Mainnet
+---
+
+# Public Node
 
 ## Introduction
+
+[Public Node](https://www.publicnode.com/snapshots#cronos) Snapshots, provided by blockchain infrastructure company [Allnodes](https://www.allnodes.com/), offer a streamlined solution for Cronos node operators looking to quickly sync with the Cronos EVM network.&#x20;
+
+Available as one-time bulk downloads, the snapshots significantly reduce initial setup time and bandwidth requirements for new nodes. It provides pruned snapshots for both Cronos EVM and Cronos POS mainnet blockchains.
+
+This guide walks you through the step-by-step process of performing a `Cronosd`s synchronization using [Public Node](https://www.publicnode.com/snapshots#cronos) Snapshots. The snapshots provided are pruned for optimize file size and download speed.&#x20;
+
+If a complete blockchain history to operate a full archive node is needed, [Native Snapshots](native-snapshots.md) or [Quicksync](quicksync.md) archive snapshot are the recommended alternatives.&#x20;
 
 {% hint style="info" %}
 Note
@@ -8,19 +20,29 @@ Note
 As of `v0.9.0`, we have merged the binary to support both levelDB and rocksDB. Therefore, make sure to select the right[`app-db-backend`](https://github.com/crypto-org-chain/cronos/releases/tag/v1.0.2)in your`app.toml`.&#x20;
 {% endhint %}
 
-This guide provides step-by-step instructions to perform a faster sync for Cronosd using Public Node Sync snapshots. Please note that the type of snapshot provided is pruned. If you require more complete data or run a full node, consider using [Quicksync](https://docs.cronos.org/for-node-hosts/running-nodes/cronos-mainnet/quicksync).
-
 ### Step 1: Download Public Node Snapshot
 
-Users can visit [Public Node Page](https://www.publicnode.com/snapshots#cronos) and download the snapshots for Cronos. Make sure to select “Cronos” and download the `lz4` file.&#x20;
+Download the latest Cronos EVM snapshot from [Public Node Page](https://www.publicnode.com/snapshots#cronos).&#x20;
 
 ### Step 2: Cronosd Setup
 
-Download the latest version of Cronosd from [Cronos Chain Github](https://github.com/crypto-org-chain/cronos/releases/latest) based on your preferred operating system.&#x20;
+Download the latest version of Cronosd Binary files from [Cronos Chain Github](https://github.com/crypto-org-chain/cronos/releases/latest) based on your preferred operating system.&#x20;
 
 Extract the downloaded file (`cronos_1.4.5_Darwin_arm64.tar.gz` is used as an example). After you download and unzip the `cronosd` to the location you desire. In terminal, change directory to the `bin` folder, where `cronosd` is located.&#x20;
 
 Follow the step from [Step 2-1 Initialize and Step 2-2 Configure cronosd](https://docs.cronos.org/for-node-hosts/running-nodes/cronos-mainnet#step-2-1-initialize-cronosd) to initialize and setup `cronosd`.&#x20;
+
+Example CLI sequence:
+
+```shell
+mkdir cronos-node
+cd cronos-node
+tar -zxvf cronos_1.4.9_Darwin_arm64.tar.gz
+cd bin
+./cronosd version
+Expected output:
+1.4.9
+```
 
 Make sure you also implement the changes from [Step 0 : Notes on Network Upgrade](https://docs.cronos.org/for-node-hosts/running-nodes/cronos-mainnet#step-0-notes-on-network-upgrade), and add these config items from [`v0.7.0`](https://github.com/crypto-org-chain/cronos/releases/tag/v0.7.0) into `app.toml` before upgrade:
 
@@ -54,7 +76,7 @@ Note
 All of the above files should be extracted to `/Users/<username>/.cronos/data`
 {% endhint %}
 
-## Step 4: Run Cronosd&#x20;
+### Step 4: Run Cronosd&#x20;
 
 Now your `cronosd` is updated to the latest height as the Public Node Sync file, you can run the node now with `cronosd start`.&#x20;
 

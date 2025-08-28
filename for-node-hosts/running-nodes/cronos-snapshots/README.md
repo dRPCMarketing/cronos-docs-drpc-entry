@@ -19,8 +19,8 @@ This section provides an overview of the various sync methods available and guid
 [state-sync.md](state-sync.md)
 {% endcontent-ref %}
 
-{% content-ref url="public-node-sync.md" %}
-[public-node-sync.md](public-node-sync.md)
+{% content-ref url="public-node.md" %}
+[public-node.md](public-node.md)
 {% endcontent-ref %}
 
 {% content-ref url="ksync.md" %}

@@ -314,8 +314,8 @@ The above outlines how to set up a node from scratch. Alternatively, you can set
 [state-sync.md](../cronos-snapshots/state-sync.md)
 {% endcontent-ref %}
 
-{% content-ref url="../cronos-snapshots/public-node-sync.md" %}
-[public-node-sync.md](../cronos-snapshots/public-node-sync.md)
+{% content-ref url="../cronos-snapshots/public-node.md" %}
+[public-node.md](../cronos-snapshots/public-node.md)
 {% endcontent-ref %}
 
 {% content-ref url="../cronos-snapshots/ksync.md" %}
