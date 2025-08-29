@@ -68,13 +68,7 @@
 
 ## FOR NODE HOSTS
 
-* [Running nodes](for-node-hosts/running-nodes/README.md)
-  * [Cronos Snapshots](for-node-hosts/running-nodes/cronos-snapshots/README.md)
-    * [Native Snapshots](for-node-hosts/running-nodes/cronos-snapshots/native-snapshots.md)
-    * [Quicksync](for-node-hosts/running-nodes/cronos-snapshots/quicksync.md)
-    * [State Sync](for-node-hosts/running-nodes/cronos-snapshots/state-sync.md)
-    * [Public Node](for-node-hosts/running-nodes/cronos-snapshots/public-node.md)
-    * [KSYNC](for-node-hosts/running-nodes/cronos-snapshots/ksync.md)
+* [Running Nodes](for-node-hosts/running-nodes/README.md)
   * [Cronos EVM Mainnet](for-node-hosts/running-nodes/cronos-mainnet/README.md)
     * [Upgrade Guide](for-node-hosts/running-nodes/cronos-mainnet/upgrade-guide/README.md)
       * [The "Huygen" upgrade guide (v0.6.\* to v0.7.\*)](for-node-hosts/running-nodes/cronos-mainnet/upgrade-guide/huygen.md)
@@ -86,12 +80,18 @@
       * [The "v1.4" Pallene upgrade guide (v1.3.\* to v1.4.1)](for-node-hosts/running-nodes/cronos-mainnet/upgrade-guide/the-v1.4-pallene-upgrade-guide-v1.3.-to-v1.4.1.md)
     * [Patching Unlucky & Duplicate Tx](for-node-hosts/running-nodes/cronos-mainnet/patching-unlucky-tx.md)
   * [Cronos EVM Testnet](for-node-hosts/running-nodes/cronos-testnet.md)
+  * [Cronos EVM Snapshots](for-node-hosts/running-nodes/cronos-evm-snapshots/README.md)
+    * [Cronos Native Snapshots](for-node-hosts/running-nodes/cronos-evm-snapshots/cronos-native-snapshots.md)
+    * [Quicksync](for-node-hosts/running-nodes/cronos-evm-snapshots/quicksync.md)
+    * [State Sync](for-node-hosts/running-nodes/cronos-evm-snapshots/state-sync.md)
+    * [Public Node](for-node-hosts/running-nodes/cronos-evm-snapshots/public-node.md)
+    * [KSYNC](for-node-hosts/running-nodes/cronos-evm-snapshots/ksync.md)
   * [Devnet](for-node-hosts/running-nodes/local-devnet.md)
-  * [Best Practices](for-node-hosts/running-nodes/cronos-node-best-practises.md)
+  * [Local State Sync](for-node-hosts/running-nodes/local-state-sync.md)
   * [Cronosd build with Nix](for-node-hosts/running-nodes/cronosd-build-with-nix.md)
   * [VersionDB](for-node-hosts/running-nodes/versiondb.md)
   * [MemIAVL](for-node-hosts/running-nodes/memiavl.md)
-  * [Local State Sync](for-node-hosts/running-nodes/local-state-sync.md)
+  * [Best Practices](for-node-hosts/running-nodes/cronos-node-best-practises.md)
 * [Cronosd](for-node-hosts/cli.md)
 
 ## CRONOS PLAY

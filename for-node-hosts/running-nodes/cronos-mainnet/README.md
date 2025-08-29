@@ -306,18 +306,18 @@ It should begin fetching blocks from the other peers.
 
 The above outlines how to set up a node from scratch. Alternatively, you can set up a node using snapshots:
 
-{% content-ref url="../cronos-snapshots/quicksync.md" %}
-[quicksync.md](../cronos-snapshots/quicksync.md)
+{% content-ref url="../cronos-evm-snapshots/quicksync.md" %}
+[quicksync.md](../cronos-evm-snapshots/quicksync.md)
 {% endcontent-ref %}
 
-{% content-ref url="../cronos-snapshots/state-sync.md" %}
-[state-sync.md](../cronos-snapshots/state-sync.md)
+{% content-ref url="../cronos-evm-snapshots/state-sync.md" %}
+[state-sync.md](../cronos-evm-snapshots/state-sync.md)
 {% endcontent-ref %}
 
-{% content-ref url="../cronos-snapshots/public-node.md" %}
-[public-node.md](../cronos-snapshots/public-node.md)
+{% content-ref url="../cronos-evm-snapshots/public-node.md" %}
+[public-node.md](../cronos-evm-snapshots/public-node.md)
 {% endcontent-ref %}
 
-{% content-ref url="../cronos-snapshots/ksync.md" %}
-[ksync.md](../cronos-snapshots/ksync.md)
+{% content-ref url="../cronos-evm-snapshots/ksync.md" %}
+[ksync.md](../cronos-evm-snapshots/ksync.md)
 {% endcontent-ref %}

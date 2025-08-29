@@ -23,7 +23,7 @@ Since 1.0.2 there is another db parameter in app.toml as well. Be sure to make t
 * `max_num_outbound_peers` For users on a private network set a higher number of outbound peers to 30 for example.
 * After peers are connected, set it back to its default value. Note that some trial values might be needed to get it right.
 * `seeds` Set the list of seeds as instructed in the [.](./ "mention") section to connect to.
-* `persistent_peers` is especially useful when using [state-sync.md](cronos-snapshots/state-sync.md "mention") to pull snapshots from.
+* `persistent_peers` is especially useful when using [state-sync.md](cronos-evm-snapshots/state-sync.md "mention") to pull snapshots from.
 
 ### send\_rate and recv\_rate
 

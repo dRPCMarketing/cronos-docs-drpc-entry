@@ -6,7 +6,7 @@ The fastest way to get a node synced to the latest block-height is by using [Sta
 
 Keep in mind that blocks prior to the trust height used for State Sync will not be queryable.&#x20;
 
-Therefore, if your goal is to run a full node with historical data, it is recommended not to use State Sync, but instead to explore other Snapshot option such as [Native Snapshots](native-snapshots.md) or [Quicksync](quicksync.md) archive snapshot.
+Therefore, if your goal is to run a full node with historical data, it is recommended not to use State Sync, but instead to explore other Snapshot option such as [Native Snapshots](cronos-native-snapshots.md) or [Quicksync](quicksync.md) archive snapshot.
 
 #### Supported OS
 

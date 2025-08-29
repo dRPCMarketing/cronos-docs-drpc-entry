@@ -12,7 +12,7 @@ Available as one-time bulk downloads, the snapshots significantly reduce initial
 
 This guide walks you through the step-by-step process of performing a `Cronosd`s synchronization using [Public Node](https://www.publicnode.com/snapshots#cronos) Snapshots. The snapshots provided are pruned for optimize file size and download speed.&#x20;
 
-If a complete blockchain history to operate a full archive node is needed, [Native Snapshots](native-snapshots.md) or [Quicksync](quicksync.md) archive snapshot are the recommended alternatives.&#x20;
+If a complete blockchain history to operate a full archive node is needed, [Native Snapshots](cronos-native-snapshots.md) or [Quicksync](quicksync.md) archive snapshot are the recommended alternatives.&#x20;
 
 {% hint style="info" %}
 Note
