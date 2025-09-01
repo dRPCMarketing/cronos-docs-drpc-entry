@@ -55,12 +55,12 @@ Once the Cronos binary is installed and verified, you can proceed with downloadi
 
 Download the snapshot you need. To avoid using outdated links, users is recommended to visit the [Cronos EVM Snapshots site](https://snapshot.cronos.org/) to obtain the latest available snapshot URL that matches your desired snapshot type.
 
-If the link provided in this guide has expired, replace it manually by retrieving the latest link from the snapshot site above.
-
 {% hint style="warning" %}
 **Please note**:\
 The snapshot link shown below is **only an example**.\
 Snapshot files are **retained for 14 days only** and automatically removed after that.&#x20;
+
+If the link provided in this guide has expired at the time of downloading, replace it manually by retrieving the latest link from the snapshot site above.
 {% endhint %}
 
 <pre><code><strong>wget https://snapshot.cronos.org/cronos/mainnet-snapshot/leveldb/pruned/cronosmainnet_25-1_leveldb-pruned-20250819.tar.lz4
