@@ -43,7 +43,7 @@ canonicalUrl: https://docs.cronos.org/wallets/cli.html
 
 ### Using `cronosd`
 
-`cronosd`is bundled with the Crypto.org Chain code. After you have obtained the latest `cronosd` binary, run
+`cronosd` is bundled with the Cronos code. After you have obtained the latest `cronosd` binary, run
 
 ```bash
 $ cronosd [command]
