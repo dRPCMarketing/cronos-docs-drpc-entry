@@ -159,6 +159,10 @@
 
 * [Cronos zkEVM](cronos-zkevm/cronos-zkevm.md)
 
+***
+
+* [Cronos Ambassadors](cronos-ambassadors.md)
+
 ## Resources
 
 * [Media / brand kit](resources/media-brand-kit.md)
