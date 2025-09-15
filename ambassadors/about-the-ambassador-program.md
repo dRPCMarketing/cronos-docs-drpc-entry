@@ -6,7 +6,7 @@ A structured, scalable initiative that shifts growth from centralized marketing 
 
 PS: thinking about becoming a Cronos ambassador?
 
-👉 Get going by filling out the [**application form**](https://cronos.typeform.com/ambassadors)\
+**👉 Get going by filling out the** [**application form**](https://cronos.typeform.com/ambassadors)\
 
 
 **Who it’s for**

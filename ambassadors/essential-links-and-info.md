@@ -43,7 +43,7 @@ We are bringing real-world finance to billions, on-chain. EVM, AI-ready, complia
 
 ### Networks you’ll hear about
 
-* Cronos EVM (main app chain): EVM-compatible, built with Ethermint/Cosmos SDK; launched Nov 8, 2021.[ (Check out ](https://docs.cronos.org/getting-started/introduction)[docs.cronos.org](http://docs.cronos.org) for more info.)
+* Cronos EVM (main app chain): EVM-compatible, built with Ethermint/Cosmos SDK; launched Nov 8, 2021. (Check out [docs.cronos.org](http://docs.cronos.org) for more info.)
 * Cronos zkEVM: Ethereum-secured L2 using zero-knowledge tech for scale.
 * Cronos POS Chain: Cosmos chain optimized for payments/consumer use cases.[ Cronos POS Chain](https://cronos-pos.org/wallets)
 

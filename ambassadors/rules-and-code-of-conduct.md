@@ -1,4 +1,21 @@
-# ✍️ Code of Conduct
+# 📖 Rules & Code of Conduct
+
+## Program and Demotion Rules
+
+While the program focuses on growth, ambassadors may also be demoted or removed at the end of a season if expectations are not met.
+
+* Inactivity: Completing fewer than 100 points worth of missions in a 3-month season
+* Peer Reviews: Repeated low feedback on collaboration or reliability.
+* Role Expectations: Failure to fulfill the duties of a rank (e.g. Sentinels not mentoring rookies).
+* Code of Conduct: Breaches of community guidelines or misuse of the ambassador role.
+
+Like promotions, demotions are limited to one rank per season. Ambassadors can regain higher ranks in future seasons by contributing actively again.
+
+
+
+The Cronos Ambassador Program is a living initiative. While this framework reflects the current structure, missions and progression paths, all details — including points, tiers and rewards — are subject to change as the program evolves. The Cronos team reserves the final discretion on promotions, demotions and recognition to ensure the program remains fair, impactful and aligned with the long-term vision of the ecosystem.
+
+## Code of Conduct
 
 To set the scene, here are some basic ground rules to abide by as a Cronos Ambassador.
 
@@ -12,12 +29,6 @@ To set the scene, here are some basic ground rules to abide by as a Cronos Ambas
 * **Disclose** (new or pre-existing) paid partnerships or affiliations to the core team
 * Follow **local laws & venue rules** for events
 * **Report spam/scams/impersonation** to program leads in Discord.
-
-
-
-
-
-## Code of Conduct
 
 ### General Conduct
 
@@ -79,20 +90,6 @@ To set the scene, here are some basic ground rules to abide by as a Cronos Ambas
 
 Be aware that in case of Ambassadors breaking the Code of Conduct, or seem to be involved in disallowed activities, the core team reserves the right to suspend Ambassadors or downgrade their Rank accordingly.
 
-
-
 ### Code of Conduct Quiz
 
 FYI - when you start your journey as a Cronos Ambassador, you will be asked to complete a [Code of Conduct Quiz](https://cronos.typeform.com/code-of-conduct). It is important to review the information above before taking that quiz.
-
-
-
-
-
-
-
-\
-[\
-](https://cronos-pos.org/wallets?utm_source=chatgpt.com)
-
-\
