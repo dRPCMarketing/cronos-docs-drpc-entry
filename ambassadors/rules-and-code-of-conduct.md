@@ -32,7 +32,9 @@ To set the scene, here are some basic ground rules to abide by as a Cronos Ambas
 
 ### General Conduct
 
-**1. Factual Representation:** Report facts, avoid attacks on individuals or groups of individuals
+**1. Factual Representation:** Report facts, avoid attacks on individuals or groups of individuals. When taking inspiration or basing yourself on news from sources (whether it be other contributors, news outlets,...) to provide insights, analysis, updates to the community: give credit where credit is due.
+
+For example, give credit by QRTing the original post and/or providing a link to the press release, blog, news article. A simple copy/paste from another post and claiming it as your own is not allowed. The same goes for just taking a paragraph or section from an analysis without quoting the source. We want to build a constructive, collaborative and respectful ambassador team and community.
 
 **2. Respectful Communication:** Engage with all individuals and communities respectfully. Avoid derogatory, discriminatory, or offensive language. Personal attacks, harassment, or bullying are strictly prohibited.
 
