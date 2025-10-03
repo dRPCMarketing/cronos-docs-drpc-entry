@@ -2,7 +2,7 @@
 
 ## Block Explorer
 
-The Cronos blockchain network is transitioning away from the legacy Cronoscan block explorer and into the new [Cronos Explorer](https://explorer.cronos.org).&#x20;
+The Cronos blockchain network is now using the new [Cronos Explorer](https://explorer.cronos.org).&#x20;
 
 The Cronos Explorer URLs are as follows:
 

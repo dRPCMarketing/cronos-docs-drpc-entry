@@ -4,14 +4,11 @@
 
 {% tabs %}
 {% tab title="Cronos Mainnet" %}
-* **"Cronos Explorer"** - [https://explorer.cronos.org/](https://explorer.cronos.org/)
-* [https://cronos.org/explorer](https://cronos.org/explorer/)
-* [https://cronoscan.com/](https://cronoscan.com)
+* **Cronos Explorer:**         [https://explorer.cronos.org/](https://explorer.cronos.org/)
 {% endtab %}
 
 {% tab title="Testnet" %}
-* **"Cronos Testnet Explorer"** - [https://explorer.cronos.org/testnet](https://explorer.cronos.org/testnet)
-* [https://cronos.org/explorer/testnet3](https://cronos.org/explorer/testnet3)
+* **Cronos Testnet Explorer:** [https://explorer.cronos.org/testnet](https://explorer.cronos.org/testnet)
 {% endtab %}
 {% endtabs %}
 

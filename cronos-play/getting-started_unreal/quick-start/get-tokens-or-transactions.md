@@ -1,7 +1,5 @@
 # Get Tokens or Transactions
 
-Tokens and Transactions can be queried by Blockscout api or Cronoscan api. Please find the Blockscout api address or apply the Cronoscan API key before using them:
-
 {% content-ref url="../../../block-explorers/block-explorer-and-api-keys.md" %}
 [block-explorer-and-api-keys.md](../../../block-explorers/block-explorer-and-api-keys.md)
 {% endcontent-ref %}
@@ -69,8 +67,6 @@ returns the ERC721 transfers of a given address of a given contract.
 (address can be empty if option is ByContract)
 
 default option is by address
-
-The API key can be obtained from https://cronoscan.com
 
 <figure><img src="../../../.gitbook/assets/cronos-gamefi-blueprint-geterc721transferhistory" alt=""><figcaption></figcaption></figure>
 

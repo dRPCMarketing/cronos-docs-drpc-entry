@@ -110,7 +110,7 @@ make             # Compile with default compiler
 #include "sdk/include/defi-wallet-core-cpp/src/nft.rs.h" // crypto.org chain nft support
 #include "sdk/include/defi-wallet-core-cpp/src/uint.rs.h" // uint256 type support
 #include "sdk/include/defi-wallet-core-cpp/src/ethereum.rs.h" // dynamic contract support
-#include "sdk/include/extra-cpp-bindings/src/lib.rs.h" // etherscan/cronoscan, crypto.com pay, wallet connect support
+#include "sdk/include/extra-cpp-bindings/src/lib.rs.h" // etherscan, crypto.com pay, wallet connect support
 #include "sdk/include/rust/cxx.h" // the important data types, e.g., rust::String, rust::str, etc
 
 using namespace rust;
@@ -212,7 +212,7 @@ function `new_privatekey_from_bytes` - Constructs private key from hex bytes
 
 ### ERC20, ERC721, ERC1155 related functions
 
-#### [ERC20](https://leslie-h-cheung.gitbook.io/cronos-play-c++-sdk/readme-1/classes/structorg\_1\_1defi\_\_wallet\_\_core\_1\_1\_erc20)
+#### [ERC20](https://leslie-h-cheung.gitbook.io/cronos-play-c++-sdk/readme-1/classes/structorg_1_1defi__wallet__core_1_1_erc20)
 
 function `balance_of` - Returns the decimal amount of tokens owned by account\_address.
 
@@ -278,7 +278,7 @@ uint8_t decimals = erc20.decimals();
 assert(decimals == 6);
 ```
 
-#### [ERC721](https://leslie-h-cheung.gitbook.io/cronos-play-c++-sdk/readme-1/classes/structorg\_1\_1defi\_\_wallet\_\_core\_1\_1\_erc721)
+#### [ERC721](https://leslie-h-cheung.gitbook.io/cronos-play-c++-sdk/readme-1/classes/structorg_1_1defi__wallet__core_1_1_erc721)
 
 function `balance_of` - Returns the number of tokens in owner's account\_address.
 
@@ -350,7 +350,7 @@ function `safe_transfer_from_with_data` - Safely transfers token\_id token from 
 ) const
 ```
 
-#### [ERC1155](https://leslie-h-cheung.gitbook.io/cronos-play-c++-sdk/readme-1/classes/structorg\_1\_1defi\_\_wallet\_\_core\_1\_1\_erc1155)
+#### [ERC1155](https://leslie-h-cheung.gitbook.io/cronos-play-c++-sdk/readme-1/classes/structorg_1_1defi__wallet__core_1_1_erc1155)
 
 function `balance_of` - Returns the amount of tokens of `token_id` owned by `account_address`.
 

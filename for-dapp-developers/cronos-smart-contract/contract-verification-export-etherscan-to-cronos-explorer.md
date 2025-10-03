@@ -1,27 +1,36 @@
-# Contract Verification Export: Cronoscan To Cronos Explorer
+---
+hidden: true
+---
+
+# Contract Verification Export: Etherscan To Cronos Explorer
 
 ## Cronos EVM: how to verify smart contracts on multiple blockchain explorers
 
-As a developer, you may have submitted your smart contract code to a blockchain explorer (e.g., [Cronoscan](https://cronoscan.com/)) as part of your smart contract deployment script. You can also submit it to other platforms for verification (e.g., [Cronos Explorer](https://explorer.cronos.org/)).
+As a developer, you may have submitted your smart contract code to a blockchain explorer (e.g. [Etherscan](https://etherscan.io/)) as part of your smart contract deployment script. You can also submit it to other platforms for verification (e.g. [Cronos Explorer](https://explorer.cronos.org/)).
 
 This guide explains how to export data from one explorer and upload it into another. However, this only works for one smart contract at a time.
 
-## Step 1: Obtain smart contract data from a blockchain explorer (e.g., Cronoscan)
+## Step 1: Obtain smart contract data from a blockchain explorer (e.g. Etherscan)
 
-Cronoscan provides an [endpoint](https://docs.cronoscan.com/api-endpoints/contracts#get-contract-source-code-for-verified-contract-source-codes) for registered users to retrieve contract source code and compilation settings:
+Etherscan provides an [endpoint](https://docs.etherscan.io/api-endpoints/contracts#get-contract-source-code-for-verified-contract-source-codes) for registered users to retrieve contract source code and compilation settings:
 
 {% code overflow="wrap" %}
 ```url
-https://api.cronoscan.com/api?module=contract&action=getsourcecode&address={YourContractAddress}&apikey={YourApiKeyToken}
+https://api.etherscan.io/v2/api
+?chainid=25
+&module=contract
+&action=getsourcecode
+&address={YourContractAddress}
+&apikey={YourApiKeyToken}
 ```
 {% endcode %}
 
 The parameters are as follows:
 
 * YourContractAddress: address of your smart contract on Cronos EVM chain.
-* YourApiKeyToken: API key on the Cronoscan platform.
+* YourApiKeyToken: API key on the [Ethercan API Dashboard](https://etherscan.io/apidashboard).
 
-The output may look like this (example from this contract: [https://cronoscan.com/address/0x7de56bd8b37827c51835e162c867848fe2403a48#code](https://cronoscan.com/address/0x7de56bd8b37827c51835e162c867848fe2403a48#code))
+The output may look like this:
 
 <figure><img src="../../.gitbook/assets/image3.png" alt=""><figcaption></figcaption></figure>
 
@@ -71,10 +80,10 @@ In this case, you need to create a .JSON file by following these steps:
 
 ```
 
-* In the JSON file that you just created, update the "enabled" and "runs" values to match the OptimizationUsed (where 1 should be converted to true) and Runs values from the Cronoscan response.
+* In the JSON file that you just created, update the "enabled" and "runs" values to match the OptimizationUsed (where 1 should be converted to true) and Runs values from the Etherscan API response.
 * Paste the unescaped JSON string into the JSON file, where "\*\*Paste here\*\*" is a placeholder for where you should insert the unescaped JSON string obtained in the previous step.
 
-```reason
+```json
 {
     "language": "Solidity",
     "sources": {
@@ -95,30 +104,30 @@ In this case, you need to create a .JSON file by following these steps:
 
 ```
 
-## Step 3: Submit contract verification into the other blockchain explorer (e.g., Cronos Explorer)
+## Step 3: Submit contract verification into the other blockchain explorer (e.g. Cronos Explorer)
 
 Please visit the [Cronos Explorer User Interface](https://explorer.cronos.org/verifyContract), which looks like this:
 
 <figure><img src="../../.gitbook/assets/image2.png" alt=""><figcaption></figcaption></figure>
 
-You can use the elements from Step 1 to complete the corresponding inputs:
+You can use the elements from [**Step 1**](contract-verification-export-etherscan-to-cronos-explorer.md#step-1-obtain-smart-contract-data-from-a-blockchain-explorer-e.g.-etherscan) to complete the corresponding inputs:
 
-* Contract Name: Refer to the ContractName field from the Cronoscan response.
+* Contract Name: Refer to the ContractName field from the Etherscan response.
 * Contract Address: Address of the contract.
-* Compiler Type: there are two possible scenarios, depending on the format of the source code file generated in Step 2.
-  * Scenario 1: The source code is a Solidity file (such as source\_code.sol), generated from a SourceCode value in Source code-only format with a single source file. In that case:
+* Compiler Type: there are two possible scenarios, depending on the format of the source code file generated in [**Step 2**](contract-verification-export-etherscan-to-cronos-explorer.md#step-2-reformat-the-sourcecode-fields-value).
+  * Scenario 1: The source code is a Solidity file (such as _**source\_code.sol**_), generated from a SourceCode value in Source code-only format with a single source file. In that case:
     * Compiler Type: select Solidity Files.
     * Contract Files: Upload the solidity file (.sol) generated in Step 2.
-    * Optimizer Enabled: Toggle yes if the OptimizationUsed field from the Cronoscan response is 1.
-    * Optimizer Runs: If Optimizer Enabled is toggled, use the value from the Runs field in the Cronoscan response.
-  * Scenario 2: The source code is a JSON file (such as source\_code.json) generated from a SourceCode value either in Standard JSON input format or in Source code-only format with multiple source files. In that case:
+    * Optimizer Enabled: Toggle yes if the OptimizationUsed field from the Etherscan response is 1.
+    * Optimizer Runs: If Optimizer Enabled is toggled, use the value from the Runs field in the Etherscan response.
+  * Scenario 2: The source code is a JSON file (such as _**source\_code.json**_) generated from a SourceCode value either in Standard JSON input format or in Source code-only format with multiple source files. In that case:
     * Compiler Type: select Solidity Standard-Json-Input.
     * Check and, if necessary, edit the value of the JSON file as follows:
-      * Double check the value of the `settings.optimizer.enabled` field. It must be set to true if the OptimizationUsed field from the Cronoscan response is 1. If there is a mismatch, fix it manually in the source\_code.json file.
-      * Double check the value of the `settings.optimizer.runs`field. It must be set to match the value of the Runs field from the Cronoscan response. If there is a mismatch, fix it manually in the source\_code.json file.
+      * Double check the value of the `settings.optimizer.enabled` field. It must be set to true if the OptimizationUsed field from the Etherscan response is 1. If there is a mismatch, fix it manually in the source\_code.json file.
+      * Double check the value of the `settings.optimizer.runs`field. It must be set to match the value of the Runs field from the Etherscan response. If there is a mismatch, fix it manually in the _**source\_code.json**_ file.
 * Contract Files: Upload the JSON file (.json) generated in Step 2.
-* Compiler Version: Use the value of the CompilerVersion field from the Cronoscan response.
-* Constructor Arguments: Use the ConstructorArguments field from the Cronoscan response.
+* Compiler Version: Use the value of the CompilerVersion field from the Etherscan response.
+* Constructor Arguments: Use the ConstructorArguments field from the Etherscan response.
 
 An example of the completed form is shown below:
 
@@ -128,10 +137,12 @@ After submitting the form, you are done!
 
 ## Troubleshooting
 
-If you encounter errors, please email [contact@cronoslabs.org](mailto:contact@cronoslabs.org), making sure that you:
+If you need Technical Support please log a Support Ticket on the [Cronos Discord Server](https://discord.com/channels/783264383978569728/1133334988142690365) and provide the following details:
 
-* Specify the address of the smart contract.
+* The smart contract address.
 * Attach the JSON or SOL file generated in Step 2.
 * Attach a screenshot of the verification form you completed.
 
-Most of the time, the errors are caused by mistakes when generating the JSON or SOL source code file.\
+Most errors are caused when generating the JSON or SOL source code file.
+
+\
