@@ -25,7 +25,7 @@
 * [🚰 Testnet Faucet](for-users/testnet-faucet.md)
 * [💡 Tips & FAQs](for-users/tips-and-faqs.md)
 * [👮 Key Principles for Wallet Security](for-users/key-principles-for-wallet-security.md)
-* [GasTracker](https://cronos.org/gastracker)
+* [⛽ GasTracker](https://cronos.org/gastracker)
 
 ## FOR DAPP DEVELOPERS
 

@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Contract Verification Export: Cronoscan To Cronos Explorer
 
 ## Cronos EVM: how to verify smart contracts on multiple blockchain explorers
