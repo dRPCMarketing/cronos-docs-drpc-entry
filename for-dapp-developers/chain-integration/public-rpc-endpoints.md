@@ -67,6 +67,11 @@ Mainnet
 
 ### Commercial node providers
 
+* dRPC:
+  * [Cronos Nodes](https://drpc.org/chainlist/cronos-mainnet-rpc)
+  * [Docs](https://drpc.org/docs)
+  * [Mainnet Endpoint](https://cronos.drpc.org)
+  * [Testnet Endpoint](https://cronos-testnet.drpc.org)
 * Moralis:
   * [Moralis Nodes](https://moralis.io/nodes/?utm_source=cronos-docs\&utm_medium=partner-docs)
   * [Moralis YouTube Tutorials](https://www.youtube.com/@MoralisWeb3)
