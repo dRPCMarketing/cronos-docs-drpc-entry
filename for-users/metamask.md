@@ -41,19 +41,19 @@ First, you will need to connect your MetaMask wallet to the Cronos network:
 
 * Click the "**My Account**" button in the top right corner. Then select **"Networks"** in the settings menu.
 
-![](../.gitbook/assets/metamask\_1.png)
+![](../.gitbook/assets/metamask_1.png)
 
 *   Click "**Add Network**":
 
-    ![](../.gitbook/assets/metamask\_2.png)
+    ![](../.gitbook/assets/metamask_2.png)
 
 {% tabs %}
 {% tab title="Mainnet" %}
-* **Name**: Cronos
-* **New RPC URL:**`https://evm.cronos.org`;
-* **Chain ID: 25**
-* **Symbol:**`CRO`
-* **Block explorer URL:**`https://explorer.cronos.org/`
+- **Name**: Cronos
+- **New RPC URL:**`https://evm.cronos.org`;
+- **Chain ID: 25**
+- **Symbol:**`CRO`
+- **Block explorer URL:**`https://explorer.cronos.org/`
 {% endtab %}
 
 {% tab title="Testnet" %}
@@ -83,13 +83,13 @@ It will show your private key and you can copy it for the next step. Click the "
 
 Paste your private key string from the previous step and click "**Import"**.
 
-![](<../.gitbook/assets/metamask\_3 (1) (1) (1) (1) (1) (1) (2).png>)
+![](<../.gitbook/assets/metamask_3 (1) (1) (1) (1) (1) (1) (2).png>)
 
 Once it has been connected, you should see your token balance and you can then begin performing transactions using your MetaMask wallet!
 
 ## Address conventions
 
-Please note that the address format in Cronos is in there form of bech32 `crc...` , we can use `cronosd debug addr` to convert an address between hex and bech32. For example:
+Please note that the address format in Cronos is in the form of bech32 `crc...` , we can use `cronosd debug addr` to convert an address between hex and bech32. For example:
 
 ```bash
 $ cronosd keys list --keyring-backend test
