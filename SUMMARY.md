@@ -84,6 +84,7 @@
   * [Cronos EVM Testnet](for-node-hosts/running-nodes/cronos-testnet.md)
   * [Cronos EVM Snapshots](for-node-hosts/running-nodes/cronos-evm-snapshots/README.md)
     * [Cronos Native Snapshots](for-node-hosts/running-nodes/cronos-evm-snapshots/cronos-native-snapshots.md)
+    * [Snapshot Downloader](for-node-hosts/running-nodes/cronos-evm-snapshots/snapshot-downloader.md)
     * [Quicksync](for-node-hosts/running-nodes/cronos-evm-snapshots/quicksync.md)
     * [State Sync](for-node-hosts/running-nodes/cronos-evm-snapshots/state-sync.md)
     * [Public Node](for-node-hosts/running-nodes/cronos-evm-snapshots/public-node.md)
