@@ -59,7 +59,7 @@
   * [Cronos Safe](for-dapp-developers/useful-projects-on-cronos/cronos-safe.md)
   * [Flair](for-dapp-developers/dev-tools-and-integrations/flair.md)
   * [Google Bigquery](for-dapp-developers/dev-tools-and-integrations/google-bigquery.md)
-  * [AWS S3](for-dapp-developers/dev-tools-and-integrations/aws-s3.md)
+  * [AWS S3 - Cronos EVM Public Dataset](for-dapp-developers/dev-tools-and-integrations/aws-s3-cronos-evm-public-dataset.md)
   * [Moralis](for-dapp-developers/useful-projects-on-cronos/moralis.md)
   * [Pyth](for-dapp-developers/dev-tools-and-integrations/pyth.md)
   * [RockX](for-dapp-developers/dev-tools-and-integrations/rockx.md)
