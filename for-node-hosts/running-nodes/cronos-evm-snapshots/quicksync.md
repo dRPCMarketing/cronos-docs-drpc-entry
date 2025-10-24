@@ -27,9 +27,7 @@ After executing the command `./cronosd` start at [Step 3-2](../cronos-mainnet/#s
 \
 Both RocksDB and LevelDB snapshots are now available for Cronos Chain.
 
-{% hint style="info" %}
 ### Step 2: Quicksync Extract
-{% endhint %}
 
 To start with Quicksync, you need to run `brew install lz4` to install lz4 in a new terminal.\
 Then download the file with preferred pruning settings directly from [Quicksync](https://quicksync.io/cronos).

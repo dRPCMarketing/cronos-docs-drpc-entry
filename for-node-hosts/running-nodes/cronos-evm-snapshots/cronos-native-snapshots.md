@@ -27,7 +27,7 @@ mkdir cronos-node
 cd cronos-node
 ```
 
-2. Download the latest Cronos Binary release:
+2. Download the latest Cronos Binary [release](https://github.com/crypto-org-chain/cronos/releases):
 
 ```
 curl -LOJ https://github.com/crypto-org-chain/cronos/releases/download/v1.4.9/cronos_1.4.9_Darwin_arm64.tar.gz
