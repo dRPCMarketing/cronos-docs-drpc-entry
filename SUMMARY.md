@@ -169,6 +169,7 @@
 
 * [💫 Start Here](ambassadors/start-here.md)
 * [🎓 About the Ambassador Program](ambassadors/about-the-ambassador-program.md)
+* [🤝 Ambassador List](ambassadors/ambassador-list.md)
 * [🧠 Essential Links and Info](ambassadors/essential-links-and-info.md)
 * [🚀 Program Overview](ambassadors/program-overview.md)
 * [🏎️ Contribution Tracks](ambassadors/contribution-tracks.md)
