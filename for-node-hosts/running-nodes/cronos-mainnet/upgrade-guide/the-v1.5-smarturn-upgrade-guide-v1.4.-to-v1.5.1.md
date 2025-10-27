@@ -13,7 +13,7 @@ You might check the current block height with the [Cronos Explorer](https://expl
 At the point of the proposed upgrade, the user will see the error message on the `cronosd` similar to the below:
 
 ```bash
-ERR UPGRADE "v1.5" NEEDED at height: ___.: {\"binaries\":{...."}}
+ERR UPGRADE "v1.5" NEEDED at height: 38432212.: {\"binaries\":{...."}}
 ```
 
 **Don't panic** - The Chain will be paused to allow the majority of validators to upgrade. Validators and full node hosts will have to upgrade your Cronos nodes to the latest release binary.
