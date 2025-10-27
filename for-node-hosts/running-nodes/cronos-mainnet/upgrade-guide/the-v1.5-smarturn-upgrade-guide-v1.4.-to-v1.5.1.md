@@ -1,7 +1,3 @@
----
-hidden: true
----
-
 # The "v1.5" Smarturn upgrade guide (v1.4.\* to v1.5.1)
 
 {% hint style="warning" %}
