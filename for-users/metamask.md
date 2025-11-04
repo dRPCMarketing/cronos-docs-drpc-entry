@@ -83,7 +83,7 @@ It will show your private key and you can copy it for the next step. Click the "
 
 Paste your private key string from the previous step and click "**Import"**.
 
-![](<../.gitbook/assets/metamask_3 (1) (1) (1) (1) (1) (1) (2).png>)
+![](<../.gitbook/assets/metamask_3 (1) (1) (1) (1) (1) (1) (1) (1).png>)
 
 Once it has been connected, you should see your token balance and you can then begin performing transactions using your MetaMask wallet!
 
