@@ -15,12 +15,12 @@ Please read this guide and review the project documentation carefully as misuse 
 #### Currently supported networks:
 
 * Cronos POS Chain <=> Cronos (Cronos EVM Chain): CRO token;
-* Cosmos Hub <=> Cronos: ATOM token;
-* Akash <=> Cronos: AKT token;
-* IRISnet<=> Cronos: IRIS token;
-* CANTO <=> Cronos: CANTO token;
-* Celestia <=> Cronos: TIA token;
-* Juno <=> Cronos: JUNO token.
+* [Cosmos Hub](https://hub.cosmos.network/) <=> Cronos: ATOM token;
+* [Akash](https://akash.network/) <=> Cronos: AKT token;
+* [IRISnet](https://www.irisnet.org/)<=> Cronos: IRIS token;
+* [CANTO](https://www.canto.io/) <=> Cronos: CANTO token;
+* [Celestia](https://celestia.org/) <=> Cronos: TIA token;
+* [Juno](https://www.junonetwork.io/) <=> Cronos: JUNO token.
 
 #### Currently supported wallets:
 
