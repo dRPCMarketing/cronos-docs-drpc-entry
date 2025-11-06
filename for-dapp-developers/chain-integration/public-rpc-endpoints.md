@@ -98,3 +98,7 @@ The RPC endpoints below are provided by third-party services. Please conduct tho
   * [RPC Gateway to Cronos](https://cronos.publicnode.com/)
 * Dwellir:
   * [Connect your dApp or Web3 project with any blockchain](https://www.dwellir.com/networks/cronos)
+* dRPC NodeCloud:
+  * [Cronos Mainnet endpoints](https://drpc.org/chainlist/cronos-mainnet-rpc)
+  * [Cronos Testnet endpoints](https://drpc.org/chainlist/cronos-testnet-rpc)
+  * [Service Status](https://status.drpc.org/)
