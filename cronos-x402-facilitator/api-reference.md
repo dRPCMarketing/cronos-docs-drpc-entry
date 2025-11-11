@@ -160,7 +160,7 @@ X402-Version: 1
 
 **Request Body:**
 
-Same format as the [Verify Endpoint](introduction.md#verify-endpoint).
+Same format as the [Verify Endpoint](api-reference.md#verify-endpoint).
 
 **Success Response:**
 
