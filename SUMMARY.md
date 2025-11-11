@@ -158,6 +158,16 @@
   * [Protocol Documentation](cronos-chain-protocol/chain-details/cosmos-grpc-docs.md)
 * [Common IBC Commands](cronos-chain-protocol/common-ibc-commands.md)
 
+## Cronos X402 Facilitator
+
+* [Introduction-backup](cronos-x402-facilitator/introduction-backup.md)
+* [Introduction](cronos-x402-facilitator/introduction.md)
+* [How It Works](cronos-x402-facilitator/how-it-works.md)
+* [API Reference](cronos-x402-facilitator/api-reference.md)
+* [Quick Start for Buyers](cronos-x402-facilitator/quick-start-for-buyers.md)
+* [Quick Start for Sellers](cronos-x402-facilitator/quick-start-for-sellers.md)
+* [Resources & Next Steps](cronos-x402-facilitator/resources-and-next-steps.md)
+
 ## Cronos zkEVM
 
 * [Cronos zkEVM](cronos-zkevm/cronos-zkevm.md)
