@@ -140,7 +140,7 @@ curl -X GET https://facilitator.cronoslabs.org/healthcheck
 
 #### **3. Test** Supported
 
-See the [Discovery Endpoint](api-reference.md#discovery-endpoint) for details.
+See the [Supported Endpoint](api-reference.md#api-endpoints) for details.
 
 ```bash
 curl -X GET https://facilitator.cronoslabs.org/v2/x402/supported

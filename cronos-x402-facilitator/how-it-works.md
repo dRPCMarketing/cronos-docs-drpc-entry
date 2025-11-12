@@ -4,46 +4,6 @@ Here’s a high-level diagram of the X402 payment flow:
 
 <figure><img src="../.gitbook/assets/paymentflow.png" alt=""><figcaption></figcaption></figure>
 
-<details>
-
-<summary>Note: unfold to see the sequence diagram code here</summary>
-
-```mermaid
-sequenceDiagram
-    participant PA as Buyer<br/>(Wallet/AI)
-    participant RA as Seller<br/>(Resource Server)
-    participant FS as Facilitator<br/>Service
-    participant CB as Cronos<br/>Blockchain
-    
-    Note over PA,CB: 1. Request Resource
-    PA->>RA: GET /api/premium-data
-    RA->>PA: 402 Payment Required<br/>{paymentRequirements}
-    
-    Note over PA,CB: 2. Sign Authorization
-    PA->>PA: Generate nonce<br/>Sign EIP-712 typed data<br/>Create payment header
-    
-    Note over PA,CB: 3. Retry with Payment
-    PA->>RA: GET /api/premium-data<br/>X-PAYMENT
-    
-    Note over PA,CB: 4. Verify Payment
-    RA->>FS: POST /verify<br/>{paymentHeader, paymentRequirements}
-    FS->>FS: Decode Base64<br/>Verify EIP-3009 signature<br/>Check amount/network
-    FS->>RA: {isValid: true}
-    
-    Note over PA,CB: 5. Settle On-Chain
-    RA->>FS: POST /settle<br/>{paymentHeader, paymentRequirements}
-    FS->>CB: transferWithAuthorization()<br/>{from, to, value, nonce, signature}
-    CB->>CB: Validate signature<br/>Check nonce uniqueness<br/>Transfer USDX tokens
-    FS->>FS: Wait for blockchain confirmation
-    CB->>FS: Transaction receipt<br/>{txHash, blockNumber}
-    FS->>RA: {event: "payment.settled", txHash, ...}
-    
-    Note over PA,CB: 6. Deliver Content
-    RA->>PA: 200 OK<br/>{data, payment: {txHash, value, ...}}
-```
-
-</details>
-
 As you can see above, the x402 payment flow involves four components: **Buyer** (wallet/AI agent), **Seller** (your API/resource server), **Facilitator** (this service), and **Cronos Blockchain**. For implementation guides, see [Quick Start for Buyers](quick-start-for-buyers.md) and [Quick Start for Sellers](quick-start-for-sellers.md).
 
 ### Payment Flow

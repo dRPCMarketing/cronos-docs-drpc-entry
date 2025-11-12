@@ -13,8 +13,7 @@ The Cronos x402 Facilitator enables sellers to accept on-chain stablecoin paymen
 #### **Documentation & Resources:**
 
 * **Developer Dashboard**: [https://developer.crypto.com](https://developer.crypto.com/)
-* **API Documentation**: TBD
+* **API Documentation**: [https://docs.cronos.org/cronos-x402-facilitator/api-reference#api-endpoints](https://docs.cronos.org/cronos-x402-facilitator/api-reference#api-endpoints)
 * **Cronos Block Explorer**: [https://explorer.cronos.org](https://explorer.cronos.org/)
-* **GitHub Repository**: [https://github.com/crypto-com/x402-facilitator-service](https://github.com/crypto-com/x402-facilitator-service)
 * **x402 Protocol Spec**: [https://github.com/coinbase/x402](https://github.com/coinbase/x402)
-* **Support**: TBD
+
