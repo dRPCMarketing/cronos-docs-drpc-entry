@@ -14,7 +14,7 @@
 
 ## API Endpoints
 
-<table data-full-width="false"><thead><tr><th width="160.40625">Endpoint</th><th width="113.14453125">Method</th><th>URL</th></tr></thead><tbody><tr><td><strong>Health Check</strong></td><td>GET</td><td><code>https://facilitator.cronoslabs.org/healthcheck</code></td></tr><tr><td><strong>Discovery</strong></td><td>GET</td><td><code>https://facilitator.cronoslabs.org/v2/x402/supported</code></td></tr><tr><td><strong>Verify</strong></td><td>POST</td><td><code>https://facilitator.cronoslabs.org/v2/x402/verify</code></td></tr><tr><td><strong>Settle</strong></td><td>POST</td><td><code>https://facilitator.cronoslabs.org/v2/x402/settle</code></td></tr></tbody></table>
+<table data-full-width="false"><thead><tr><th width="160.40625">Endpoint</th><th width="113.14453125">Method</th><th>URL</th></tr></thead><tbody><tr><td><strong>Health Check</strong></td><td>GET</td><td><code>https://facilitator.cronoslabs.org/healthcheck</code></td></tr><tr><td><strong>Supported</strong></td><td>GET</td><td><code>https://facilitator.cronoslabs.org/v2/x402/supported</code></td></tr><tr><td><strong>Verify</strong></td><td>POST</td><td><code>https://facilitator.cronoslabs.org/v2/x402/verify</code></td></tr><tr><td><strong>Settle</strong></td><td>POST</td><td><code>https://facilitator.cronoslabs.org/v2/x402/settle</code></td></tr></tbody></table>
 
 ### Health Check Endpoint
 
@@ -39,7 +39,7 @@ Returns the health status of the facilitator service, including uptime, response
 }
 ```
 
-### Discovery Endpoint <a href="#discovery-endpoint" id="discovery-endpoint"></a>
+### Supported Endpoint <a href="#discovery-endpoint" id="discovery-endpoint"></a>
 
 **GET** `/v2/x402/supported`
 

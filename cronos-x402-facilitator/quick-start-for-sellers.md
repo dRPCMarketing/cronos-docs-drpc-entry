@@ -138,7 +138,7 @@ See the [Health Check Endpoint](api-reference.md#health-check-endpoint) for deta
 curl -X GET https://facilitator.cronoslabs.org/healthcheck
 ```
 
-#### **3. Test Discovery**
+#### **3. Test** Supported
 
 See the [Discovery Endpoint](api-reference.md#discovery-endpoint) for details.
 
