@@ -1,11 +1,11 @@
 # Customizing Network
 
-Back to the level editor,&#x20;
+Back to the level editor,
 
-* In Content Browser, select All > C++ Classes > CronosPlayDemo,&#x20;
+* In Content Browser, select All > C++ Classes > CronosPlayDemo,
 * Drag `MyDefiWalletCoreActor` we just created into the map, you'll see a new created actor `MyDefiWalletCoreActor` in Outliner
 
-<figure><img src="../../../.gitbook/assets/cronos-gamefi-cpp-my-actor" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/cronos-gamefi-cpp-my-actor" alt="" width="563"><figcaption></figcaption></figure>
 
 * Select `MyDefiWalletCoreActor` in Outliner. Under **Cronos Play Unreal** section of **Details** tab, input the RPC and Chain ID settings, for example:
   * `My Cronos Rpc`:
@@ -15,8 +15,8 @@ Back to the level editor,&#x20;
     * **\[Testnet]** 338; or
     * **\[Mainnet]** 25
 
-<figure><img src="../../../.gitbook/assets/cronos-gamefi-cpp-actor-network-setting" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/cronos-gamefi-cpp-actor-network-setting" alt="" width="563"><figcaption></figcaption></figure>
 
 * Click `Play` to start the simulation, logs could be found in the Output Log
 
-<figure><img src="../../../.gitbook/assets/cronos-gamefi-cpp-logs" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/cronos-gamefi-cpp-logs" alt="" width="563"><figcaption></figcaption></figure>

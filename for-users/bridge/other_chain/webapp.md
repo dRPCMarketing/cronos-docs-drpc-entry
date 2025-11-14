@@ -22,7 +22,7 @@ If you are transferring to or from Cronos POS chain, you need to specify the des
 
 Once the networks are chosen, select the asset you would like to transfer.
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2025-09-23 at 15.53.35.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Screenshot 2025-09-23 at 15.53.35.png" alt="" width="563"><figcaption></figcaption></figure>
 
 **Step 3. Enter the amount**
 
@@ -36,7 +36,7 @@ During the promotional launch period, the network fee incurred by the bridge wil
 
 Before bridging a large amount, we encourage testing a transfer of a small amount first to ensure that all settings are correct.
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2025-09-23 at 15.55.54.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Screenshot 2025-09-23 at 15.55.54.png" alt="" width="563"><figcaption></figcaption></figure>
 
 ![](../assets/4a_confirm_wallet_txn.png)
 
@@ -52,7 +52,7 @@ This will send a transaction request to your wallet. Please confirm the request 
 
 After bridging the tokens, they will be converted to tokens that are supported by the destination blockchain. For more information, please see this [FAQ](../../faq.md).
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2025-09-23 at 15.57.32.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Screenshot 2025-09-23 at 15.57.32.png" alt="" width="563"><figcaption></figcaption></figure>
 
 **Step 5. Bridging assets**
 

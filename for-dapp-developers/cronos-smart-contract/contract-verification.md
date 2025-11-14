@@ -2,7 +2,7 @@
 
 ## Block Explorer
 
-The Cronos blockchain network is now using the new [Cronos Explorer](https://explorer.cronos.org).&#x20;
+The Cronos blockchain network is now using the new [Cronos Explorer](https://explorer.cronos.org).
 
 The Cronos Explorer URLs are as follows:
 
@@ -34,7 +34,7 @@ For verification via Hardhat, refer to the example provided in [this boilerplate
 
 After the contract verification is complete, the Cronos Explorer will display details about your smart contract code like shown below.
 
-<figure><img src="../../.gitbook/assets/2024-02-08 Screenshot 07-53-20@2x.png" alt=""><figcaption><p>Cronos Explorer screenshot</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/2024-02-08 Screenshot 07-53-20@2x.png" alt="" width="563"><figcaption><p>Cronos Explorer screenshot</p></figcaption></figure>
 
 **Contract Verification Via Explorer interface:**
 
@@ -42,4 +42,3 @@ For verification via the web interface, visit the following URLs:
 
 * Mainnet: [https://explorer.cronos.org/verifyContract](https://explorer.cronos.org/verifyContract)
 * Testnet: [https://explorer.cronos.org/testnet/verifyContract](https://explorer.cronos.org/testnet/verifyContract)
-

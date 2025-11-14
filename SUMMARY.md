@@ -160,7 +160,6 @@
 
 ## Cronos X402 Facilitator
 
-* [Introduction-backup](cronos-x402-facilitator/introduction-backup.md)
 * [Introduction](cronos-x402-facilitator/introduction.md)
 * [How It Works](cronos-x402-facilitator/how-it-works.md)
 * [API Reference](cronos-x402-facilitator/api-reference.md)

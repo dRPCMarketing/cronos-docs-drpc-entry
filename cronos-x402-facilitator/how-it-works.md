@@ -2,7 +2,7 @@
 
 Here’s a high-level diagram of the X402 payment flow:
 
-<figure><img src="../.gitbook/assets/paymentflow.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/paymentflow.png" alt="" width="563"><figcaption></figcaption></figure>
 
 As you can see above, the x402 payment flow involves four components: **Buyer** (wallet/AI agent), **Seller** (your API/resource server), **Facilitator** (this service), and **Cronos Blockchain**. For implementation guides, see [Quick Start for Buyers](quick-start-for-buyers.md) and [Quick Start for Sellers](quick-start-for-sellers.md).
 
