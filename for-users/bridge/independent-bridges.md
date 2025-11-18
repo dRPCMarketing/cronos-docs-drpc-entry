@@ -1,8 +1,5 @@
 # Independent bridges
 
-The following bridges are operated by independent protocols. Use them at your own risks.
-
-[XY Finance](https://app.xy.finance/)
+The following bridge is operated by independent protocols. Use it at your own risks.
 
 [Symbiosis](https://app.symbiosis.finance/swap)
-
