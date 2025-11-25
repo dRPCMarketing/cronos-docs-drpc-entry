@@ -2,14 +2,14 @@
 
 ## Network Constants
 
-<table><thead><tr><th width="165.54296875">Constant</th><th width="382.046875">Testnet Value</th><th>Mainnet Value</th></tr></thead><tbody><tr><td><strong>Network String</strong></td><td><code>cronos-testnet</code></td><td><code>cronos</code></td></tr><tr><td><strong>Chain ID</strong></td><td><code>338</code></td><td><code>25</code></td></tr><tr><td><strong>RPC URL</strong></td><td><code>https://evm-t3.cronos.org</code></td><td><code>https://evm.cronos.org</code></td></tr><tr><td><strong>USDX Contract</strong></td><td><code>0x149a72BCdFF5513F2866e9b6394edba2884dbA07</code></td><td>Coming soon</td></tr><tr><td><strong>Facilitator URL</strong></td><td><code>https://facilitator.cronoslabs.org/v2/x402</code></td><td>Same (single endpoint)</td></tr></tbody></table>
+<table data-full-width="false"><thead><tr><th width="158.76953125">Constant</th><th>Testnet Value</th><th>Mainnet Value</th></tr></thead><tbody><tr><td><strong>Network String</strong></td><td><code>cronos-testnet</code></td><td><code>cronos-mainnet</code></td></tr><tr><td><strong>Chain ID</strong></td><td><code>338</code></td><td><code>25</code></td></tr><tr><td><strong>RPC URL</strong></td><td><code>https://evm-t3.cronos.org</code></td><td><code>https://evm.cronos.org</code></td></tr><tr><td><strong>USDC.E Contract</strong></td><td><code>0xc01efAaF7C5C61bEbFAeb358E1161b537b8bC0e0</code></td><td><code>0xf951eC28187D9E5Ca673Da8FE6757E6f0Be5F77C</code></td></tr><tr><td><strong>Facilitator URL</strong></td><td><a href="https://facilitator.cronoslabs.org/v2/x402"><code>https://facilitator.cronoslabs.org/v2/x402</code></a></td><td>Same (single endpoint)</td></tr></tbody></table>
 
 {% hint style="info" %}
 **Note**: Use these contract addresses in the `asset` field of your payment requirements. Always verify contract addresses match your target network.
 {% endhint %}
 
 {% hint style="info" %}
-**Note**: The facilitator uses one base URL for all networks. Switch between mainnet and testnet by setting the `network` field in your payment requirements (`"cronos-testnet"` or `"cronos"`). See [API Endpoints](api-reference.md#api-endpoints) below.
+**Note**: The facilitator uses one base URL for all networks. Switch between mainnet and testnet by setting the `network` field in your payment requirements (`"cronos-testnet"` or `"cronos-mainnet"`). See [API Endpoints](api-reference.md#api-endpoints) below.
 {% endhint %}
 
 ## API Endpoints

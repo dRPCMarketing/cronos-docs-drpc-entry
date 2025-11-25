@@ -79,7 +79,7 @@ cronosd keys unsafe-export-eth-key mykey --keyring-backend test
 
 It will show your private key and you can copy it for the next step. Click the "**My Account"** button at the top right corner again. Then, select "**Import Account**":
 
-![](assets/4.png)
+![](../.gitbook/assets/4.png)
 
 Paste your private key string from the previous step and click "**Import"**.
 
