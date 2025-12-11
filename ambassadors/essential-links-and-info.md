@@ -4,7 +4,7 @@
 
 **Ambassador application form**
 
-* Fill in [this form](https://cronos.typeform.com/ambassadors) to get started on your journey
+* Fill in [this form](https://cronos.typeform.com/s2application) to get started on your journey
 
 **Community & Social**
 
@@ -33,7 +33,7 @@
 * Ecosystem Grants: [cronos.org/grants](http://cronos.org/grants) (overview) and Cronos Labs Grants ([Cronos Labs](https://www.cronoslabs.org/grants))
 * Cronos Labs (accelerator): [cronoslabs.org/accelerator](https://cronoslabs.org/accelerator)\
   \
-  &#xNAN;_&#xD83D;� Tip: Link to these pages from your threads, workshops, and meetups rather than copying content—keeps facts current._
+  &#xNAN;_&#x54;ip: Link to these pages from your threads, workshops, and meetups rather than copying content—keeps facts current._
 
 ### What is Cronos?
 
@@ -47,8 +47,4 @@ We are bringing real-world finance to billions, on-chain. EVM, AI-ready, complia
 * Cronos zkEVM: Ethereum-secured L2 using zero-knowledge tech for scale.
 * Cronos POS Chain: Cosmos chain optimized for payments/consumer use cases.[ Cronos POS Chain](https://cronos-pos.org/wallets)
 
-
-
 A lot more info can be found in the other section of these Docs or by following the links above.
-
-\

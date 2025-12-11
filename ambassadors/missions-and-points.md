@@ -2,17 +2,12 @@
 
 ## Missions: how to earn points
 
-Missions are certain predefined tasks you can complete to help amplify the reach and success of Cronos.\
+Missions are certain predefined tasks you can complete to help amplify the reach and success of Cronos.
 
-
-* Once you are a verified Cronos Ambassador, you will **get access to Missions in the Ambassador Discord channels.**\
-
-* Missions are grouped per contribution track (see section Contribution Tracks) such as localization, education, content creation and more.\
-
-* By completing Missions and providing ‘Proof of Work’ \*wink nudge\*, you become eligible to earn points…\
-
-* …**each Mission earns you a certain amount of points**, which all go towards your total points needed to go up in Rank.\
-
+* Once you are a verified Cronos Ambassador, you will **get access to Missions in the Ambassador Discord channels.**
+* Missions are grouped per contribution track (see section Contribution Tracks) such as localization, education, content creation and more.
+* By completing Missions and providing ‘Proof of Work’, you become eligible to earn points.
+* Each Mission earns you a certain amount of points, which all go towards your total points needed to go up in Rank.
 * Check out the Ambassador Leaderboard where you can check your points in the overall Ambassador rankings.
 
 ## Moving up in Rank
@@ -44,9 +39,3 @@ The Cronos Ambassador Program is designed as a **seasonal journey of growth and 
 * At the end of every season, peer evaluations are conducted.
 * Ambassadors review one another’s contributions, collaboration and community spirit.
 * These evaluations are combined with points to ensure promotions reward not only output, but also character, reliability and teamwork.
-
-\
-[\
-](https://cronos-pos.org/wallets?utm_source=chatgpt.com)
-
-\
