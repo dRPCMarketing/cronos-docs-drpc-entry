@@ -5,7 +5,7 @@ This section explains how buyers (wallets, AI agents, or applications) can gener
 ### Prerequisites <a href="#prerequisites" id="prerequisites"></a>
 
 * Cronos-compatible wallet with private key or browser wallet extension
-* USDX token balance (see [Network Constants](api-reference.md#network-constants) for contract addresses)
+* _USDC.E_ token balance (see [Network Constants](api-reference.md#network-constants) for contract addresses)
 
 ### Integration Steps <a href="#integration-steps" id="integration-steps"></a>
 
@@ -100,7 +100,7 @@ async function createPaymentHeader({ wallet, paymentRequirements, network }) {
 
   // Set up EIP-712 domain
   const domain = {
-    name: "USDX Coin",
+    name: "Bridged USDC (Stargate)",
     version: "1",
     chainId: "338",
     verifyingContract: asset,
@@ -163,10 +163,10 @@ Common mistakes when implementing the payment header generation:
 
 ```javascript
 // WRONG - will fail signature verification
-const domain = { name: 'USDX', version: '2' };
+const domain = { name: 'Bridged USDC', version: '2' };
 
 // CORRECT - must be exact
-const domain = { name: 'USDX Coin', version: '1' };
+const domain = { name: 'Bridged USDC (Stargate)', version: '1' };
 ```
 
 * **Invalid Nonce Format**

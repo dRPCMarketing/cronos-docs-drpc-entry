@@ -26,7 +26,7 @@ app.use(express.json());
 // Configuration
 const FACILITATOR_URL = 'https://facilitator.cronoslabs.org/v2/x402';
 const SELLER_WALLET = process.env.SELLER_WALLET;
-const USDX_CONTRACT = '0x149a72BCdFF5513F2866e9b6394edba2884dbA07'; // Cronos testnet - see Network Constants
+const USDCE_CONTRACT = '0xc01efAaF7C5C61bEbFAeb358E1161b537b8bC0e0'; // Cronos testnet - see Network Constants
 
 // Protected API endpoint
 app.get('/api/premium-data', async (req, res) => {
@@ -41,10 +41,10 @@ app.get('/api/premium-data', async (req, res) => {
         scheme: 'exact',
         network: 'cronos-testnet', // Switch to 'cronos' for Cronos mainnet
         payTo: SELLER_WALLET,
-        asset: USDX_CONTRACT,
+        asset: USDCE_CONTRACT,
         description: 'Premium API data access',
         mimeType: 'application/json',
-        maxAmountRequired: '1000000', // 1 USDX (6 decimals)
+        maxAmountRequired: '1000000', // 1 USDC.e (6 decimals)
         maxTimeoutSeconds: 300
       }
     });
@@ -58,7 +58,7 @@ app.get('/api/premium-data', async (req, res) => {
         scheme: 'exact',
         network: 'cronos-testnet', // Same network as in 402 response
         payTo: SELLER_WALLET,
-        asset: USDX_CONTRACT,
+        asset: USDCE_CONTRACT,
         description: 'Premium API data access',
         mimeType: 'application/json',
         maxAmountRequired: '1000000',

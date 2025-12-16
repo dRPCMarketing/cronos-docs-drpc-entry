@@ -5,12 +5,28 @@
 <table data-full-width="false"><thead><tr><th width="158.76953125">Constant</th><th>Testnet Value</th><th>Mainnet Value</th></tr></thead><tbody><tr><td><strong>Network String</strong></td><td><code>cronos-testnet</code></td><td><code>cronos-mainnet</code></td></tr><tr><td><strong>Chain ID</strong></td><td><code>338</code></td><td><code>25</code></td></tr><tr><td><strong>RPC URL</strong></td><td><code>https://evm-t3.cronos.org</code></td><td><code>https://evm.cronos.org</code></td></tr><tr><td><strong>USDC.E Contract</strong></td><td><code>0xc01efAaF7C5C61bEbFAeb358E1161b537b8bC0e0</code></td><td><code>0xf951eC28187D9E5Ca673Da8FE6757E6f0Be5F77C</code></td></tr><tr><td><strong>Facilitator URL</strong></td><td><a href="https://facilitator.cronoslabs.org/v2/x402"><code>https://facilitator.cronoslabs.org/v2/x402</code></a></td><td>Same (single endpoint)</td></tr></tbody></table>
 
 {% hint style="info" %}
-**Note**: Use these contract addresses in the `asset` field of your payment requirements. Always verify contract addresses match your target network.
+**Note**: Use these contract addresses in the `asset` field of your [payment requirements](api-reference.md#verify-endpoint). Always verify contract addresses match your target network.
 {% endhint %}
 
 {% hint style="info" %}
 **Note**: The facilitator uses one base URL for all networks. Switch between mainnet and testnet by setting the `network` field in your payment requirements (`"cronos-testnet"` or `"cronos-mainnet"`). See [API Endpoints](api-reference.md#api-endpoints) below.
 {% endhint %}
+
+#### USDC.E Contract Information
+
+| Keys             | Testnet                                      | Mainnet                                      |
+| ---------------- | -------------------------------------------- | -------------------------------------------- |
+| Name             | Bridged USDC (Stargate)                      | Bridged USDC (Stargate)                      |
+| Symbol           | _devUSDC.e_                                  | _USDC.e_                                     |
+| Decimals         | 6                                            | 6                                            |
+| Version          | 1                                            | 1                                            |
+| Contract Address | `0xc01efAaF7C5C61bEbFAeb358E1161b537b8bC0e0` | `0xf951eC28187D9E5Ca673Da8FE6757E6f0Be5F77C` |
+
+{% hint style="info" %}
+**Note**: USDC.e is a 6-decimal token, meaning that 1 USDC.e equals 1,000,000 in its smallest unit.
+{% endhint %}
+
+
 
 ## API Endpoints
 
@@ -80,7 +96,7 @@ X402-Version: 1
     "scheme": "exact",
     "network": "cronos-testnet",
     "payTo": "0xSeller...",
-    "asset": "0xUSDX...",
+    "asset": "0xUSDCE...",
     "maxAmountRequired": "1000000",
     "maxTimeoutSeconds": 300
   }
@@ -102,7 +118,7 @@ X402-Version: 1
     "validBefore": 1735689551,
     "nonce": "0xNonce...",
     "signature": "0xSignature...",
-    "asset": "0xUSDX..."
+    "asset": "0xUSDCE..."
   }
 }
 ```
@@ -192,7 +208,7 @@ Same format as the [Verify Endpoint](api-reference.md#verify-endpoint).
 
 **What This Endpoint Does:**
 
-* Calls `transferWithAuthorization` on USDX Token
+* Calls `transferWithAuthorization` on _USDC.e_ Token
 * Waits for transaction confirmation on-chain (facilitator blocks until settled)
 * Uses unique nonces to prevent duplicate transactions
 * Returns transaction hash, block number, and timestamp
