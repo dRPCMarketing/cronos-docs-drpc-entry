@@ -30,8 +30,12 @@ The networks supported are:
 
 * Cronos (Cronos EVM Chain)
 * Cronos POS Chain
-* Cosmos
-* Akash
+* [Cosmos](https://hub.cosmos.network/)
+* [Akash](https://akash.network/)
+* [IRISnet](https://www.irisnet.org/)
+* [Canto](https://www.canto.io/)
+* [Celestia](https://celestia.org/)
+* [Juno](https://www.junonetwork.io/)
 
 #### What are the supported wallets?
 
@@ -54,9 +58,3 @@ Please check the transaction history table for your past transactions. If your t
 
 * As with any decentralised application, there is a degree of risk related to code exploits and hacking.
 * Our bridge code is publicly available. We leverage open-source code from the IBC protocol project.
-
-
-
-
-
-&#x20;

@@ -43,7 +43,7 @@ canonicalUrl: https://docs.cronos.org/wallets/cli.html
 
 ### Using `cronosd`
 
-`cronosd` is bundled with the Cronos code. After you have obtained the latest `cronosd` binary, run
+`cronosd` is bundled with the Cronos EVM code. After you have obtained the latest `cronosd` binary, run
 
 ```bash
 $ cronosd [command]
@@ -63,7 +63,7 @@ Ensure that you have backed up your wallet after creating it. Otherwise, your fu
 
 #### Configure cronosd config and data directory
 
-To specify the cronosd config and data storage directory; you can add a global flag `--home <directory>`
+To specify the cronosd config and data storage directory, you can add a global flag `--home <directory>`.
 
 ## Configuration Setting
 

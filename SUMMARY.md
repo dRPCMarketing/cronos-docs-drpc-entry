@@ -59,6 +59,7 @@
   * [Cronos Safe](for-dapp-developers/useful-projects-on-cronos/cronos-safe.md)
   * [Flair](for-dapp-developers/dev-tools-and-integrations/flair.md)
   * [Google Bigquery](for-dapp-developers/dev-tools-and-integrations/google-bigquery.md)
+  * [AWS S3 - Cronos EVM Public Dataset](for-dapp-developers/dev-tools-and-integrations/aws-s3-cronos-evm-public-dataset.md)
   * [Moralis](for-dapp-developers/useful-projects-on-cronos/moralis.md)
   * [Pyth](for-dapp-developers/dev-tools-and-integrations/pyth.md)
   * [RockX](for-dapp-developers/dev-tools-and-integrations/rockx.md)
@@ -79,10 +80,13 @@
       * [The "v1.2" upgrade guide (v1.1.\* to v1.2.0)](for-node-hosts/running-nodes/cronos-mainnet/upgrade-guide/the-v1.2-upgrade-guide-v1.1.-to-v1.2.0.md)
       * [The "v1.3" upgrade guide (v1.2.\* to v1.3.0)](for-node-hosts/running-nodes/cronos-mainnet/upgrade-guide/the-v1.3-upgrade-guide-v1.2.-to-v1.3.0.md)
       * [The "v1.4" Pallene upgrade guide (v1.3.\* to v1.4.1)](for-node-hosts/running-nodes/cronos-mainnet/upgrade-guide/the-v1.4-pallene-upgrade-guide-v1.3.-to-v1.4.1.md)
+      * [The "v1.5" Smarturn upgrade guide (v1.4.\* to v1.5.1)](for-node-hosts/running-nodes/cronos-mainnet/upgrade-guide/the-v1.5-smarturn-upgrade-guide-v1.4.-to-v1.5.1.md)
+      * [The "v1.6" upgrade guide (v1.5.\* to v1.6.1)](for-node-hosts/running-nodes/cronos-mainnet/upgrade-guide/the-v1.6-upgrade-guide-v1.5.-to-v1.6.1.md)
     * [Patching Unlucky & Duplicate Tx](for-node-hosts/running-nodes/cronos-mainnet/patching-unlucky-tx.md)
   * [Cronos EVM Testnet](for-node-hosts/running-nodes/cronos-testnet.md)
   * [Cronos EVM Snapshots](for-node-hosts/running-nodes/cronos-evm-snapshots/README.md)
     * [Cronos Native Snapshots](for-node-hosts/running-nodes/cronos-evm-snapshots/cronos-native-snapshots.md)
+    * [Snapshot Downloader](for-node-hosts/running-nodes/cronos-evm-snapshots/snapshot-downloader.md)
     * [Quicksync](for-node-hosts/running-nodes/cronos-evm-snapshots/quicksync.md)
     * [State Sync](for-node-hosts/running-nodes/cronos-evm-snapshots/state-sync.md)
     * [Public Node](for-node-hosts/running-nodes/cronos-evm-snapshots/public-node.md)
@@ -155,6 +159,15 @@
   * [Protocol Documentation](cronos-chain-protocol/chain-details/cosmos-grpc-docs.md)
 * [Common IBC Commands](cronos-chain-protocol/common-ibc-commands.md)
 
+## Cronos X402 Facilitator
+
+* [Introduction](cronos-x402-facilitator/introduction.md)
+* [How It Works](cronos-x402-facilitator/how-it-works.md)
+* [API Reference](cronos-x402-facilitator/api-reference.md)
+* [Quick Start for Buyers](cronos-x402-facilitator/quick-start-for-buyers.md)
+* [Quick Start for Sellers](cronos-x402-facilitator/quick-start-for-sellers.md)
+* [Resources & Next Steps](cronos-x402-facilitator/resources-and-next-steps.md)
+
 ## Cronos zkEVM
 
 * [Cronos zkEVM](cronos-zkevm/cronos-zkevm.md)
@@ -167,6 +180,8 @@
 
 * [💫 Start Here](ambassadors/start-here.md)
 * [🎓 About the Ambassador Program](ambassadors/about-the-ambassador-program.md)
+* [Our Objectives & Values](ambassadors/our-objectives-and-values.md)
+* [🤝 Ambassador List](ambassadors/ambassador-list.md)
 * [🧠 Essential Links and Info](ambassadors/essential-links-and-info.md)
 * [🚀 Program Overview](ambassadors/program-overview.md)
 * [🏎️ Contribution Tracks](ambassadors/contribution-tracks.md)

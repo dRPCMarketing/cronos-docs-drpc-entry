@@ -2,8 +2,8 @@
 
 Although `ConnectWalletConnect` is convenient, it hides details of the WalletConnect Session. If you want to keep track of the wallet connect connection status, session information, connected chain ID, or connected address, you should connect WalletConnect step by step.
 
-
 ## Get the WalletConnect Standard URI
+
 First, we create a variable `PlayCppSdkActor` that references `BP Play Cpp Sdk`. It will be used to reference objects/instances of the **Blueprint Play Cpp Sdk** class, which provides WalletConnect functions.
 
 <figure><img src="../../../.gitbook/assets/cronos-gamefi-blueprint-playcppsdkactor-variable" alt=""><figcaption></figcaption></figure>
@@ -15,38 +15,41 @@ Then, use Spawn Actor from Class to spawn from `BP Play Cpp Sdk`, and set the re
 Call `InitializeWalletConnect` function from `PlayCppSdkActor` with the following inputs:
 
 * `RelayServer`: wallet connect 2.0 server
+
 ```
 wss://relay.walletconnect.com
 ```
+
 * `ProjectID`: project id, can create project here, `https://cloud.walletconnect.com/sign-in`
 * `Wallet Namespace`: wallet namespace , for cronos tesetnet `eip155:338`
+
 ```
 {"eip155":{"methods":["eth_sendTransaction","eth_signTransaction","eth_sign","personal_sign","eth_signTypedData"],"chains":["eip155:338"],"events":["chainChanged","accountsChanged"]}}
 ```
-* `Client Meta`: meta information 
+
+* `Client Meta`: meta information
+
 ```
 {"description":"Defi WalletConnect v2 example.","url":"http://localhost:8080/","icons":[],"name":"Defi WalletConnect Web3 Example"}
 ```
 
-<figure><img src="../../../.gitbook/assets/cronos-gamefi-blueprint-InitializeWalletConnect.png"  alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/cronos-gamefi-blueprint-InitializeWalletConnect.png" alt="" width="496"><figcaption></figcaption></figure>
 
 Drag Pin Out from function `InitializeWalletConnect`, search and **select Add Custom Event...**
 
-<figure><img src="../../../.gitbook/assets/cronos-gamefi-blueprint-add-custom-event.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/cronos-gamefi-blueprint-add-custom-event.png" alt="" width="563"><figcaption></figcaption></figure>
 
 Connect the `Succeed` result to the `Condition` of a node **Branch**
 
 <figure><img src="../../../.gitbook/assets/cronos-gamefi-blueprint-CustomEvent" alt=""><figcaption></figcaption></figure>
 
-
-
 In Android, launch the WalletConnect Deep link as below:
 
-<figure><img src="../../../.gitbook/assets/cronos-gamefi-blueprint-launchurl-on-android" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/cronos-gamefi-blueprint-launchurl-on-android" alt="" width="563"><figcaption></figcaption></figure>
 
 The full blueprint demo:
 
-<figure><img src="../../../.gitbook/assets/cronos-gamefi-blueprint-qr-example.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/cronos-gamefi-blueprint-qr-example.png" alt="" width="563"><figcaption></figcaption></figure>
 
 ## Display URI using QR Code
 
@@ -66,7 +69,7 @@ To display QR Code in Unreal Engine, a function `GenerateQrCode` could be used. 
 
 <figure><img src="../../../.gitbook/assets/cronos-gamefi-blueprint-wbp-qr-arrangement" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/Canvas of WBP_QR.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Canvas of WBP_QR.png" alt="" width="563"><figcaption></figcaption></figure>
 
 * Click **Graph** and switch to Event Graph
 
@@ -77,16 +80,16 @@ To display QR Code in Unreal Engine, a function `GenerateQrCode` could be used. 
   * `QR`: Texture 2D (The input QR code data)
 * We could control it to show or destroy `Image 0` like below
 
-<figure><img src="../../../.gitbook/assets/cronos-gamefi-blueprint-set-brush" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/cronos-gamefi-blueprint-set-brush" alt="" width="548"><figcaption></figcaption></figure>
 
 * **Compile** > **Save**
 * Back to level blueprint editor, instead of printing the URI, we connect `Output` of `GetConnectionString` to function `GenerateQrCode`
 
-<figure><img src="../../../.gitbook/assets/cronos-gamefi-blueprint-GetConnectionString" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/cronos-gamefi-blueprint-GetConnectionString" alt="" width="563"><figcaption></figcaption></figure>
 
 * Finally, show the QR Code by **Creating WBP QR Widget**, Calling **Show QR** function (`Show` should be True, `QR` should be the `Return Value` of `GenerateQrCode`), and **Add to Viewport** like so:
 
-<figure><img src="../../../.gitbook/assets/cronos-gamefi-blueprint-show-qr" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/cronos-gamefi-blueprint-show-qr" alt="" width="563"><figcaption></figcaption></figure>
 
 ## Get Session Status
 
@@ -99,18 +102,19 @@ After the QR Code is shown on the screen, we could call `EnsureSessionBlocking` 
 * Get the `Session Result Chain Id` and set it to `ChainID`
 * Finally, destroy the QR Code (uncheck `Show` variable of `Show QR` node)
 
-<figure><img src="../../../.gitbook/assets/cronos-gamefi-blueprint-destroy-qr" alt=""><figcaption></figcaption></figure>
-
+<figure><img src="../../../.gitbook/assets/cronos-gamefi-blueprint-destroy-qr" alt="" width="558"><figcaption></figcaption></figure>
 
 ## Polling
+
 After `EnsureSession`, you can `BeginPolling`. if will check any events, and fetch if any.
-- No argument necessary
-- `SetTimerByEvent` to call
-- return `Json Event`, and result, if result is "", then no error, if result is not "", it's error state, value is error message
 
-<figure><img src="../../../.gitbook/assets/cronos-gamefi-blueprint-wallet-connect-polling.png" alt=""><figcaption></figcaption></figure>
+* No argument necessary
+* `SetTimerByEvent` to call
+* return `Json Event`, and result, if result is "", then no error, if result is not "", it's error state, value is error message
 
-```
+<figure><img src="../../../.gitbook/assets/cronos-gamefi-blueprint-wallet-connect-polling.png" alt="" width="563"><figcaption></figcaption></figure>
+
+```visual-basic
 Begin Object Class=/Script/BlueprintGraph.K2Node_Tunnel Name="K2Node_Tunnel_0"
    OutputSourceNode=K2Node_Composite'"/Game/Tutorials/WalletConnect/BP_WalletConnect.BP_WalletConnect:EventGraph.K2Node_Composite_2"'
    bCanHaveOutputs=True

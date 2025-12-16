@@ -60,7 +60,7 @@ public class ImportNFTTextureCronos : MonoBehaviour
 If you are using IPFS please replace IPFS with an HTTPS call as seen below
 {% endhint %}
 
-**Replace IPFS**&#x20;
+**Replace IPFS**
 
 ```csharp
 if (uri.StartsWith("ipfs://"))
@@ -77,6 +77,6 @@ To build the Game Login example, you need to go to `File/Build Settings` and sel
 NOTE Make sure to select the Cronos Defi Wallet Template in the Player -> Resolution and Presentation settings.
 {% endhint %}
 
-![](../../assets/getting-started/cronos\_template.png) ![](../../assets/getting-started/build\_settings.png)
+![](../../../.gitbook/assets/cronos_template.png) ![](../../../.gitbook/assets/build_settings.png)
 
 On successful completion, you will be able to log in to your DefiConnect wallet. The scene will load any textures from NFT assets you own on successful login.

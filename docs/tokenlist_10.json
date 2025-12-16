@@ -1,0 +1,82 @@
+[
+    {
+        "name": "Wrapped CRO",
+        "address": "0x5c7f8a570d578ed84e63fdfa7b1ee72deae1ae23",
+        "symbol": "WCRO",
+        "decimals": 18,
+        "logoURI": "https://static.crypto.com/token/icons/wrapped-cro/color_icon.png",
+        "chainId": 15
+    },
+    {
+        "name": "Wrapped Ether",
+        "address": "0xe44fd7fcb2b1581822d0c862b68222998a0c299a",
+        "symbol": "WETH",
+        "decimals": 18,
+        "logoURI": "https://static.crypto.com/token/icons/weth/color_icon.png",
+        "chainId": 15
+    },
+    {
+        "name": "Wrapped BTC",
+        "address": "0x062e66477faf219f25d27dced647bf57c3107d52",
+        "symbol": "WBTC",
+        "decimals": 8,
+        "logoURI": "https://coin-images.coingecko.com/coins/images/7598/thumb/wrapped_bitcoin_wbtc.png?1696507857",
+        "chainId": 15
+    },
+    {
+        "name": "Tether USD",
+        "address": "0x66e428c3f67a68878562e79a0234c1f83c208770",
+        "symbol": "USDT",
+        "decimals": 6,
+        "logoURI": "https://coin-images.coingecko.com/coins/images/325/thumb/Tether.png?1696501661",
+        "chainId": 15
+    },
+    {
+        "name": "USD Coin",
+        "address": "0xc21223249ca28397b4b6541dffaecc539bff0c59",
+        "symbol": "USDC",
+        "decimals": 6,
+        "logoURI": "https://coin-images.coingecko.com/coins/images/6319/thumb/usdc.png?1696506694",
+        "chainId": 15
+    },
+    {
+        "name": "Loaded Lions",
+        "address": "0x9d8c68f185a04314ddc8b8216732455e8dbb7e45",
+        "symbol": "LION",
+        "decimals": 18,
+        "logoURI": "https://assets.coingecko.com/coins/images/54686/standard/_LION_Token_Artwork.png?1741015702",
+        "chainId": 15
+    },
+    {
+        "name": "USC Stablecoin",
+        "address": "0xd42e078cea2be8d03cd9dfecc1f0d28915edea78",
+        "symbol": "USC",
+        "decimals": 18,
+        "logoURI": null,
+        "chainId": 15
+    },
+    {
+        "name": "Moonflow",
+        "address": "0x46e2b5423f6ff46a8a35861ec9daff26af77ab9a",
+        "symbol": "MOON",
+        "decimals": 18,
+        "logoURI": "https://static.crypto.com/token/icons_v2/moonflow-cdc/24736-1731476608721.png",
+        "chainId": 15
+    },
+    {
+        "name": "Tectonic Governance Token",
+        "address": "0xdd73dea10abc2bff99c60882ec5b2b81bb1dc5b2",
+        "symbol": "TONIC",
+        "decimals": 18,
+        "logoURI": "https://coin-images.coingecko.com/coins/images/21982/thumb/TONIC_logo.png?1696521330",
+        "chainId": 15
+    },
+    {
+        "name": "VVSToken",
+        "address": "0x2d03bece6747adc00e1a131bba1469c15fd11e03",
+        "symbol": "VVS",
+        "decimals": 18,
+        "logoURI": "https://coin-images.coingecko.com/coins/images/20210/thumb/8glAYOTM_400x400.jpg?1696519620",
+        "chainId": 15
+    },
+]

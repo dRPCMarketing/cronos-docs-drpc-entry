@@ -4,15 +4,13 @@ icon: brain-circuit
 
 # Crypto.com AI Agent SDK
 
-<figure><img src="../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (15) (1).png" alt=""><figcaption></figcaption></figure>
 
 _Empower your dApp with AI-driven blockchain interactions_
 
-Crypto.com AI Agent SDK is a powerful tool that enables developers to seamlessly integrate AI capabilities into their Web3 projects.&#x20;
+Crypto.com AI Agent SDK is a powerful tool that enables developers to seamlessly integrate AI capabilities into their Web3 projects.
 
 With the PyPi and NPM packages, you can create AI agents that can create blockchain interactions, opening up a world of possibilities for your applications.
-
-
 
 ***
 
@@ -43,14 +41,13 @@ Our AI agent product is revolutionizing the way we interact with blockchain tech
    Our AI agent product also enables developers to extend their current AI functionalities to include blockchain features. Imagine being able to embed crypto payments into shopping, travel services, subscriptions, and more. For instance, a travel booking platform could use our AI agent to accept cryptocurrency payments and automatically convert them into fiat currency, streamlining the booking process for users.
 
 These are just a few examples of the many exciting use cases our AI agent product makes possible. By harnessing the power of AI-driven blockchain interactions, developers can build innovative applications that simplify complex blockchain actions and unlock new possibilities for users.\
-\
-
+\\
 
 ## Cronos EVM Networks Resources
 
 ### Explorer API keys
 
-Explorer API keys for the Cronos EVM Chain is required to query block chain data, kindly follow the following instruction to obtain the API key for:  [API key for Cronos EVM](https://docs.cronos.org/block-explorers/block-explorer-and-api-keys)
+Explorer API keys for the Cronos EVM Chain is required to query block chain data, kindly follow the following instruction to obtain the API key for: [API key for Cronos EVM](https://docs.cronos.org/block-explorers/block-explorer-and-api-keys)
 
 ### Cronos EVM Mainnet URLs <a href="#cronos-zkevm-sepolia-testnet-urls" id="cronos-zkevm-sepolia-testnet-urls"></a>
 
@@ -66,10 +63,8 @@ Explorer API keys for the Cronos EVM Chain is required to query block chain data
 * JSON RPC API: [https://evm-t3.cronos.org/](https://evm-t3.cronos.org/)
 * Block explore&#x72;**:** [https://explorer.cronos.org/testnet](https://explorer.cronos.org/testnet)
 
-
-
 ### Get Started
 
-To start building with the AI Agent SDK, simply install the NPM/PyPi package and follow our comprehensive documentation [Crypto.com AI Agent Client](https://ai-agent-sdk-docs.crypto.com/outdated-contents/crypto.com-ai-agent-client). \
+To start building with the AI Agent SDK, simply install the NPM/PyPi package and follow our comprehensive documentation [Crypto.com AI Agent Client](https://ai-agent-sdk-docs.crypto.com/outdated-contents/crypto.com-ai-agent-client).\
 \
 Visit the [Crypto.com AI SDK documentation by clicking here](https://ai-agent-sdk-docs.crypto.com/).

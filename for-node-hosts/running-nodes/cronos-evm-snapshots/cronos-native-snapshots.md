@@ -27,16 +27,16 @@ mkdir cronos-node
 cd cronos-node
 ```
 
-2. Download the latest Cronos Binary release:
+2. Download the latest Cronos Binary [release](https://github.com/crypto-org-chain/cronos/releases):
 
 ```
-curl -LOJ https://github.com/crypto-org-chain/cronos/releases/download/v1.4.9/cronos_1.4.9_Darwin_arm64.tar.gz
+curl -LOJ https://github.com/crypto-org-chain/cronos/releases/download/v1.5.1/cronos_1.5.1_Darwin_arm64.tar.gz
 ```
 
 3. Unpack & Install the binary files:
 
 ```
-tar -zxvf cronos_1.4.9_Darwin_arm64.tar.gz
+tar -zxvf cronos_1.5.1_Darwin_arm64.tar.gz
 ```
 
 4. Verify the installation:
@@ -45,7 +45,7 @@ tar -zxvf cronos_1.4.9_Darwin_arm64.tar.gz
 cd bin
 ./cronosd version
 Expected output:
-1.4.9
+1.5.1
 ```
 
 Once the Cronos binary is installed and verified, you can proceed with downloading and applying the appropriate snapshot for your node configuration.\

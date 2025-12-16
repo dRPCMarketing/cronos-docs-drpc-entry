@@ -2,13 +2,11 @@
 
 ### Overview
 
-Anyone that has been running archive nodes for a while, is familiar with the issue of the ever growing disk size of their nodes. For Cronos, the IAVL database of archived nodes, the `application.db` usually grows, but does not shrink. A solution that we have come up with is to replace the current RocksDB with `VersionDB`.
+Anyone that has been running archive nodes for a while, is familiar with the issue of the ever growing disk size of their nodes. For Cronos, the IAVL database of archived nodes, the `application.db` usually grows. Migrating VersionDB dramatically reduces disk pressure while maintaining fast and reliable access to historical state.
 
-`VersionDB` stores multiple versions of on-chain state key-value pairs, without using a merkelized tree structure like IAVL tree, making both DB size and query performance much better than IAVL trees. However, VersionDB does not perform root hash and Merkle proof generation, so for those features we still need the IAVL tree. Grpc queries don't need to support proof generation, so VersionDB alone is enough to support this. Currently the `--grpc-only` flag for one to start a standalone grpc query service.
+VersionDB stores multiple versions of on-chain state key-value pairs, without using a merkelized tree structure like IAVL tree, making both DB size and query performance much better than IAVL trees. However, VersionDB does not perform root hash and Merkle proof generation, so for those features we still need the IAVL tree. gRPC queries do not need to support proof generation, so VersionDB alone is enough to support this. Currently the `--grpc-only` flag for one to start a standalone grpc query service.
 
-After migrating to VersionDB, you can then prune the IAVL tree to reclaim disk size if you don't need to generate Merkle proofs on historical versions.
-
-
+After migrating to VersionDB, its safe to prune the IAVL tree to reclaim substantial disk space, as long as you don’t need to generate Merkle proofs on historical versions. &#x20;
 
 ### Limitations
 
@@ -16,8 +14,7 @@ The limitations of the setup with VersionDB and pruned IAVL tree are:
 
 * Currently, this solution is only recommended for **archive** and **non-validator nodes** to try (validator nodes are recommended to do pruning).
 * Different implementations exist for VersionDB. Our current implementation is based on **RocksDB'**&#x73; v7's experimental user-defined timestamp, which stores the data in a standalone **RocksDB** instance. it does not support other db backends yet. The other databases in the node still support multiple backends as before.
-* Does not support `eth_getProof, non-grpc / abci_query` for the historical versions that's pruned in IAVL tree. The other APIs should function just like an archive node as before.\
-
+* Does not support `eth_getProof, non-grpc / abci_query` for the historical versions that's pruned in IAVL tree. The other APIs should function just like an archive node as before.
 
 ### 1. Tutorial - Migrating from snapshot
 
@@ -27,16 +24,15 @@ Download the archive snapshot from either Quicksync or from the [S3 link](https:
 
 #### Step 2 - **Update config**
 
-To enable VersionDB, you need to add VersionDB to the list of store.streamers in **app.toml** like this:
+To enable VersionDB, you need to update the config in **app.toml** like this:
 
 ```bash
-[store]
-streamers = ["versiondb"]
+[versiondb]
+# Enable defines if the versiondb should be enabled.
+enable = true
 ```
 
 The db instance is placed at `$NODE_HOME/data/versiondb` directory. Currently this path cannot be customized. This will switch the grpc query service's backing store from IAVL tree to VersionDB.
-
-
 
 #### Step 3 - Start the node
 
@@ -45,8 +41,6 @@ Restart the node. it should start to reindex iavl fastnode now.
 ### 2. Tutorial - starting from scratch
 
 This tutorial starts from scratch, so prepare enough time to go through this migration, especially the change set extraction may take time in the order of **days** for it to complete, even with a `r6g.16xlarge` instance. In case you want to skip this step, we will be supporting a snapshot for this in the near future. For more information on the different steps, see this documentation [here](https://github.com/crypto-org-chain/cronos/wiki/VersionDB-Migration).
-
-
 
 We will be following the following workflow:
 
@@ -58,11 +52,11 @@ We will be following the following workflow:
 
 #### Step 0
 
-* Update your binary and stop cronosd.&#x20;
+* Update your binary and stop cronosd.
 
 #### Step 1 - extract changesets
 
-* (Optional) get the end-version before extracting changeset
+* (Optional) get the end-version before extracting changeset.
 
 ```bash
 ulimit -n 60000 # python-iavl and cronosd changeset subcommand open many files
@@ -101,23 +95,33 @@ done
 
 ```bash
 ./verify.sh
-
 ```
 
 #### Step 2 - **Build VersionDB**
 
+This is a two-phase process for efficiently constructing a version database from `changeset` data. &#x20;
+
+The first step is to generate **SST** files from changeset data:
+
+{% hint style="info" %}
+SST files are a binary format used by embedded databases (like RocksDB/LevelDB). They store key-value pairs in sorted order, making them efficient for bulk ingestion. Rather than inserting data one record at a time, batching into SSTs is dramatically faster.
+{% endhint %}
+
 ```bash
 ./chain/.cronosd/cosmovisor/current/bin/cronosd changeset build-versiondb-sst \
 /s3-upload/data /s3-upload/sst
-
-./chain/.cronosd/cosmovisor/current/bin/cronosd changeset ingest-versiondb-sst \
-/s3-upload/versiondb /s3-upload/sst/*.sst --move-files --maximum-version $MAXIMUM_VERSION
-
 ```
 
-Time taken: around 1 hour
+Then create VersionDB state directory `./versiondb` with below:
 
+```bash
+./chain/.cronosd/cosmovisor/current/bin/cronosd changeset ingest-versiondb-sst \
+/s3-upload/versiondb /s3-upload/sst/*.sst --move-files --maximum-version $MAXIMUM_VERSION
+```
 
+{% hint style="info" %}
+This process can take up to 1 hour.&#x20;
+{% endhint %}
 
 #### Step 3 - **Restore IAVL Tree**
 
@@ -130,34 +134,29 @@ $ /chain/.cronosd/cosmovisor/current/bin/cronosd changeset verify /s3-upload/dat
 $ /chain/.cronosd/cosmovisor/current/bin/cronosd changeset restore-app-db /s3-upload/snapshot /s3-upload/application.db
 ```
 
-time taken: around x hour
-
-
+{% hint style="info" %}
+This process can take up to a few hours.
+{% endhint %}
 
 #### Step 4 - **Update config**
 
-To enable VersionDB, you need to add VersionDB to the list of store.streamers in **app.toml** like this:
+Ensure you have properly enabled VersionDB:
 
 ```bash
-[store]
-streamers = ["versiondb"]
+[versiondb]
+# Enable defines if the versiondb should be enabled.
+enable = true
 ```
-
-The db instance is placed at `$NODE_HOME/data/versiondb` directory. Currently this path cannot be customized. This will switch the grpc query service's backing store from IAVL tree to VersionDB.
-
-
 
 #### Step 5 - Start the node
 
-Restart the node. it should start to reindex iavl fastnode now.
-
-
+Restart the node. It should start to reindex iavl fastnode now.
 
 ### Results on Cronos
 
 On Cronos, we noticed disk size reductions around \~**`63%`** for a Cronos archive node. Of course the reuctions that you will see, depend from case to case, but as you can see there's a good improvement in disk size reduction to be gained when moving to versionDB.
 
-`Rocksdb archive node`
+**Rocksdb** archive node:&#x20;
 
 ```bash
 $ du -hd1 /chain/.cronosd/data/
@@ -171,9 +170,7 @@ $ du -hd1 /chain/.cronosd/data/
 2.3T /chain/.cronosd/data/
 ```
 
-
-
-`Versiondb archive node`
+**Versiondb** archive node:&#x20;
 
 ```bash
 du -hd1 /chain/.cronosd/data/

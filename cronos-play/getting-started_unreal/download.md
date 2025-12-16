@@ -6,11 +6,11 @@
 2. In **Library** Tab of **Epic Games Launcher**, click **Install to Engine** below **Cronos Play for Unreal Engine** inside the **VAULT** section;
 3. Select the Engine version then click **Install** as below:
 
-<figure><img src="../../.gitbook/assets/Install to unreal 5.1.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Install to unreal 5.1.png" alt="" width="563"><figcaption></figcaption></figure>
 
 Afterwards, the plugin will begin to download
 
-<figure><img src="../../.gitbook/assets/Installing the plugin.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Installing the plugin.png" alt="" width="519"><figcaption></figcaption></figure>
 
 ## Enabling the Plugin
 

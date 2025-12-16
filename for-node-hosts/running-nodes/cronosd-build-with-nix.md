@@ -19,9 +19,6 @@ Below are listed the different possible parameters
 * **Network Type**
   * `mainnet` (default)
   * `testnet`
-* **DB Backend**
-  * `rocksdb` (default)
-  * `goleveldb`
 * **Build Type**
   * normal nix package (default)
   * re-distributable bundle
@@ -29,17 +26,18 @@ Below are listed the different possible parameters
 
 ### Creating a reproducible build
 
-The package name is constructed by joining the above three properties with a separator `-`, omitting the default values, for example:
+The package name is constructed by joining the above properties with a separator `-`, omitting the default values, for example:
 
-* `cronosd:` defaults to the `mainnet` `rocksdb` nix package.
-* `cronosd-tarball:` `mainnet` `rocksdb` re-distributable tarball.
-* `cronosd-goleveldb-tarball:` `mainnet` `goleveldb` re-distributable tarball.
-* `cronosd-testnet-goleveldb-tarball:` `testnet` `goleveldb` re-distributable tarball.
+* `cronosd:` defaults to the `mainnet` nix package.
+* `cronosd-bundle:` `mainnet` re-distributable bundle.
+* `cronosd-tarball:` `mainnet` re-distributable tarball.
+* `cronosd-testnet:` `testnet` nix package.
+* `cronosd-testnet-tarball:` `testnet` re-distributable tarball.
 
 The nix flake url is: `github:crypto-org-chain/cronos/$TAG_NAME#$PACKAGE_NAME`, \
 replace the `$TAG_NAME` and `$PACKAGE_NAME` to the one you needed, for example: \
 \
-The full command to build a `v0.8.1` `rocksdb` `mainnet` re-distributable tarball is:
+The full command to build a `v0.8.1` `mainnet` re-distributable tarball is:
 
 ```shell
 nix build github:crypto-org-chain/cronos/v0.8.1#cronosd-tarball

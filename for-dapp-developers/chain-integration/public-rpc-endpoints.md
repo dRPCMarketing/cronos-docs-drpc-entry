@@ -3,19 +3,19 @@
 ### Free RPC URLs for Cronos
 
 {% hint style="danger" %}
-Public RPCs URL Updates:&#x20;
+Public RPCs URL Updates:
 
 The Cronos RPC endpoints have been updated in March 2021 (shown as below) and it is recommended that all users update the endpoints. The old endpoints are still available for compatibility but maybe deprecated later.
 {% endhint %}
 
 {% hint style="info" %}
-Request Limits on Public RPCs:&#x20;
+Request Limits on Public RPCs:
 
 To provide a stable experience to users, there is a request rate limit on the public RPCs to ensure fair usage. If your application requires a higher usage, please consider setting up your own nodes or using a commercial node provider. You can also reach out to us on [Discord](https://discord.gg/cGtxgVfGMZ) for assistance.
 {% endhint %}
 
 {% hint style="info" %}
-Public RPCs Integration Tips:&#x20;
+Public RPCs Integration Tips:
 
 There are more than one machines serving the public RPC services. There is no guarantee that you are served by the same machine every time. For example, if you are broadcasting many transactions in a row, they will be sent to multiple machines that may not be perfectly in sync with respect to the account nonce, and this may cause your batch to fail.
 
@@ -67,11 +67,6 @@ Mainnet
 
 ### Commercial node providers
 
-* dRPC:
-  * [Cronos Nodes](https://drpc.org/chainlist/cronos-mainnet-rpc)
-  * [Docs](https://drpc.org/docs)
-  * [Mainnet Endpoint](https://cronos.drpc.org)
-  * [Testnet Endpoint](https://cronos-testnet.drpc.org)
 * Moralis:
   * [Moralis Nodes](https://moralis.io/nodes/?utm_source=cronos-docs\&utm_medium=partner-docs)
   * [Moralis YouTube Tutorials](https://www.youtube.com/@MoralisWeb3)
@@ -97,4 +92,7 @@ Mainnet
   * [RPC Gateway to Cronos](https://cronos.publicnode.com/)
 * Dwellir:
   * [Connect your dApp or Web3 project with any blockchain](https://www.dwellir.com/networks/cronos)
-
+* dRPC NodeCloud:
+  * [Cronos Mainnet endpoints](https://drpc.org/chainlist/cronos-mainnet-rpc)
+  * [Cronos Testnet endpoints](https://drpc.org/chainlist/cronos-testnet-rpc)
+  * [Service Status](https://status.drpc.org/)

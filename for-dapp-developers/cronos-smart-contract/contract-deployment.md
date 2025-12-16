@@ -70,9 +70,9 @@ npm run deploy-contract-cronos
 
 Correct balance will be shown on Metamask page
 
-![](../assets/cronos-smart-contract/truffle\_deploy\_contract\_address.png)
+![](../../.gitbook/assets/truffle_deploy_contract_address.png)
 
-![](../assets/cronos-smart-contract/metamask\_add\_tokens.png) ![](../assets/cronos-smart-contract/metamask\_add\_token\_success.png)
+![](../../.gitbook/assets/metamask_add_tokens.png) ![](../../.gitbook/assets/metamask_add_token_success.png)
 
 ## Hardhat: Deploy ERC20 Contract
 
@@ -145,4 +145,4 @@ Correct balance will be shown on Metamask page
 CronosToken deployed to: 0x5F803c894a0A16B46fe5982fB5D89eb334eAF68
 ```
 
-![](../assets/cronos-smart-contract/metamask\_add\_tokens.png) ![](../assets/cronos-smart-contract/metamask\_add\_token\_success.png)
+![](../../.gitbook/assets/metamask_add_tokens.png) ![](../../.gitbook/assets/metamask_add_token_success.png)
